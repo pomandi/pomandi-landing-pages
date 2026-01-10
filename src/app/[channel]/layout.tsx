@@ -30,11 +30,12 @@ function Header({ channel }: { channel: string }) {
 					<a href={`${baseUrl}/${channel}`} className="group flex items-center">
 						<div className="overflow-hidden rounded-xl bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-2 shadow-md ring-1 ring-amber-500/20 transition-all duration-300 group-hover:shadow-lg group-hover:shadow-amber-500/10 group-hover:ring-amber-500/40">
 							<Image
-								src="/_landing/logo.jpeg"
+								src="/logo.jpeg"
 								alt="Pomandi Men's Suits"
 								width={120}
 								height={40}
 								className="h-8 w-auto object-contain"
+								unoptimized
 								priority
 							/>
 						</div>
