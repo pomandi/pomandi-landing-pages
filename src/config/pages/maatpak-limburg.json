@@ -1,0 +1,249 @@
+{
+	"slug": "maatpak-limburg",
+	"template": "location",
+	"channels": ["belgium-channel", "netherlands-channel", "nl", "fr", "en"],
+	"theme": {
+		"mode": "light",
+		"primary": "#1a1a1a",
+		"secondary": "#444444",
+		"background": "#f8f7f5"
+	},
+	"seo": {
+		"title": {
+			"nl": "Maatpak Limburg - Premium Herenkostuums vanaf €320 | Pomandi Genk",
+			"fr": "Costume sur Mesure Limbourg - Costumes Homme Premium à partir de €320 | Pomandi Genk",
+			"en": "Custom Suit Limburg - Premium Men's Suits from €320 | Pomandi Genk"
+		},
+		"description": {
+			"nl": "Op zoek naar een maatpak in Limburg? Pomandi Genk biedt premium herenkostuums in Italiaanse stijl vanaf €320. Bezoek onze winkel aan de Vennestraat 331.",
+			"fr": "Vous cherchez un costume sur mesure en Limbourg? Pomandi Genk propose des costumes homme premium de style italien à partir de €320.",
+			"en": "Looking for a custom suit in Limburg? Pomandi Genk offers premium Italian-style men's suits from €320."
+		},
+		"keywords": ["maatpak limburg", "maatpak genk", "herenpak limburg", "kostuum genk", "trouwpak limburg"],
+		"canonical": "https://www.pomandi.com/nl/maatpak-limburg",
+		"ogImage": "/1.png"
+	},
+	"hero": {
+		"type": "split",
+		"title": {
+			"nl": "Premium maatpakken",
+			"fr": "Costumes premium",
+			"en": "Premium custom suits"
+		},
+		"titleHighlight": {
+			"nl": "in Limburg.",
+			"fr": "au Limbourg.",
+			"en": "in Limburg."
+		},
+		"subtitle": {
+			"nl": "Ontdek onze collectie premium herenkostuums in Italiaanse stijl. Van trouwpakken tot zakelijke pakken - wij helpen u de perfecte look te vinden.",
+			"fr": "Découvrez notre collection de costumes homme premium de style italien. Des costumes de mariage aux costumes d'affaires.",
+			"en": "Discover our collection of premium Italian-style men's suits. From wedding suits to business suits - we help you find the perfect look."
+		},
+		"tagline": {
+			"nl": "Pomandi Genk",
+			"fr": "Pomandi Genk",
+			"en": "Pomandi Genk"
+		},
+		"images": ["/1.png", "/2.png", "/3.png", "/4.png"],
+		"animation": "fade-in-up",
+		"cta": {
+			"primary": {
+				"text": {
+					"nl": "Afspraak maken",
+					"fr": "Prendre rendez-vous",
+					"en": "Book appointment"
+				},
+				"style": "solid"
+			},
+			"secondary": {
+				"text": {
+					"nl": "Bekijk collectie",
+					"fr": "Voir la collection",
+					"en": "View collection"
+				},
+				"style": "outline"
+			}
+		}
+	},
+	"sections": [
+		{
+			"type": "stats",
+			"id": "stats-usp",
+			"config": {
+				"items": [
+					{
+						"value": "€320",
+						"label": {
+							"nl": "Vanaf prijs",
+							"fr": "À partir de",
+							"en": "Starting price"
+						}
+					},
+					{
+						"value": "15 dagen",
+						"label": {
+							"nl": "Levertijd",
+							"fr": "Délai de livraison",
+							"en": "Delivery time"
+						}
+					},
+					{
+						"value": "500+",
+						"label": {
+							"nl": "Tevreden klanten",
+							"fr": "Clients satisfaits",
+							"en": "Happy customers"
+						}
+					},
+					{
+						"value": "4.9/5",
+						"label": {
+							"nl": "Google reviews",
+							"fr": "Avis Google",
+							"en": "Google reviews"
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "products",
+			"id": "products-all",
+			"title": {
+				"nl": "Alle Pakken",
+				"fr": "Tous les Costumes",
+				"en": "All Suits"
+			},
+			"subtitle": {
+				"nl": "Collectie",
+				"fr": "Collection",
+				"en": "Collection"
+			},
+			"background": "primary",
+			"config": {
+				"collection": "All-Suits",
+				"limit": 8,
+				"style": "grid",
+				"columns": 4,
+				"showPrice": true
+			}
+		},
+		{
+			"type": "features",
+			"id": "features-why",
+			"title": {
+				"nl": "Waarom Pomandi Genk?",
+				"fr": "Pourquoi Pomandi Genk?",
+				"en": "Why Pomandi Genk?"
+			},
+			"subtitle": {
+				"nl": "Uw specialist in Limburg voor premium herenkostuums",
+				"fr": "Votre spécialiste au Limbourg pour costumes homme premium",
+				"en": "Your specialist in Limburg for premium men's suits"
+			},
+			"background": "dark",
+			"animation": "stagger",
+			"config": {
+				"columns": 3,
+				"style": "cards",
+				"items": [
+					{
+						"icon": "checkmark",
+						"title": {
+							"nl": "Premium Kwaliteit",
+							"fr": "Qualité Premium",
+							"en": "Premium Quality"
+						},
+						"description": {
+							"nl": "Kostuums in Italiaanse stijl, vervaardigd met oog voor detail.",
+							"fr": "Costumes de style italien, fabriqués avec souci du détail.",
+							"en": "Italian-style suits, crafted with attention to detail."
+						}
+					},
+					{
+						"icon": "users",
+						"title": {
+							"nl": "Persoonlijke Service",
+							"fr": "Service Personnalisé",
+							"en": "Personal Service"
+						},
+						"description": {
+							"nl": "Onze stijlexperts nemen de tijd om uw wensen te begrijpen.",
+							"fr": "Nos experts en style prennent le temps de comprendre vos souhaits.",
+							"en": "Our style experts take the time to understand your needs."
+						}
+					},
+					{
+						"icon": "money",
+						"title": {
+							"nl": "Eerlijke Prijzen",
+							"fr": "Prix Honnêtes",
+							"en": "Fair Prices"
+						},
+						"description": {
+							"nl": "Premium kwaliteit vanaf €320. Geen verborgen kosten.",
+							"fr": "Qualité premium à partir de €320. Pas de frais cachés.",
+							"en": "Premium quality from €320. No hidden costs."
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "stores",
+			"id": "stores-genk",
+			"title": {
+				"nl": "Bezoek ons in Genk",
+				"fr": "Visitez-nous à Genk",
+				"en": "Visit us in Genk"
+			},
+			"subtitle": {
+				"nl": "Kom langs in onze winkel voor persoonlijk advies.",
+				"fr": "Venez dans notre magasin pour des conseils personnalisés.",
+				"en": "Visit our store for personal advice."
+			},
+			"background": "primary",
+			"config": {
+				"locations": ["genk"],
+				"style": "cards",
+				"showMap": true,
+				"showHours": true,
+				"showWhatsApp": true
+			}
+		},
+		{
+			"type": "cta",
+			"id": "cta-final",
+			"background": "dark",
+			"config": {
+				"title": {
+					"nl": "Klaar voor uw perfecte pak?",
+					"fr": "Prêt pour votre costume parfait?",
+					"en": "Ready for your perfect suit?"
+				},
+				"subtitle": {
+					"nl": "Boek een afspraak bij Pomandi Genk.",
+					"fr": "Prenez rendez-vous chez Pomandi Genk.",
+					"en": "Book an appointment at Pomandi Genk."
+				},
+				"button": {
+					"text": {
+						"nl": "Afspraak maken",
+						"fr": "Prendre rendez-vous",
+						"en": "Book appointment"
+					},
+					"style": "solid"
+				}
+			}
+		}
+	],
+	"collections": ["All-Suits", "Wedding-Suits"],
+	"store": {
+		"locations": ["genk"],
+		"showMap": true,
+		"showHours": true,
+		"showWhatsApp": true
+	},
+	"campaign": "maatpak-limburg"
+}

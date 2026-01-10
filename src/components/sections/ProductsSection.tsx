@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import type { ProductSection, LocalizedString, ThemeConfig } from "@/types/page-config";
 
@@ -86,8 +85,8 @@ export function ProductsSection({
 								</h2>
 							)}
 						</div>
-						<Link
-							href={`/${channel}/collections/${config.collection}?locale=${locale}`}
+						<a
+							href={`https://www.pomandi.com/${channel}/${config.collection}?locale=${locale}`}
 							className={`hidden items-center gap-2 text-sm font-medium uppercase tracking-wider transition-colors sm:inline-flex ${theme.mode === "dark" ? "text-white hover:text-stone-300" : "text-stone-900 hover:text-stone-600"}`}
 						>
 							{locale === "nl" ? "Bekijk alles" : locale === "fr" ? "Voir tout" : "View all"}
@@ -99,15 +98,15 @@ export function ProductsSection({
 									d="M17 8l4 4m0 0l-4 4m4-4H3"
 								/>
 							</svg>
-						</Link>
+						</a>
 					</div>
 				)}
 
 				<div className={`grid ${gridCols} gap-4`}>
 					{products.slice(0, config.limit || 8).map((product) => (
-						<Link
+						<a
 							key={product.id}
-							href={`/${channel}/products/${product.slug}?locale=${locale}`}
+							href={`https://www.pomandi.com/${channel}/products/${product.slug}?locale=${locale}`}
 							className="group"
 						>
 							<div
@@ -144,7 +143,7 @@ export function ProductsSection({
 									</p>
 								)}
 							</div>
-						</Link>
+						</a>
 					))}
 				</div>
 			</div>

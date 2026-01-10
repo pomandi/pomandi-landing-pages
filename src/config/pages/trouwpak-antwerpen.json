@@ -1,0 +1,299 @@
+{
+	"slug": "trouwpak-antwerpen",
+	"template": "location",
+	"channels": ["belgium-channel", "netherlands-channel", "nl", "fr", "en"],
+	"theme": {
+		"mode": "light",
+		"primary": "#1a1a1a",
+		"secondary": "#444444",
+		"background": "#f8f7f5"
+	},
+	"seo": {
+		"title": {
+			"nl": "Trouwpak Antwerpen - Premium Trouwkostuums vanaf €320 | Pomandi",
+			"fr": "Costume de Mariage Anvers - Costumes de Mariage Premium à partir de €320 | Pomandi",
+			"en": "Wedding Suit Antwerp - Premium Wedding Suits from €320 | Pomandi"
+		},
+		"description": {
+			"nl": "Op zoek naar een trouwpak in Antwerpen? Pomandi biedt premium trouwkostuums in Italiaanse stijl vanaf €320. Groepskortingen beschikbaar. Bezoek onze winkel in Brasschaat.",
+			"fr": "Vous cherchez un costume de mariage à Anvers? Pomandi propose des costumes de mariage premium de style italien à partir de €320.",
+			"en": "Looking for a wedding suit in Antwerp? Pomandi offers premium Italian-style wedding suits from €320. Group discounts available."
+		},
+		"keywords": ["trouwpak antwerpen", "trouwkostuum antwerpen", "bruidegom pak antwerpen", "huwelijkspak", "groepskortingen trouwpakken"],
+		"canonical": "https://www.pomandi.com/nl/trouwpak-antwerpen",
+		"ogImage": "/1.png"
+	},
+	"hero": {
+		"type": "split",
+		"title": {
+			"nl": "Uw perfecte",
+			"fr": "Votre parfait",
+			"en": "Your perfect"
+		},
+		"titleHighlight": {
+			"nl": "trouwpak.",
+			"fr": "costume de mariage.",
+			"en": "wedding suit."
+		},
+		"subtitle": {
+			"nl": "Maak van uw trouwdag een onvergetelijke ervaring met een pak dat perfect bij u past. Premium trouwkostuums vanaf €320.",
+			"fr": "Faites de votre jour de mariage une expérience inoubliable avec un costume qui vous va parfaitement.",
+			"en": "Make your wedding day an unforgettable experience with a suit that fits you perfectly. Premium wedding suits from €320."
+		},
+		"tagline": {
+			"nl": "Pomandi Brasschaat",
+			"fr": "Pomandi Brasschaat",
+			"en": "Pomandi Brasschaat"
+		},
+		"images": ["/1.png", "/2.png", "/3.png", "/4.png"],
+		"animation": "fade-in-up",
+		"cta": {
+			"primary": {
+				"text": {
+					"nl": "Afspraak maken",
+					"fr": "Prendre rendez-vous",
+					"en": "Book appointment"
+				},
+				"style": "solid"
+			},
+			"secondary": {
+				"text": {
+					"nl": "Bekijk trouwcollectie",
+					"fr": "Voir la collection mariage",
+					"en": "View wedding collection"
+				},
+				"style": "outline"
+			}
+		}
+	},
+	"sections": [
+		{
+			"type": "stats",
+			"id": "stats-wedding",
+			"config": {
+				"items": [
+					{
+						"value": "€320",
+						"label": {
+							"nl": "Vanaf prijs",
+							"fr": "À partir de",
+							"en": "Starting price"
+						}
+					},
+					{
+						"value": "15%",
+						"label": {
+							"nl": "Groepskorting",
+							"fr": "Réduction groupe",
+							"en": "Group discount"
+						}
+					},
+					{
+						"value": "200+",
+						"label": {
+							"nl": "Bruidegoms",
+							"fr": "Mariés",
+							"en": "Grooms"
+						}
+					},
+					{
+						"value": "4.9/5",
+						"label": {
+							"nl": "Google reviews",
+							"fr": "Avis Google",
+							"en": "Google reviews"
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "products",
+			"id": "products-wedding",
+			"title": {
+				"nl": "Trouwcollectie",
+				"fr": "Collection Mariage",
+				"en": "Wedding Collection"
+			},
+			"subtitle": {
+				"nl": "Premium trouwpakken",
+				"fr": "Costumes de mariage premium",
+				"en": "Premium wedding suits"
+			},
+			"background": "primary",
+			"config": {
+				"collection": "Wedding-Suits",
+				"limit": 8,
+				"style": "grid",
+				"columns": 4,
+				"showPrice": true
+			}
+		},
+		{
+			"type": "features",
+			"id": "features-wedding",
+			"title": {
+				"nl": "Waarom Pomandi voor uw trouwdag?",
+				"fr": "Pourquoi Pomandi pour votre mariage?",
+				"en": "Why Pomandi for your wedding?"
+			},
+			"subtitle": {
+				"nl": "Wij maken van uw trouwdag een bijzondere ervaring",
+				"fr": "Nous faisons de votre jour de mariage une expérience spéciale",
+				"en": "We make your wedding day a special experience"
+			},
+			"background": "dark",
+			"animation": "stagger",
+			"config": {
+				"columns": 3,
+				"style": "cards",
+				"items": [
+					{
+						"icon": "users",
+						"title": {
+							"nl": "Groepskortingen",
+							"fr": "Réductions Groupe",
+							"en": "Group Discounts"
+						},
+						"description": {
+							"nl": "15% korting bij 3+ pakken. Ideaal voor bruidegom, getuigen en familie.",
+							"fr": "15% de réduction pour 3+ costumes. Idéal pour le marié, témoins et famille.",
+							"en": "15% discount for 3+ suits. Ideal for groom, groomsmen and family."
+						}
+					},
+					{
+						"icon": "checkmark",
+						"title": {
+							"nl": "Persoonlijk Advies",
+							"fr": "Conseils Personnalisés",
+							"en": "Personal Advice"
+						},
+						"description": {
+							"nl": "Onze experts helpen u de perfecte look te vinden die past bij uw thema.",
+							"fr": "Nos experts vous aident à trouver le look parfait qui correspond à votre thème.",
+							"en": "Our experts help you find the perfect look that matches your theme."
+						}
+					},
+					{
+						"icon": "money",
+						"title": {
+							"nl": "Premium Kwaliteit",
+							"fr": "Qualité Premium",
+							"en": "Premium Quality"
+						},
+						"description": {
+							"nl": "Italiaanse stijl en vakmanschap. Foto's die een leven lang meegaan.",
+							"fr": "Style italien et artisanat. Des photos qui durent toute une vie.",
+							"en": "Italian style and craftsmanship. Photos that last a lifetime."
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "stores",
+			"id": "stores-brasschaat",
+			"title": {
+				"nl": "Bezoek ons",
+				"fr": "Visitez-nous",
+				"en": "Visit us"
+			},
+			"subtitle": {
+				"nl": "Kom samen met uw partner, getuigen of familie voor een exclusieve fitting ervaring.",
+				"fr": "Venez avec votre partenaire, témoins ou famille pour une expérience d'essayage exclusive.",
+				"en": "Come with your partner, groomsmen or family for an exclusive fitting experience."
+			},
+			"background": "primary",
+			"config": {
+				"locations": ["brasschaat"],
+				"style": "cards",
+				"showMap": true,
+				"showHours": true,
+				"showWhatsApp": true
+			}
+		},
+		{
+			"type": "faq",
+			"id": "faq-wedding",
+			"title": {
+				"nl": "Veelgestelde Vragen",
+				"fr": "Questions Fréquentes",
+				"en": "Frequently Asked Questions"
+			},
+			"background": "secondary",
+			"config": {
+				"items": [
+					{
+						"question": {
+							"nl": "Hoe ver van tevoren moet ik mijn trouwpak bestellen?",
+							"fr": "Combien de temps à l'avance dois-je commander mon costume de mariage?",
+							"en": "How far in advance should I order my wedding suit?"
+						},
+						"answer": {
+							"nl": "Wij adviseren minimaal 6-8 weken van tevoren te komen. Zo hebben we voldoende tijd voor eventuele aanpassingen.",
+							"fr": "Nous conseillons de venir au moins 6-8 semaines à l'avance. Ainsi, nous avons suffisamment de temps pour les ajustements éventuels.",
+							"en": "We recommend coming at least 6-8 weeks in advance. This gives us enough time for any alterations."
+						}
+					},
+					{
+						"question": {
+							"nl": "Bieden jullie korting voor groepen?",
+							"fr": "Offrez-vous des réductions pour les groupes?",
+							"en": "Do you offer group discounts?"
+						},
+						"answer": {
+							"nl": "Ja! Bij 3 of meer pakken krijgt u 15% korting. Perfect voor bruidegom, getuigen en familie.",
+							"fr": "Oui! Pour 3 costumes ou plus, vous bénéficiez de 15% de réduction. Parfait pour le marié, témoins et famille.",
+							"en": "Yes! With 3 or more suits, you get a 15% discount. Perfect for groom, groomsmen and family."
+						}
+					},
+					{
+						"question": {
+							"nl": "Kan ik mijn pak laten personaliseren?",
+							"fr": "Puis-je personnaliser mon costume?",
+							"en": "Can I personalize my suit?"
+						},
+						"answer": {
+							"nl": "Absoluut! Van stoffen en kleuren tot voering en knopen - alles kan worden aangepast aan uw wensen.",
+							"fr": "Absolument! Des tissus et couleurs à la doublure et boutons - tout peut être adapté à vos souhaits.",
+							"en": "Absolutely! From fabrics and colors to lining and buttons - everything can be customized to your wishes."
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "cta",
+			"id": "cta-final",
+			"background": "dark",
+			"config": {
+				"title": {
+					"nl": "Klaar voor uw perfecte trouwpak?",
+					"fr": "Prêt pour votre costume de mariage parfait?",
+					"en": "Ready for your perfect wedding suit?"
+				},
+				"subtitle": {
+					"nl": "Boek een afspraak en ontdek onze exclusieve trouwcollectie.",
+					"fr": "Prenez rendez-vous et découvrez notre collection de mariage exclusive.",
+					"en": "Book an appointment and discover our exclusive wedding collection."
+				},
+				"button": {
+					"text": {
+						"nl": "Afspraak maken",
+						"fr": "Prendre rendez-vous",
+						"en": "Book appointment"
+					},
+					"style": "solid"
+				}
+			}
+		}
+	],
+	"collections": ["Wedding-Suits", "All-Suits"],
+	"store": {
+		"locations": ["brasschaat"],
+		"showMap": true,
+		"showHours": true,
+		"showWhatsApp": true
+	},
+	"campaign": "trouwpak-antwerpen"
+}

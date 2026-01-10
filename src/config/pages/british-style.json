@@ -1,0 +1,292 @@
+{
+	"slug": "british-style",
+	"template": "style",
+	"channels": ["belgium-channel", "netherlands-channel", "nl", "fr", "en"],
+	"theme": {
+		"mode": "dark",
+		"primary": "#c0a062",
+		"secondary": "#d4af37",
+		"background": "#0a0a0a"
+	},
+	"seo": {
+		"title": {
+			"nl": "British Style Pak - Peaky Blinders Inspired | Pomandi",
+			"fr": "Costume British Style - Inspiré Peaky Blinders | Pomandi",
+			"en": "British Style Suit - Peaky Blinders Inspired | Pomandi"
+		},
+		"description": {
+			"nl": "Ontdek onze British Style collectie geïnspireerd door Peaky Blinders. Premium driedelige pakken met authentieke Britse details. Vanaf €320.",
+			"fr": "Découvrez notre collection British Style inspirée par Peaky Blinders. Costumes trois pièces premium avec des détails britanniques authentiques.",
+			"en": "Discover our British Style collection inspired by Peaky Blinders. Premium three-piece suits with authentic British details. From €320."
+		},
+		"keywords": ["british style pak", "peaky blinders pak", "driedelig pak", "tweed pak", "vintage pak"],
+		"canonical": "https://www.pomandi.com/nl/british-style",
+		"ogImage": "/1.png"
+	},
+	"hero": {
+		"type": "split",
+		"title": {
+			"nl": "British Style",
+			"fr": "British Style",
+			"en": "British Style"
+		},
+		"titleHighlight": {
+			"nl": "Gentleman's Collection",
+			"fr": "Collection Gentleman",
+			"en": "Gentleman's Collection"
+		},
+		"subtitle": {
+			"nl": "Geïnspireerd door de elegantie van de Britse herenmode. Klassieke driedelige pakken met moderne verfijning.",
+			"fr": "Inspiré par l'élégance de la mode masculine britannique. Costumes trois pièces classiques avec une sophistication moderne.",
+			"en": "Inspired by the elegance of British menswear. Classic three-piece suits with modern sophistication."
+		},
+		"tagline": {
+			"nl": "Est. 1920 Birmingham",
+			"fr": "Est. 1920 Birmingham",
+			"en": "Est. 1920 Birmingham"
+		},
+		"images": ["/1.png", "/2.png", "/3.png", "/4.png"],
+		"overlay": "grain",
+		"animation": "fade-in-up",
+		"cta": {
+			"primary": {
+				"text": {
+					"nl": "Afspraak maken",
+					"fr": "Prendre rendez-vous",
+					"en": "Book appointment"
+				},
+				"style": "solid"
+			},
+			"secondary": {
+				"text": {
+					"nl": "Bekijk collectie",
+					"fr": "Voir la collection",
+					"en": "View collection"
+				},
+				"style": "outline"
+			}
+		}
+	},
+	"sections": [
+		{
+			"type": "quote",
+			"id": "quote-intro",
+			"animation": "fade-in",
+			"background": "dark",
+			"config": {
+				"text": {
+					"nl": "Een man die zich goed kleedt, toont respect voor zichzelf en de wereld om hem heen.",
+					"fr": "Un homme qui s'habille bien montre du respect pour lui-même et le monde qui l'entoure.",
+					"en": "A man who dresses well shows respect for himself and the world around him."
+				},
+				"author": {
+					"nl": "The Art of British Tailoring",
+					"fr": "L'Art de la Taillerie Britannique",
+					"en": "The Art of British Tailoring"
+				},
+				"style": "centered"
+			}
+		},
+		{
+			"type": "features",
+			"id": "features-british",
+			"title": {
+				"nl": "The Essence of British Style",
+				"fr": "L'Essence du Style Britannique",
+				"en": "The Essence of British Style"
+			},
+			"subtitle": {
+				"nl": "Elk detail vertelt een verhaal van vakmanschap en traditie",
+				"fr": "Chaque détail raconte une histoire d'artisanat et de tradition",
+				"en": "Every detail tells a story of craftsmanship and tradition"
+			},
+			"background": "dark",
+			"animation": "stagger",
+			"config": {
+				"columns": 4,
+				"style": "cards",
+				"items": [
+					{
+						"icon": "checkmark",
+						"title": {
+							"nl": "Driedelig Pak",
+							"fr": "Costume Trois Pièces",
+							"en": "Three-Piece Suit"
+						},
+						"description": {
+							"nl": "Klassiek vest, jasje en broek. De complete gentleman look.",
+							"fr": "Gilet classique, veste et pantalon. Le look complet du gentleman.",
+							"en": "Classic waistcoat, jacket and trousers. The complete gentleman look."
+						}
+					},
+					{
+						"icon": "ruler",
+						"title": {
+							"nl": "Authentieke Details",
+							"fr": "Détails Authentiques",
+							"en": "Authentic Details"
+						},
+						"description": {
+							"nl": "Horlogevestzakje, geruite patronen, contrast stiksels.",
+							"fr": "Poche gousset, motifs à carreaux, coutures contrastées.",
+							"en": "Watch vest pocket, plaid patterns, contrast stitching."
+						}
+					},
+					{
+						"icon": "users",
+						"title": {
+							"nl": "Premium Stoffen",
+							"fr": "Tissus Premium",
+							"en": "Premium Fabrics"
+						},
+						"description": {
+							"nl": "Tweed, wol en linnen van de hoogste kwaliteit.",
+							"fr": "Tweed, laine et lin de la plus haute qualité.",
+							"en": "Tweed, wool and linen of the highest quality."
+						}
+					},
+					{
+						"icon": "money",
+						"title": {
+							"nl": "Eerlijke Prijs",
+							"fr": "Prix Honnête",
+							"en": "Fair Price"
+						},
+						"description": {
+							"nl": "Premium British Style vanaf €320. Geen verborgen kosten.",
+							"fr": "British Style premium à partir de €320. Pas de frais cachés.",
+							"en": "Premium British Style from €320. No hidden costs."
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "products",
+			"id": "products-british",
+			"title": {
+				"nl": "British Style Selectie",
+				"fr": "Sélection British Style",
+				"en": "British Style Selection"
+			},
+			"subtitle": {
+				"nl": "Collectie",
+				"fr": "Collection",
+				"en": "Collection"
+			},
+			"background": "secondary",
+			"config": {
+				"collection": "peaky-blinders-historische-outfits",
+				"limit": 8,
+				"style": "grid",
+				"columns": 4,
+				"showPrice": true
+			}
+		},
+		{
+			"type": "pricing",
+			"id": "pricing-british",
+			"title": {
+				"nl": "Transparante Prijzen",
+				"fr": "Prix Transparents",
+				"en": "Transparent Pricing"
+			},
+			"subtitle": {
+				"nl": "Geen verrassingen, geen verborgen kosten",
+				"fr": "Pas de surprises, pas de frais cachés",
+				"en": "No surprises, no hidden costs"
+			},
+			"background": "dark",
+			"config": {
+				"items": [
+					{
+						"name": {
+							"nl": "Driedelig British Style Pak",
+							"fr": "Costume Trois Pièces British Style",
+							"en": "Three-Piece British Style Suit"
+						},
+						"price": "vanaf €420",
+						"description": {
+							"nl": "Jasje + vest + broek, premium stoffen",
+							"fr": "Veste + gilet + pantalon, tissus premium",
+							"en": "Jacket + waistcoat + trousers, premium fabrics"
+						}
+					},
+					{
+						"name": {
+							"nl": "Tweedelig Pak",
+							"fr": "Costume Deux Pièces",
+							"en": "Two-Piece Suit"
+						},
+						"price": "vanaf €320",
+						"description": {
+							"nl": "Jasje + broek in British Style",
+							"fr": "Veste + pantalon en style britannique",
+							"en": "Jacket + trousers in British Style"
+						}
+					}
+				],
+				"note": {
+					"nl": "Alle prijzen inclusief basis aanpassingen",
+					"fr": "Tous les prix incluent les ajustements de base",
+					"en": "All prices include basic alterations"
+				}
+			}
+		},
+		{
+			"type": "stores",
+			"id": "stores-all",
+			"title": {
+				"nl": "Bezoek onze winkels",
+				"fr": "Visitez nos magasins",
+				"en": "Visit our stores"
+			},
+			"subtitle": {
+				"nl": "Kom langs voor persoonlijk advies van onze British Style experts",
+				"fr": "Venez pour des conseils personnalisés de nos experts en style britannique",
+				"en": "Visit for personal advice from our British Style experts"
+			},
+			"background": "secondary",
+			"config": {
+				"locations": ["brasschaat", "genk"],
+				"style": "cards",
+				"showMap": false,
+				"showHours": true,
+				"showWhatsApp": true
+			}
+		},
+		{
+			"type": "cta",
+			"id": "cta-final",
+			"background": "dark",
+			"config": {
+				"title": {
+					"nl": "Word een Gentleman",
+					"fr": "Devenez un Gentleman",
+					"en": "Become a Gentleman"
+				},
+				"subtitle": {
+					"nl": "Ontdek de kracht van British Style. Boek nu uw afspraak.",
+					"fr": "Découvrez la puissance du British Style. Réservez votre rendez-vous maintenant.",
+					"en": "Discover the power of British Style. Book your appointment now."
+				},
+				"button": {
+					"text": {
+						"nl": "Afspraak maken",
+						"fr": "Prendre rendez-vous",
+						"en": "Book appointment"
+					},
+					"style": "solid"
+				}
+			}
+		}
+	],
+	"collections": ["peaky-blinders-historische-outfits"],
+	"store": {
+		"locations": ["brasschaat", "genk"],
+		"showMap": true,
+		"showHours": true,
+		"showWhatsApp": true
+	},
+	"campaign": "british-style"
+}

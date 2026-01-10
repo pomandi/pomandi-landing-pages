@@ -1,0 +1,242 @@
+{
+	"slug": "peaky-blinders-pak",
+	"template": "style",
+	"channels": ["belgium-channel", "netherlands-channel", "nl", "fr", "en"],
+	"theme": {
+		"mode": "dark",
+		"primary": "#c0a062",
+		"secondary": "#d4af37",
+		"background": "#0a0a0a"
+	},
+	"seo": {
+		"title": {
+			"nl": "Peaky Blinders Pak - Authentieke Birmingham Style | Pomandi",
+			"fr": "Costume Peaky Blinders - Style Birmingham Authentique | Pomandi",
+			"en": "Peaky Blinders Suit - Authentic Birmingham Style | Pomandi"
+		},
+		"description": {
+			"nl": "Authentieke Peaky Blinders pakken in de stijl van Tommy Shelby. Driedelige tweed pakken met pet en alle details. Vanaf €320.",
+			"fr": "Costumes Peaky Blinders authentiques dans le style de Tommy Shelby. Costumes tweed trois pièces avec casquette et tous les détails.",
+			"en": "Authentic Peaky Blinders suits in the style of Tommy Shelby. Three-piece tweed suits with cap and all details. From €320."
+		},
+		"keywords": ["peaky blinders pak", "tommy shelby pak", "tweed pak", "gangster pak", "jaren 20 pak"],
+		"canonical": "https://www.pomandi.com/nl/peaky-blinders-pak",
+		"ogImage": "/1.png"
+	},
+	"hero": {
+		"type": "split",
+		"title": {
+			"nl": "Peaky Blinders",
+			"fr": "Peaky Blinders",
+			"en": "Peaky Blinders"
+		},
+		"titleHighlight": {
+			"nl": "By Order Of",
+			"fr": "Par Ordre De",
+			"en": "By Order Of"
+		},
+		"subtitle": {
+			"nl": "Authentieke pakken geïnspireerd door de legendarische Shelby familie. Driedelige tweed pakken met alle iconische details.",
+			"fr": "Costumes authentiques inspirés par la légendaire famille Shelby. Costumes tweed trois pièces avec tous les détails iconiques.",
+			"en": "Authentic suits inspired by the legendary Shelby family. Three-piece tweed suits with all the iconic details."
+		},
+		"tagline": {
+			"nl": "Birmingham, 1920",
+			"fr": "Birmingham, 1920",
+			"en": "Birmingham, 1920"
+		},
+		"images": ["/1.png", "/2.png", "/3.png", "/4.png"],
+		"overlay": "grain",
+		"animation": "fade-in-up",
+		"cta": {
+			"primary": {
+				"text": {
+					"nl": "Word een Shelby",
+					"fr": "Devenez un Shelby",
+					"en": "Become a Shelby"
+				},
+				"style": "solid"
+			},
+			"secondary": {
+				"text": {
+					"nl": "Bekijk collectie",
+					"fr": "Voir la collection",
+					"en": "View collection"
+				},
+				"style": "outline"
+			}
+		}
+	},
+	"sections": [
+		{
+			"type": "quote",
+			"id": "quote-shelby",
+			"animation": "fade-in",
+			"background": "dark",
+			"config": {
+				"text": {
+					"nl": "In onze familie geloven we dat een man wordt beoordeeld op hoe hij zich kleedt.",
+					"fr": "Dans notre famille, nous croyons qu'un homme est jugé sur la façon dont il s'habille.",
+					"en": "In our family, we believe a man is judged by how he dresses."
+				},
+				"author": {
+					"nl": "Thomas Shelby",
+					"fr": "Thomas Shelby",
+					"en": "Thomas Shelby"
+				},
+				"style": "centered"
+			}
+		},
+		{
+			"type": "features",
+			"id": "features-shelby",
+			"title": {
+				"nl": "De Shelby Look",
+				"fr": "Le Look Shelby",
+				"en": "The Shelby Look"
+			},
+			"subtitle": {
+				"nl": "Elk element van de authentieke Peaky Blinders stijl",
+				"fr": "Chaque élément du style authentique Peaky Blinders",
+				"en": "Every element of the authentic Peaky Blinders style"
+			},
+			"background": "dark",
+			"animation": "stagger",
+			"config": {
+				"columns": 4,
+				"style": "cards",
+				"items": [
+					{
+						"icon": "checkmark",
+						"title": {
+							"nl": "Driedelig Pak",
+							"fr": "Costume Trois Pièces",
+							"en": "Three-Piece Suit"
+						},
+						"description": {
+							"nl": "Het iconische driedelige pak zoals Tommy Shelby draagt.",
+							"fr": "Le costume trois pièces iconique comme le porte Tommy Shelby.",
+							"en": "The iconic three-piece suit as worn by Tommy Shelby."
+						}
+					},
+					{
+						"icon": "ruler",
+						"title": {
+							"nl": "Tweed Stof",
+							"fr": "Tissu Tweed",
+							"en": "Tweed Fabric"
+						},
+						"description": {
+							"nl": "Authentieke Britse tweed stoffen in klassieke patronen.",
+							"fr": "Tissus tweed britanniques authentiques dans des motifs classiques.",
+							"en": "Authentic British tweed fabrics in classic patterns."
+						}
+					},
+					{
+						"icon": "users",
+						"title": {
+							"nl": "Flat Cap",
+							"fr": "Casquette Plate",
+							"en": "Flat Cap"
+						},
+						"description": {
+							"nl": "De beroemde platte pet die de Peaky Blinders definieerde.",
+							"fr": "La fameuse casquette plate qui a défini les Peaky Blinders.",
+							"en": "The famous flat cap that defined the Peaky Blinders."
+						}
+					},
+					{
+						"icon": "money",
+						"title": {
+							"nl": "Complete Look",
+							"fr": "Look Complet",
+							"en": "Complete Look"
+						},
+						"description": {
+							"nl": "Van zakhorloge tot bretels - elk detail klopt.",
+							"fr": "De la montre de poche aux bretelles - chaque détail est parfait.",
+							"en": "From pocket watch to suspenders - every detail is right."
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "products",
+			"id": "products-peaky",
+			"title": {
+				"nl": "Peaky Blinders Collectie",
+				"fr": "Collection Peaky Blinders",
+				"en": "Peaky Blinders Collection"
+			},
+			"subtitle": {
+				"nl": "Collectie",
+				"fr": "Collection",
+				"en": "Collection"
+			},
+			"background": "secondary",
+			"config": {
+				"collection": "peaky-blinders-historische-outfits",
+				"limit": 8,
+				"style": "grid",
+				"columns": 4,
+				"showPrice": true
+			}
+		},
+		{
+			"type": "stores",
+			"id": "stores-all",
+			"title": {
+				"nl": "Word een Shelby",
+				"fr": "Devenez un Shelby",
+				"en": "Become a Shelby"
+			},
+			"subtitle": {
+				"nl": "Bezoek onze winkels voor persoonlijk advies en de complete Peaky Blinders ervaring",
+				"fr": "Visitez nos magasins pour des conseils personnalisés et l'expérience complète Peaky Blinders",
+				"en": "Visit our stores for personal advice and the complete Peaky Blinders experience"
+			},
+			"background": "secondary",
+			"config": {
+				"locations": ["brasschaat", "genk"],
+				"style": "cards",
+				"showMap": false,
+				"showHours": true,
+				"showWhatsApp": true
+			}
+		},
+		{
+			"type": "cta",
+			"id": "cta-final",
+			"background": "dark",
+			"config": {
+				"title": {
+					"nl": "By Order Of The Peaky Blinders",
+					"fr": "Par Ordre Des Peaky Blinders",
+					"en": "By Order Of The Peaky Blinders"
+				},
+				"subtitle": {
+					"nl": "Kleed je als een Shelby. Boek nu uw afspraak.",
+					"fr": "Habillez-vous comme un Shelby. Réservez votre rendez-vous maintenant.",
+					"en": "Dress like a Shelby. Book your appointment now."
+				},
+				"button": {
+					"text": {
+						"nl": "Afspraak maken",
+						"fr": "Prendre rendez-vous",
+						"en": "Book appointment"
+					},
+					"style": "solid"
+				}
+			}
+		}
+	],
+	"collections": ["peaky-blinders-historische-outfits"],
+	"store": {
+		"locations": ["brasschaat", "genk"],
+		"showMap": true,
+		"showHours": true,
+		"showWhatsApp": true
+	},
+	"campaign": "peaky-blinders-pak"
+}

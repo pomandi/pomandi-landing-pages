@@ -82,8 +82,8 @@ export function HeroSection({ hero, theme, channel, locale, campaign, store }: H
 									{primaryCTA}
 								</Link>
 								{secondaryCTA && (
-									<Link
-										href={`/${channel}/collections/All-Suits?locale=${locale}`}
+									<a
+										href={`https://www.pomandi.com/${channel}/All-Suits?locale=${locale}`}
 										className={`inline-flex items-center justify-center rounded-none border px-8 py-4 text-sm font-medium uppercase tracking-wider transition-colors ${
 											theme.mode === "dark"
 												? "border-white bg-transparent text-white hover:bg-white hover:text-black"
@@ -91,7 +91,7 @@ export function HeroSection({ hero, theme, channel, locale, campaign, store }: H
 										}`}
 									>
 										{secondaryCTA}
-									</Link>
+									</a>
 								)}
 							</div>
 						</div>
@@ -176,12 +176,12 @@ export function HeroSection({ hero, theme, channel, locale, campaign, store }: H
 							{primaryCTA}
 						</Link>
 						{secondaryCTA && (
-							<Link
-								href={`/${channel}/collections/All-Suits?locale=${locale}`}
+							<a
+								href={`https://www.pomandi.com/${channel}/All-Suits?locale=${locale}`}
 								className="inline-flex items-center justify-center rounded-none border border-white/30 px-10 py-4 text-sm font-medium uppercase tracking-wider text-white transition-colors hover:border-white hover:bg-white/10"
 							>
 								{secondaryCTA}
-							</Link>
+							</a>
 						)}
 					</div>
 				</div>

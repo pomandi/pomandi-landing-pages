@@ -1,0 +1,244 @@
+{
+	"slug": "zakenpak-antwerpen",
+	"template": "location",
+	"channels": ["belgium-channel", "netherlands-channel", "nl", "fr", "en"],
+	"theme": {
+		"mode": "light",
+		"primary": "#1a1a1a",
+		"secondary": "#444444",
+		"background": "#f8f7f5"
+	},
+	"seo": {
+		"title": {
+			"nl": "Zakenpak Antwerpen - Premium Business Kostuums vanaf €320 | Pomandi",
+			"fr": "Costume d'Affaires Anvers - Costumes Business Premium à partir de €320 | Pomandi",
+			"en": "Business Suit Antwerp - Premium Business Suits from €320 | Pomandi"
+		},
+		"description": {
+			"nl": "Premium zakenpakken in Antwerpen voor de moderne professional. Italiaanse stijl, perfecte pasvorm. Vanaf €320. Bezoek Pomandi Brasschaat.",
+			"fr": "Costumes d'affaires premium à Anvers pour le professionnel moderne. Style italien, coupe parfaite. À partir de €320.",
+			"en": "Premium business suits in Antwerp for the modern professional. Italian style, perfect fit. From €320. Visit Pomandi Brasschaat."
+		},
+		"keywords": ["zakenpak antwerpen", "business pak antwerpen", "herenpak antwerpen", "kostuum antwerpen", "professional pak"],
+		"canonical": "https://www.pomandi.com/nl/zakenpak-antwerpen",
+		"ogImage": "/1.png"
+	},
+	"hero": {
+		"type": "split",
+		"title": {
+			"nl": "Kleed je voor",
+			"fr": "Habillez-vous pour",
+			"en": "Dress for"
+		},
+		"titleHighlight": {
+			"nl": "succes.",
+			"fr": "le succès.",
+			"en": "success."
+		},
+		"subtitle": {
+			"nl": "Een goed zakenpak is meer dan kleding - het is een statement. Premium business kostuums voor de ambitieuze professional.",
+			"fr": "Un bon costume d'affaires est plus que des vêtements - c'est une déclaration. Costumes business premium pour le professionnel ambitieux.",
+			"en": "A good business suit is more than clothing - it's a statement. Premium business suits for the ambitious professional."
+		},
+		"tagline": {
+			"nl": "Pomandi Brasschaat",
+			"fr": "Pomandi Brasschaat",
+			"en": "Pomandi Brasschaat"
+		},
+		"images": ["/1.png", "/2.png", "/3.png", "/4.png"],
+		"animation": "fade-in-up",
+		"cta": {
+			"primary": {
+				"text": {
+					"nl": "Afspraak maken",
+					"fr": "Prendre rendez-vous",
+					"en": "Book appointment"
+				},
+				"style": "solid"
+			},
+			"secondary": {
+				"text": {
+					"nl": "Bekijk collectie",
+					"fr": "Voir la collection",
+					"en": "View collection"
+				},
+				"style": "outline"
+			}
+		}
+	},
+	"sections": [
+		{
+			"type": "stats",
+			"id": "stats-business",
+			"config": {
+				"items": [
+					{
+						"value": "€320",
+						"label": {
+							"nl": "Vanaf prijs",
+							"fr": "À partir de",
+							"en": "Starting price"
+						}
+					},
+					{
+						"value": "15 dagen",
+						"label": {
+							"nl": "Levertijd",
+							"fr": "Délai",
+							"en": "Delivery"
+						}
+					},
+					{
+						"value": "500+",
+						"label": {
+							"nl": "Professionals",
+							"fr": "Professionnels",
+							"en": "Professionals"
+						}
+					},
+					{
+						"value": "4.9/5",
+						"label": {
+							"nl": "Google reviews",
+							"fr": "Avis Google",
+							"en": "Google reviews"
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "products",
+			"id": "products-business",
+			"title": {
+				"nl": "Business Collectie",
+				"fr": "Collection Business",
+				"en": "Business Collection"
+			},
+			"subtitle": {
+				"nl": "Premium zakenpakken",
+				"fr": "Costumes d'affaires premium",
+				"en": "Premium business suits"
+			},
+			"background": "primary",
+			"config": {
+				"collection": "All-Suits",
+				"limit": 8,
+				"style": "grid",
+				"columns": 4,
+				"showPrice": true
+			}
+		},
+		{
+			"type": "features",
+			"id": "features-business",
+			"title": {
+				"nl": "Investeer in uw professionele uitstraling",
+				"fr": "Investissez dans votre image professionnelle",
+				"en": "Invest in your professional image"
+			},
+			"background": "dark",
+			"animation": "stagger",
+			"config": {
+				"columns": 3,
+				"style": "cards",
+				"items": [
+					{
+						"icon": "checkmark",
+						"title": {
+							"nl": "Eerste Indruk",
+							"fr": "Première Impression",
+							"en": "First Impression"
+						},
+						"description": {
+							"nl": "U krijgt maar één kans voor een eerste indruk. Maak hem onvergetelijk.",
+							"fr": "Vous n'avez qu'une chance de faire une première impression. Rendez-la inoubliable.",
+							"en": "You only get one chance at a first impression. Make it unforgettable."
+						}
+					},
+					{
+						"icon": "ruler",
+						"title": {
+							"nl": "Perfecte Pasvorm",
+							"fr": "Coupe Parfaite",
+							"en": "Perfect Fit"
+						},
+						"description": {
+							"nl": "Een pak dat perfect zit, straalt zelfvertrouwen uit in elke vergadering.",
+							"fr": "Un costume qui vous va parfaitement dégage confiance dans chaque réunion.",
+							"en": "A suit that fits perfectly exudes confidence in every meeting."
+						}
+					},
+					{
+						"icon": "money",
+						"title": {
+							"nl": "Slimme Investering",
+							"fr": "Investissement Intelligent",
+							"en": "Smart Investment"
+						},
+						"description": {
+							"nl": "Premium kwaliteit vanaf €320. Een investering die zich terugbetaalt.",
+							"fr": "Qualité premium à partir de €320. Un investissement qui rapporte.",
+							"en": "Premium quality from €320. An investment that pays off."
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "stores",
+			"id": "stores-brasschaat",
+			"title": {
+				"nl": "Bezoek ons",
+				"fr": "Visitez-nous",
+				"en": "Visit us"
+			},
+			"subtitle": {
+				"nl": "Onze experts helpen u het perfecte zakenpak te vinden.",
+				"fr": "Nos experts vous aident à trouver le costume d'affaires parfait.",
+				"en": "Our experts help you find the perfect business suit."
+			},
+			"background": "primary",
+			"config": {
+				"locations": ["brasschaat"],
+				"style": "cards",
+				"showMap": true,
+				"showHours": true,
+				"showWhatsApp": true
+			}
+		},
+		{
+			"type": "cta",
+			"id": "cta-final",
+			"background": "dark",
+			"config": {
+				"title": {
+					"nl": "Klaar om te investeren in uw succes?",
+					"fr": "Prêt à investir dans votre succès?",
+					"en": "Ready to invest in your success?"
+				},
+				"subtitle": {
+					"nl": "Boek een afspraak en ontdek ons aanbod premium zakenpakken.",
+					"fr": "Prenez rendez-vous et découvrez notre offre de costumes d'affaires premium.",
+					"en": "Book an appointment and discover our range of premium business suits."
+				},
+				"button": {
+					"text": {
+						"nl": "Afspraak maken",
+						"fr": "Prendre rendez-vous",
+						"en": "Book appointment"
+					},
+					"style": "solid"
+				}
+			}
+		}
+	],
+	"collections": ["All-Suits", "Blue-Suits", "Black-Suits"],
+	"store": {
+		"locations": ["brasschaat"],
+		"showMap": true,
+		"showHours": true,
+		"showWhatsApp": true
+	},
+	"campaign": "zakenpak-antwerpen"
+}

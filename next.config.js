@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   output: process.env.NEXT_OUTPUT || undefined,
+  assetPrefix: "/_landing",
   images: {
     remotePatterns: [
       {
