@@ -1,0 +1,33 @@
+query ProductListByCollectionPaginated(
+	$slug: String!
+	$channel: String!
+	$languageCode: LanguageCodeEnum!
+	$first: Int!
+	$after: String
+) {
+	collection(slug: $slug, channel: $channel) {
+		name
+		description
+		seoDescription
+		seoTitle
+		translation(languageCode: $languageCode) {
+			name
+			description
+			seoDescription
+			seoTitle
+		}
+		products(first: $first, after: $after, sortBy: { field: COLLECTION, direction: ASC }) {
+			totalCount
+			edges {
+				node {
+					...ProductListItem
+				}
+				cursor
+			}
+			pageInfo {
+				endCursor
+				hasNextPage
+			}
+		}
+	}
+}

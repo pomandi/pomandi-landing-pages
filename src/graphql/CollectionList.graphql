@@ -1,0 +1,29 @@
+#import "./ProductListItem.graphql"
+
+query CollectionList($channel: String!, $languageCode: LanguageCodeEnum!) {
+	collections(first: 100, channel: $channel) {
+		edges {
+			node {
+				id
+				name
+				slug
+				description
+				translation(languageCode: $languageCode) {
+					name
+					description
+				}
+				backgroundImage {
+					url
+					alt
+				}
+				products(first: 100) {
+					edges {
+						node {
+							...ProductListItem
+						}
+					}
+				}
+			}
+		}
+	}
+}

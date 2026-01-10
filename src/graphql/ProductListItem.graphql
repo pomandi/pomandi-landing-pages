@@ -1,0 +1,51 @@
+fragment ProductListItem on Product {
+	id
+	name
+	slug
+	translation(languageCode: $languageCode) {
+		name
+	}
+	pricing {
+		priceRange {
+			start {
+				gross {
+					amount
+					currency
+				}
+			}
+			stop {
+				gross {
+					amount
+					currency
+				}
+			}
+		}
+	}
+	category {
+		id
+		name
+		translation(languageCode: $languageCode) {
+			name
+		}
+	}
+	productType {
+		id
+		name
+	}
+	thumbnail(size: 1024, format: WEBP) {
+		url
+		alt
+	}
+	variants {
+		id
+		name
+		quantityAvailable
+		translation(languageCode: $languageCode) {
+			name
+		}
+	}
+	defaultVariant {
+		id
+		quantityAvailable
+	}
+}

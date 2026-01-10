@@ -1,0 +1,67 @@
+import { invariant } from "ts-invariant";
+import { type TypedDocumentString } from "../gql/graphql";
+
+type GraphQLErrorResponse = {
+	errors: readonly {
+		message: string;
+	}[];
+};
+
+type GraphQLResponse<T> = { data: T } | GraphQLErrorResponse;
+
+export async function executeGraphQL<Result, Variables>(
+	operation: TypedDocumentString<Result, Variables>,
+	options: {
+		headers?: HeadersInit;
+		cache?: RequestCache;
+		revalidate?: number;
+	} & (Variables extends Record<string, never> ? { variables?: never } : { variables: Variables }),
+): Promise<Result> {
+	invariant(process.env.NEXT_PUBLIC_SALEOR_API_URL, "Missing NEXT_PUBLIC_SALEOR_API_URL env variable");
+	const { variables, headers, cache, revalidate } = options;
+
+	const response = await fetch(process.env.NEXT_PUBLIC_SALEOR_API_URL, {
+		method: "POST",
+		headers: {
+			"Content-Type": "application/json",
+			...headers,
+		},
+		body: JSON.stringify({
+			query: operation.toString(),
+			...(variables && { variables }),
+		}),
+		cache: cache,
+		next: { revalidate },
+	});
+
+	if (!response.ok) {
+		const body = await response.text().catch(() => "");
+		throw new HTTPError(response, body);
+	}
+
+	const body = (await response.json()) as GraphQLResponse<Result>;
+
+	if ("errors" in body) {
+		throw new GraphQLError(body);
+	}
+
+	return body.data;
+}
+
+class GraphQLError extends Error {
+	constructor(public errorResponse: GraphQLErrorResponse) {
+		const message = errorResponse.errors.map((error) => error.message).join("\n");
+		super(message);
+		this.name = this.constructor.name;
+		Object.setPrototypeOf(this, new.target.prototype);
+	}
+}
+
+class HTTPError extends Error {
+	constructor(response: Response, body: string) {
+		const message = `HTTP error ${response.status}: ${response.statusText}\n${body}`;
+		super(message);
+		this.name = this.constructor.name;
+		Object.setPrototypeOf(this, new.target.prototype);
+	}
+}

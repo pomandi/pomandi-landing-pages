@@ -1,0 +1,64 @@
+fragment MenuItem on MenuItem {
+	id
+	name
+	level
+	translation(languageCode: $languageCode) {
+		id
+		name
+	}
+	category {
+		id
+		slug
+		name
+		translation(languageCode: $languageCode) {
+			name
+		}
+	}
+	collection {
+		id
+		name
+		slug
+		translation(languageCode: $languageCode) {
+			name
+		}
+	}
+	page {
+		id
+		title
+		slug
+		translation(languageCode: $languageCode) {
+			title
+		}
+	}
+	url
+}
+
+fragment MenuItemNested on MenuItem {
+	...MenuItem
+	children {
+		...MenuItem
+		children {
+			...MenuItem
+			children {
+				...MenuItem
+				children {
+					...MenuItem
+					children {
+						...MenuItem
+						children {
+							...MenuItem
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+query MenuGetBySlug($slug: String!, $channel: String!, $languageCode: LanguageCodeEnum = EN) {
+	menu(slug: $slug, channel: $channel) {
+		items {
+			...MenuItemNested
+		}
+	}
+}
