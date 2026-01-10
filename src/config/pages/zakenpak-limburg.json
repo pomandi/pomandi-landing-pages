@@ -1,0 +1,244 @@
+{
+	"slug": "zakenpak-limburg",
+	"template": "location",
+	"channels": ["belgium-channel", "netherlands-channel", "nl", "fr", "en"],
+	"theme": {
+		"mode": "light",
+		"primary": "#1a1a1a",
+		"secondary": "#444444",
+		"background": "#f8f7f5"
+	},
+	"seo": {
+		"title": {
+			"nl": "Zakenpak Limburg - Premium Business Kostuums vanaf €320 | Pomandi Genk",
+			"fr": "Costume d'Affaires Limbourg - Costumes Business Premium | Pomandi Genk",
+			"en": "Business Suit Limburg - Premium Business Suits from €320 | Pomandi Genk"
+		},
+		"description": {
+			"nl": "Premium zakenpakken in Limburg voor de moderne professional. Italiaanse stijl, perfecte pasvorm. Vanaf €320. Bezoek Pomandi Genk.",
+			"fr": "Costumes d'affaires premium dans le Limbourg pour le professionnel moderne.",
+			"en": "Premium business suits in Limburg for the modern professional."
+		},
+		"keywords": ["zakenpak limburg", "business pak limburg", "herenpak genk", "kostuum genk"],
+		"canonical": "https://www.pomandi.com/nl/zakenpak-limburg",
+		"ogImage": "/1.png"
+	},
+	"hero": {
+		"type": "split",
+		"title": {
+			"nl": "Kleed je voor",
+			"fr": "Habillez-vous pour",
+			"en": "Dress for"
+		},
+		"titleHighlight": {
+			"nl": "succes.",
+			"fr": "le succès.",
+			"en": "success."
+		},
+		"subtitle": {
+			"nl": "Een goed zakenpak is meer dan kleding - het is een statement. Premium business kostuums voor de ambitieuze professional.",
+			"fr": "Un bon costume d'affaires est plus que des vêtements - c'est une déclaration.",
+			"en": "A good business suit is more than clothing - it's a statement."
+		},
+		"tagline": {
+			"nl": "Pomandi Genk",
+			"fr": "Pomandi Genk",
+			"en": "Pomandi Genk"
+		},
+		"images": ["/1.png", "/2.png", "/3.png", "/4.png"],
+		"animation": "fade-in-up",
+		"cta": {
+			"primary": {
+				"text": {
+					"nl": "Afspraak maken",
+					"fr": "Prendre rendez-vous",
+					"en": "Book appointment"
+				},
+				"style": "solid"
+			},
+			"secondary": {
+				"text": {
+					"nl": "Bekijk collectie",
+					"fr": "Voir la collection",
+					"en": "View collection"
+				},
+				"style": "outline"
+			}
+		}
+	},
+	"sections": [
+		{
+			"type": "stats",
+			"id": "stats-business",
+			"config": {
+				"items": [
+					{
+						"value": "€320",
+						"label": {
+							"nl": "Vanaf prijs",
+							"fr": "À partir de",
+							"en": "Starting price"
+						}
+					},
+					{
+						"value": "15 dagen",
+						"label": {
+							"nl": "Levertijd",
+							"fr": "Délai",
+							"en": "Delivery"
+						}
+					},
+					{
+						"value": "500+",
+						"label": {
+							"nl": "Professionals",
+							"fr": "Professionnels",
+							"en": "Professionals"
+						}
+					},
+					{
+						"value": "4.9/5",
+						"label": {
+							"nl": "Google reviews",
+							"fr": "Avis Google",
+							"en": "Google reviews"
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "products",
+			"id": "products-business",
+			"title": {
+				"nl": "Business Collectie",
+				"fr": "Collection Business",
+				"en": "Business Collection"
+			},
+			"subtitle": {
+				"nl": "Premium zakenpakken",
+				"fr": "Costumes d'affaires premium",
+				"en": "Premium business suits"
+			},
+			"background": "primary",
+			"config": {
+				"collection": "All-Suits",
+				"limit": 8,
+				"style": "grid",
+				"columns": 4,
+				"showPrice": true
+			}
+		},
+		{
+			"type": "features",
+			"id": "features-business",
+			"title": {
+				"nl": "Investeer in uw professionele uitstraling",
+				"fr": "Investissez dans votre image professionnelle",
+				"en": "Invest in your professional image"
+			},
+			"background": "dark",
+			"animation": "stagger",
+			"config": {
+				"columns": 3,
+				"style": "cards",
+				"items": [
+					{
+						"icon": "checkmark",
+						"title": {
+							"nl": "Eerste Indruk",
+							"fr": "Première Impression",
+							"en": "First Impression"
+						},
+						"description": {
+							"nl": "U krijgt maar één kans voor een eerste indruk.",
+							"fr": "Vous n'avez qu'une chance de faire une première impression.",
+							"en": "You only get one chance at a first impression."
+						}
+					},
+					{
+						"icon": "ruler",
+						"title": {
+							"nl": "Perfecte Pasvorm",
+							"fr": "Coupe Parfaite",
+							"en": "Perfect Fit"
+						},
+						"description": {
+							"nl": "Een pak dat perfect zit, straalt zelfvertrouwen uit.",
+							"fr": "Un costume qui vous va parfaitement dégage confiance.",
+							"en": "A suit that fits perfectly exudes confidence."
+						}
+					},
+					{
+						"icon": "money",
+						"title": {
+							"nl": "Slimme Investering",
+							"fr": "Investissement Intelligent",
+							"en": "Smart Investment"
+						},
+						"description": {
+							"nl": "Premium kwaliteit vanaf €320.",
+							"fr": "Qualité premium à partir de €320.",
+							"en": "Premium quality from €320."
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "stores",
+			"id": "stores-genk",
+			"title": {
+				"nl": "Bezoek ons",
+				"fr": "Visitez-nous",
+				"en": "Visit us"
+			},
+			"subtitle": {
+				"nl": "Onze winkel in Genk is centraal gelegen in Limburg.",
+				"fr": "Notre magasin à Genk est situé au centre du Limbourg.",
+				"en": "Our store in Genk is centrally located in Limburg."
+			},
+			"background": "primary",
+			"config": {
+				"locations": ["genk"],
+				"style": "cards",
+				"showMap": true,
+				"showHours": true,
+				"showWhatsApp": true
+			}
+		},
+		{
+			"type": "cta",
+			"id": "cta-final",
+			"background": "dark",
+			"config": {
+				"title": {
+					"nl": "Klaar om te investeren in uw succes?",
+					"fr": "Prêt à investir dans votre succès?",
+					"en": "Ready to invest in your success?"
+				},
+				"subtitle": {
+					"nl": "Boek een afspraak en ontdek ons aanbod premium zakenpakken.",
+					"fr": "Prenez rendez-vous et découvrez notre offre de costumes d'affaires.",
+					"en": "Book an appointment and discover our range of premium business suits."
+				},
+				"button": {
+					"text": {
+						"nl": "Afspraak maken",
+						"fr": "Prendre rendez-vous",
+						"en": "Book appointment"
+					},
+					"style": "solid"
+				}
+			}
+		}
+	],
+	"collections": ["All-Suits", "Blue-Suits", "Black-Suits"],
+	"store": {
+		"locations": ["genk"],
+		"showMap": true,
+		"showHours": true,
+		"showWhatsApp": true
+	},
+	"campaign": "zakenpak-limburg"
+}

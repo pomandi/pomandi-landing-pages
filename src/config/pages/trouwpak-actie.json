@@ -1,0 +1,244 @@
+{
+	"slug": "trouwpak-actie",
+	"template": "promo",
+	"channels": ["belgium-channel", "netherlands-channel", "nl", "fr", "en"],
+	"theme": {
+		"mode": "light",
+		"primary": "#1a1a1a",
+		"secondary": "#c0a062",
+		"background": "#f8f7f5"
+	},
+	"seo": {
+		"title": {
+			"nl": "Trouwpak Actie - 15% Groepskorting | Pomandi",
+			"fr": "Promotion Costume de Mariage - 15% Réduction Groupe | Pomandi",
+			"en": "Wedding Suit Promotion - 15% Group Discount | Pomandi"
+		},
+		"description": {
+			"nl": "Profiteer van 15% korting op trouwpakken bij 3+ pakken. Premium trouwkostuums vanaf €320. Ideaal voor bruidegom, getuigen en familie.",
+			"fr": "Profitez de 15% de réduction sur les costumes de mariage pour 3+ costumes. Costumes premium à partir de €320.",
+			"en": "Get 15% off wedding suits when ordering 3+ suits. Premium wedding suits from €320."
+		},
+		"keywords": ["trouwpak actie", "trouwpak korting", "groepskorting trouwpakken", "trouwpak aanbieding"],
+		"canonical": "https://www.pomandi.com/nl/trouwpak-actie",
+		"ogImage": "/1.png"
+	},
+	"hero": {
+		"type": "split",
+		"title": {
+			"nl": "15% Groepskorting",
+			"fr": "15% Réduction Groupe",
+			"en": "15% Group Discount"
+		},
+		"titleHighlight": {
+			"nl": "op trouwpakken.",
+			"fr": "sur les costumes de mariage.",
+			"en": "on wedding suits."
+		},
+		"subtitle": {
+			"nl": "Profiteer van 15% korting bij 3 of meer pakken. Ideaal voor bruidegom, getuigen en familie. Premium trouwkostuums vanaf €320.",
+			"fr": "Profitez de 15% de réduction pour 3 costumes ou plus. Idéal pour le marié, témoins et famille.",
+			"en": "Get 15% off when ordering 3 or more suits. Ideal for groom, groomsmen and family."
+		},
+		"tagline": {
+			"nl": "Beperkte aanbieding",
+			"fr": "Offre limitée",
+			"en": "Limited offer"
+		},
+		"images": ["/1.png", "/2.png", "/3.png", "/4.png"],
+		"animation": "fade-in-up",
+		"cta": {
+			"primary": {
+				"text": {
+					"nl": "Claim uw korting",
+					"fr": "Réclamez votre réduction",
+					"en": "Claim your discount"
+				},
+				"style": "solid"
+			},
+			"secondary": {
+				"text": {
+					"nl": "Bekijk trouwcollectie",
+					"fr": "Voir la collection mariage",
+					"en": "View wedding collection"
+				},
+				"style": "outline"
+			}
+		}
+	},
+	"sections": [
+		{
+			"type": "stats",
+			"id": "stats-promo",
+			"config": {
+				"items": [
+					{
+						"value": "15%",
+						"label": {
+							"nl": "Korting",
+							"fr": "Réduction",
+							"en": "Discount"
+						}
+					},
+					{
+						"value": "3+",
+						"label": {
+							"nl": "Pakken",
+							"fr": "Costumes",
+							"en": "Suits"
+						}
+					},
+					{
+						"value": "€320",
+						"label": {
+							"nl": "Vanaf prijs",
+							"fr": "À partir de",
+							"en": "Starting price"
+						}
+					},
+					{
+						"value": "200+",
+						"label": {
+							"nl": "Bruidegoms",
+							"fr": "Mariés",
+							"en": "Grooms"
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "features",
+			"id": "features-promo",
+			"title": {
+				"nl": "Waarom deze actie?",
+				"fr": "Pourquoi cette promotion?",
+				"en": "Why this promotion?"
+			},
+			"background": "dark",
+			"animation": "stagger",
+			"config": {
+				"columns": 3,
+				"style": "cards",
+				"items": [
+					{
+						"icon": "users",
+						"title": {
+							"nl": "Perfect voor Groepen",
+							"fr": "Parfait pour les Groupes",
+							"en": "Perfect for Groups"
+						},
+						"description": {
+							"nl": "Bruidegom, getuigen en familie samen gekleed in stijl.",
+							"fr": "Marié, témoins et famille habillés ensemble avec style.",
+							"en": "Groom, groomsmen and family dressed together in style."
+						}
+					},
+					{
+						"icon": "money",
+						"title": {
+							"nl": "Bespaar Tot €150",
+							"fr": "Économisez Jusqu'à €150",
+							"en": "Save Up To €150"
+						},
+						"description": {
+							"nl": "Bij 3 pakken van €320 bespaart u al €144.",
+							"fr": "Pour 3 costumes de €320, vous économisez déjà €144.",
+							"en": "With 3 suits of €320, you already save €144."
+						}
+					},
+					{
+						"icon": "checkmark",
+						"title": {
+							"nl": "Premium Kwaliteit",
+							"fr": "Qualité Premium",
+							"en": "Premium Quality"
+						},
+						"description": {
+							"nl": "Geen compromis op kwaliteit, wel op prijs.",
+							"fr": "Pas de compromis sur la qualité, seulement sur le prix.",
+							"en": "No compromise on quality, only on price."
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "products",
+			"id": "products-wedding",
+			"title": {
+				"nl": "Trouwcollectie",
+				"fr": "Collection Mariage",
+				"en": "Wedding Collection"
+			},
+			"subtitle": {
+				"nl": "Nu met 15% korting bij 3+ pakken",
+				"fr": "Maintenant avec 15% de réduction pour 3+ costumes",
+				"en": "Now with 15% off for 3+ suits"
+			},
+			"background": "secondary",
+			"config": {
+				"collection": "Wedding-Suits",
+				"limit": 8,
+				"style": "grid",
+				"columns": 4,
+				"showPrice": true
+			}
+		},
+		{
+			"type": "stores",
+			"id": "stores-all",
+			"title": {
+				"nl": "Bezoek ons",
+				"fr": "Visitez-nous",
+				"en": "Visit us"
+			},
+			"subtitle": {
+				"nl": "Kom samen met uw groep voor een exclusieve fitting ervaring.",
+				"fr": "Venez avec votre groupe pour une expérience d'essayage exclusive.",
+				"en": "Come with your group for an exclusive fitting experience."
+			},
+			"background": "primary",
+			"config": {
+				"locations": ["brasschaat", "genk"],
+				"style": "cards",
+				"showMap": true,
+				"showHours": true,
+				"showWhatsApp": true
+			}
+		},
+		{
+			"type": "cta",
+			"id": "cta-final",
+			"background": "dark",
+			"config": {
+				"title": {
+					"nl": "Klaar om te profiteren?",
+					"fr": "Prêt à en profiter?",
+					"en": "Ready to benefit?"
+				},
+				"subtitle": {
+					"nl": "Boek nu uw afspraak en profiteer van 15% groepskorting.",
+					"fr": "Réservez maintenant votre rendez-vous et profitez de 15% de réduction.",
+					"en": "Book your appointment now and get 15% group discount."
+				},
+				"button": {
+					"text": {
+						"nl": "Afspraak maken",
+						"fr": "Prendre rendez-vous",
+						"en": "Book appointment"
+					},
+					"style": "solid"
+				}
+			}
+		}
+	],
+	"collections": ["Wedding-Suits", "All-Suits"],
+	"store": {
+		"locations": ["brasschaat", "genk"],
+		"showMap": true,
+		"showHours": true,
+		"showWhatsApp": true
+	},
+	"campaign": "trouwpak-actie"
+}

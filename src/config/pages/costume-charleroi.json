@@ -1,0 +1,244 @@
+{
+	"slug": "costume-charleroi",
+	"template": "location",
+	"channels": ["belgium-channel", "netherlands-channel", "nl", "fr", "en"],
+	"theme": {
+		"mode": "light",
+		"primary": "#1a1a1a",
+		"secondary": "#444444",
+		"background": "#f8f7f5"
+	},
+	"seo": {
+		"title": {
+			"fr": "Costume sur Mesure Charleroi - Costumes Homme Premium à partir de €320 | Pomandi",
+			"nl": "Maatpak Charleroi - Premium Herenkostuums vanaf €320 | Pomandi",
+			"en": "Custom Suit Charleroi - Premium Men's Suits from €320 | Pomandi"
+		},
+		"description": {
+			"fr": "Vous cherchez un costume sur mesure à Charleroi? Pomandi propose des costumes homme premium de style italien à partir de €320. Costumes de mariage, costumes d'affaires.",
+			"nl": "Op zoek naar een maatpak in Charleroi? Pomandi biedt premium herenkostuums vanaf €320.",
+			"en": "Looking for a custom suit in Charleroi? Pomandi offers premium Italian-style men's suits from €320."
+		},
+		"keywords": ["costume charleroi", "costume sur mesure charleroi", "costume homme charleroi", "costume mariage charleroi"],
+		"canonical": "https://www.pomandi.com/fr/costume-charleroi",
+		"ogImage": "/1.png"
+	},
+	"hero": {
+		"type": "split",
+		"title": {
+			"fr": "Habillé pour l'instant,",
+			"nl": "Gekleed voor het moment,",
+			"en": "Dressed for the moment,"
+		},
+		"titleHighlight": {
+			"fr": "mémorable pour toujours.",
+			"nl": "herinnerd voor altijd.",
+			"en": "remembered forever."
+		},
+		"subtitle": {
+			"fr": "Découvrez notre collection de costumes homme premium de style italien. Nos magasins sont facilement accessibles depuis Charleroi.",
+			"nl": "Ontdek onze collectie premium herenkostuums in Italiaanse stijl.",
+			"en": "Discover our collection of premium Italian-style men's suits."
+		},
+		"tagline": {
+			"fr": "Pomandi - Accessible depuis Charleroi",
+			"nl": "Pomandi - Bereikbaar vanuit Charleroi",
+			"en": "Pomandi - Accessible from Charleroi"
+		},
+		"images": ["/1.png", "/2.png", "/3.png", "/4.png"],
+		"animation": "fade-in-up",
+		"cta": {
+			"primary": {
+				"text": {
+					"fr": "Prendre rendez-vous",
+					"nl": "Afspraak maken",
+					"en": "Book appointment"
+				},
+				"style": "solid"
+			},
+			"secondary": {
+				"text": {
+					"fr": "Voir la collection",
+					"nl": "Bekijk collectie",
+					"en": "View collection"
+				},
+				"style": "outline"
+			}
+		}
+	},
+	"sections": [
+		{
+			"type": "stats",
+			"id": "stats-usp",
+			"config": {
+				"items": [
+					{
+						"value": "€320",
+						"label": {
+							"fr": "À partir de",
+							"nl": "Vanaf prijs",
+							"en": "Starting price"
+						}
+					},
+					{
+						"value": "15 jours",
+						"label": {
+							"fr": "Délai de livraison",
+							"nl": "Levertijd",
+							"en": "Delivery time"
+						}
+					},
+					{
+						"value": "500+",
+						"label": {
+							"fr": "Clients satisfaits",
+							"nl": "Tevreden klanten",
+							"en": "Happy customers"
+						}
+					},
+					{
+						"value": "4.9/5",
+						"label": {
+							"fr": "Avis Google",
+							"nl": "Google reviews",
+							"en": "Google reviews"
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "products",
+			"id": "products-all",
+			"title": {
+				"fr": "Tous les Costumes",
+				"nl": "Alle Pakken",
+				"en": "All Suits"
+			},
+			"subtitle": {
+				"fr": "Collection",
+				"nl": "Collectie",
+				"en": "Collection"
+			},
+			"background": "primary",
+			"config": {
+				"collection": "All-Suits",
+				"limit": 8,
+				"style": "grid",
+				"columns": 4,
+				"showPrice": true
+			}
+		},
+		{
+			"type": "features",
+			"id": "features-why",
+			"title": {
+				"fr": "Pourquoi Pomandi?",
+				"nl": "Waarom Pomandi?",
+				"en": "Why Pomandi?"
+			},
+			"background": "dark",
+			"animation": "stagger",
+			"config": {
+				"columns": 3,
+				"style": "cards",
+				"items": [
+					{
+						"icon": "checkmark",
+						"title": {
+							"fr": "Qualité Premium",
+							"nl": "Premium Kwaliteit",
+							"en": "Premium Quality"
+						},
+						"description": {
+							"fr": "Costumes de style italien avec souci du détail.",
+							"nl": "Kostuums in Italiaanse stijl met oog voor detail.",
+							"en": "Italian-style suits with attention to detail."
+						}
+					},
+					{
+						"icon": "users",
+						"title": {
+							"fr": "Service Personnalisé",
+							"nl": "Persoonlijke Service",
+							"en": "Personal Service"
+						},
+						"description": {
+							"fr": "Nos experts vous aident à trouver le costume parfait.",
+							"nl": "Onze experts helpen u het perfecte pak te vinden.",
+							"en": "Our experts help you find the perfect suit."
+						}
+					},
+					{
+						"icon": "money",
+						"title": {
+							"fr": "Prix Honnêtes",
+							"nl": "Eerlijke Prijzen",
+							"en": "Fair Prices"
+						},
+						"description": {
+							"fr": "Qualité premium à partir de €320.",
+							"nl": "Premium kwaliteit vanaf €320.",
+							"en": "Premium quality from €320."
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "stores",
+			"id": "stores-all",
+			"title": {
+				"fr": "Visitez-nous",
+				"nl": "Bezoek ons",
+				"en": "Visit us"
+			},
+			"subtitle": {
+				"fr": "Nos deux magasins sont accessibles depuis Charleroi. Brasschaat via l'E19, Genk via l'E42/E313.",
+				"nl": "Onze winkels zijn bereikbaar vanuit Charleroi.",
+				"en": "Our stores are accessible from Charleroi."
+			},
+			"background": "primary",
+			"config": {
+				"locations": ["brasschaat", "genk"],
+				"style": "cards",
+				"showMap": true,
+				"showHours": true,
+				"showWhatsApp": true
+			}
+		},
+		{
+			"type": "cta",
+			"id": "cta-final",
+			"background": "dark",
+			"config": {
+				"title": {
+					"fr": "Prêt pour votre costume parfait?",
+					"nl": "Klaar voor uw perfecte pak?",
+					"en": "Ready for your perfect suit?"
+				},
+				"subtitle": {
+					"fr": "Prenez rendez-vous et découvrez notre collection.",
+					"nl": "Boek een afspraak en ontdek onze collectie.",
+					"en": "Book an appointment and discover our collection."
+				},
+				"button": {
+					"text": {
+						"fr": "Prendre rendez-vous",
+						"nl": "Afspraak maken",
+						"en": "Book appointment"
+					},
+					"style": "solid"
+				}
+			}
+		}
+	],
+	"collections": ["All-Suits", "Wedding-Suits"],
+	"store": {
+		"locations": ["brasschaat", "genk"],
+		"showMap": true,
+		"showHours": true,
+		"showWhatsApp": true
+	},
+	"campaign": "costume-charleroi"
+}

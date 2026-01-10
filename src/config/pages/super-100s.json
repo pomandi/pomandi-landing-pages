@@ -1,0 +1,249 @@
+{
+	"slug": "super-100s",
+	"template": "promo",
+	"channels": ["belgium-channel", "netherlands-channel", "nl", "fr", "en"],
+	"theme": {
+		"mode": "light",
+		"primary": "#1a1a1a",
+		"secondary": "#c0a062",
+		"background": "#f8f7f5"
+	},
+	"seo": {
+		"title": {
+			"nl": "Super 100s Wol Pakken - Premium Italiaanse Stoffen | Pomandi",
+			"fr": "Costumes Super 100s Laine - Tissus Italiens Premium | Pomandi",
+			"en": "Super 100s Wool Suits - Premium Italian Fabrics | Pomandi"
+		},
+		"description": {
+			"nl": "Ontdek onze Super 100s wol pakken. Premium Italiaanse stoffen, zachte finish, duurzame kwaliteit. Het perfecte zakenpak. Vanaf €320.",
+			"fr": "Découvrez nos costumes Super 100s en laine. Tissus italiens premium, finition douce, qualité durable.",
+			"en": "Discover our Super 100s wool suits. Premium Italian fabrics, soft finish, durable quality. The perfect business suit. From €320."
+		},
+		"keywords": ["super 100s pak", "wol pak", "italiaans pak", "premium pak", "zakenpak"],
+		"canonical": "https://www.pomandi.com/nl/super-100s",
+		"ogImage": "/1.png"
+	},
+	"hero": {
+		"type": "split",
+		"title": {
+			"nl": "Super 100s",
+			"fr": "Super 100s",
+			"en": "Super 100s"
+		},
+		"titleHighlight": {
+			"nl": "Premium Wol",
+			"fr": "Laine Premium",
+			"en": "Premium Wool"
+		},
+		"subtitle": {
+			"nl": "De gouden standaard in zakenpakken. Super 100s wol combineert zachtheid, duurzaamheid en elegantie in één premium stof.",
+			"fr": "La référence des costumes d'affaires. La laine Super 100s combine douceur, durabilité et élégance dans un tissu premium.",
+			"en": "The gold standard in business suits. Super 100s wool combines softness, durability and elegance in one premium fabric."
+		},
+		"tagline": {
+			"nl": "Italiaanse Stoffen",
+			"fr": "Tissus Italiens",
+			"en": "Italian Fabrics"
+		},
+		"images": ["/1.png", "/2.png", "/3.png", "/4.png"],
+		"animation": "fade-in-up",
+		"cta": {
+			"primary": {
+				"text": {
+					"nl": "Afspraak maken",
+					"fr": "Prendre rendez-vous",
+					"en": "Book appointment"
+				},
+				"style": "solid"
+			},
+			"secondary": {
+				"text": {
+					"nl": "Bekijk collectie",
+					"fr": "Voir la collection",
+					"en": "View collection"
+				},
+				"style": "outline"
+			}
+		}
+	},
+	"sections": [
+		{
+			"type": "stats",
+			"id": "stats-super100s",
+			"config": {
+				"items": [
+					{
+						"value": "100s",
+						"label": {
+							"nl": "Super kwaliteit",
+							"fr": "Qualité Super",
+							"en": "Super quality"
+						}
+					},
+					{
+						"value": "18.5μ",
+						"label": {
+							"nl": "Vezeldikte",
+							"fr": "Épaisseur de fibre",
+							"en": "Fiber thickness"
+						}
+					},
+					{
+						"value": "€320",
+						"label": {
+							"nl": "Vanaf prijs",
+							"fr": "À partir de",
+							"en": "Starting price"
+						}
+					},
+					{
+						"value": "100%",
+						"label": {
+							"nl": "Pure wol",
+							"fr": "Pure laine",
+							"en": "Pure wool"
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "features",
+			"id": "features-super100s",
+			"title": {
+				"nl": "Waarom Super 100s?",
+				"fr": "Pourquoi Super 100s?",
+				"en": "Why Super 100s?"
+			},
+			"subtitle": {
+				"nl": "De wetenschap achter de perfecte stof",
+				"fr": "La science derrière le tissu parfait",
+				"en": "The science behind the perfect fabric"
+			},
+			"background": "dark",
+			"animation": "stagger",
+			"config": {
+				"columns": 3,
+				"style": "cards",
+				"items": [
+					{
+						"icon": "checkmark",
+						"title": {
+							"nl": "Zijdezacht",
+							"fr": "Doux comme de la Soie",
+							"en": "Silky Soft"
+						},
+						"description": {
+							"nl": "Fijne wolvezels voor een luxueus gevoel op de huid.",
+							"fr": "Fibres de laine fines pour une sensation luxueuse sur la peau.",
+							"en": "Fine wool fibers for a luxurious feel on the skin."
+						}
+					},
+					{
+						"icon": "ruler",
+						"title": {
+							"nl": "Ademend",
+							"fr": "Respirant",
+							"en": "Breathable"
+						},
+						"description": {
+							"nl": "Natuurlijke temperatuurregulatie voor comfort het hele jaar.",
+							"fr": "Régulation naturelle de la température pour un confort toute l'année.",
+							"en": "Natural temperature regulation for year-round comfort."
+						}
+					},
+					{
+						"icon": "money",
+						"title": {
+							"nl": "Duurzaam",
+							"fr": "Durable",
+							"en": "Durable"
+						},
+						"description": {
+							"nl": "Behoud van vorm en kleur, jaar na jaar.",
+							"fr": "Conservation de la forme et de la couleur, année après année.",
+							"en": "Retains shape and color, year after year."
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "products",
+			"id": "products-super100s",
+			"title": {
+				"nl": "Super 100s Collectie",
+				"fr": "Collection Super 100s",
+				"en": "Super 100s Collection"
+			},
+			"subtitle": {
+				"nl": "Premium Italiaanse stoffen",
+				"fr": "Tissus italiens premium",
+				"en": "Premium Italian fabrics"
+			},
+			"background": "secondary",
+			"config": {
+				"collection": "All-Suits",
+				"limit": 8,
+				"style": "grid",
+				"columns": 4,
+				"showPrice": true
+			}
+		},
+		{
+			"type": "stores",
+			"id": "stores-all",
+			"title": {
+				"nl": "Voel het Verschil",
+				"fr": "Ressentez la Différence",
+				"en": "Feel the Difference"
+			},
+			"subtitle": {
+				"nl": "Bezoek onze winkels en voel zelf de kwaliteit van Super 100s wol",
+				"fr": "Visitez nos magasins et ressentez vous-même la qualité de la laine Super 100s",
+				"en": "Visit our stores and feel the quality of Super 100s wool yourself"
+			},
+			"background": "primary",
+			"config": {
+				"locations": ["brasschaat", "genk"],
+				"style": "cards",
+				"showMap": true,
+				"showHours": true,
+				"showWhatsApp": true
+			}
+		},
+		{
+			"type": "cta",
+			"id": "cta-final",
+			"background": "dark",
+			"config": {
+				"title": {
+					"nl": "Klaar voor Premium Kwaliteit?",
+					"fr": "Prêt pour la Qualité Premium?",
+					"en": "Ready for Premium Quality?"
+				},
+				"subtitle": {
+					"nl": "Ontdek het verschil van Super 100s. Boek nu uw afspraak.",
+					"fr": "Découvrez la différence du Super 100s. Réservez votre rendez-vous.",
+					"en": "Discover the difference of Super 100s. Book your appointment now."
+				},
+				"button": {
+					"text": {
+						"nl": "Afspraak maken",
+						"fr": "Prendre rendez-vous",
+						"en": "Book appointment"
+					},
+					"style": "solid"
+				}
+			}
+		}
+	],
+	"collections": ["All-Suits", "Blue-Suits", "Black-Suits"],
+	"store": {
+		"locations": ["brasschaat", "genk"],
+		"showMap": true,
+		"showHours": true,
+		"showWhatsApp": true
+	},
+	"campaign": "super-100s"
+}

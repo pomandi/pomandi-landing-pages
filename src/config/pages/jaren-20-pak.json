@@ -1,0 +1,237 @@
+{
+	"slug": "jaren-20-pak",
+	"template": "style",
+	"channels": ["belgium-channel", "netherlands-channel", "nl", "fr", "en"],
+	"theme": {
+		"mode": "dark",
+		"primary": "#c0a062",
+		"secondary": "#d4af37",
+		"background": "#0a0a0a"
+	},
+	"seo": {
+		"title": {
+			"nl": "Jaren 20 Pak - Authentieke 1920s Style | Pomandi",
+			"fr": "Costume Années 20 - Style Authentique 1920s | Pomandi",
+			"en": "1920s Suit - Authentic Roaring Twenties Style | Pomandi"
+		},
+		"description": {
+			"nl": "Authentieke jaren 20 pakken in vintage stijl. Driedelige pakken, krijtstreepp, tweed. Gatsby en Peaky Blinders inspired. Vanaf €320.",
+			"fr": "Costumes authentiques des années 20 en style vintage. Costumes trois pièces, rayures, tweed. Inspiré par Gatsby et Peaky Blinders.",
+			"en": "Authentic 1920s suits in vintage style. Three-piece suits, pinstripe, tweed. Gatsby and Peaky Blinders inspired. From €320."
+		},
+		"keywords": ["jaren 20 pak", "1920s pak", "gatsby pak", "roaring twenties pak", "vintage pak"],
+		"canonical": "https://www.pomandi.com/nl/jaren-20-pak",
+		"ogImage": "/1.png"
+	},
+	"hero": {
+		"type": "split",
+		"title": {
+			"nl": "Jaren '20",
+			"fr": "Années '20",
+			"en": "Roaring '20s"
+		},
+		"titleHighlight": {
+			"nl": "The Golden Age",
+			"fr": "L'Âge d'Or",
+			"en": "The Golden Age"
+		},
+		"subtitle": {
+			"nl": "De roaring twenties leven voort. Ontdek onze collectie authentieke jaren 20 pakken met alle iconische details.",
+			"fr": "Les années folles vivent encore. Découvrez notre collection de costumes authentiques des années 20.",
+			"en": "The roaring twenties live on. Discover our collection of authentic 1920s suits with all the iconic details."
+		},
+		"tagline": {
+			"nl": "Est. 1920",
+			"fr": "Est. 1920",
+			"en": "Est. 1920"
+		},
+		"images": ["/1.png", "/2.png", "/3.png", "/4.png"],
+		"overlay": "grain",
+		"animation": "fade-in-up",
+		"cta": {
+			"primary": {
+				"text": {
+					"nl": "Afspraak maken",
+					"fr": "Prendre rendez-vous",
+					"en": "Book appointment"
+				},
+				"style": "solid"
+			},
+			"secondary": {
+				"text": {
+					"nl": "Bekijk collectie",
+					"fr": "Voir la collection",
+					"en": "View collection"
+				},
+				"style": "outline"
+			}
+		}
+	},
+	"sections": [
+		{
+			"type": "quote",
+			"id": "quote-gatsby",
+			"animation": "fade-in",
+			"background": "dark",
+			"config": {
+				"text": {
+					"nl": "Hij had een van die zeldzame glimlachen met een kwaliteit van eeuwige geruststelling.",
+					"fr": "Il avait un de ces rares sourires avec une qualité de réassurance éternelle.",
+					"en": "He had one of those rare smiles with a quality of eternal reassurance."
+				},
+				"author": {
+					"nl": "F. Scott Fitzgerald, The Great Gatsby",
+					"fr": "F. Scott Fitzgerald, Gatsby le Magnifique",
+					"en": "F. Scott Fitzgerald, The Great Gatsby"
+				},
+				"style": "centered"
+			}
+		},
+		{
+			"type": "features",
+			"id": "features-1920s",
+			"title": {
+				"nl": "De Jaren 20 Stijl",
+				"fr": "Le Style des Années 20",
+				"en": "The 1920s Style"
+			},
+			"background": "dark",
+			"animation": "stagger",
+			"config": {
+				"columns": 4,
+				"style": "cards",
+				"items": [
+					{
+						"icon": "checkmark",
+						"title": {
+							"nl": "Driedelig Pak",
+							"fr": "Costume Trois Pièces",
+							"en": "Three-Piece Suit"
+						},
+						"description": {
+							"nl": "Het iconische driedelige pak van de jaren 20.",
+							"fr": "Le costume trois pièces iconique des années 20.",
+							"en": "The iconic three-piece suit of the 1920s."
+						}
+					},
+					{
+						"icon": "ruler",
+						"title": {
+							"nl": "Krijtstreepp",
+							"fr": "Rayures Tennis",
+							"en": "Pinstripe"
+						},
+						"description": {
+							"nl": "Klassieke krijtstreepp patronen.",
+							"fr": "Motifs classiques à rayures tennis.",
+							"en": "Classic pinstripe patterns."
+						}
+					},
+					{
+						"icon": "users",
+						"title": {
+							"nl": "Vintage Details",
+							"fr": "Détails Vintage",
+							"en": "Vintage Details"
+						},
+						"description": {
+							"nl": "Authentieke details uit de jaren 20.",
+							"fr": "Détails authentiques des années 20.",
+							"en": "Authentic details from the 1920s."
+						}
+					},
+					{
+						"icon": "money",
+						"title": {
+							"nl": "Accessoires",
+							"fr": "Accessoires",
+							"en": "Accessories"
+						},
+						"description": {
+							"nl": "Bretels, zakhorloge en platte pet.",
+							"fr": "Bretelles, montre de poche et casquette.",
+							"en": "Suspenders, pocket watch and flat cap."
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "products",
+			"id": "products-vintage",
+			"title": {
+				"nl": "Jaren 20 Collectie",
+				"fr": "Collection Années 20",
+				"en": "1920s Collection"
+			},
+			"subtitle": {
+				"nl": "Collectie",
+				"fr": "Collection",
+				"en": "Collection"
+			},
+			"background": "secondary",
+			"config": {
+				"collection": "peaky-blinders-historische-outfits",
+				"limit": 8,
+				"style": "grid",
+				"columns": 4,
+				"showPrice": true
+			}
+		},
+		{
+			"type": "stores",
+			"id": "stores-all",
+			"title": {
+				"nl": "Stap Terug in de Tijd",
+				"fr": "Remontez le Temps",
+				"en": "Step Back in Time"
+			},
+			"subtitle": {
+				"nl": "Bezoek onze winkels voor de complete jaren 20 ervaring",
+				"fr": "Visitez nos magasins pour l'expérience complète des années 20",
+				"en": "Visit our stores for the complete 1920s experience"
+			},
+			"background": "secondary",
+			"config": {
+				"locations": ["brasschaat", "genk"],
+				"style": "cards",
+				"showMap": false,
+				"showHours": true,
+				"showWhatsApp": true
+			}
+		},
+		{
+			"type": "cta",
+			"id": "cta-final",
+			"background": "dark",
+			"config": {
+				"title": {
+					"nl": "Klaar voor de Roaring Twenties?",
+					"fr": "Prêt pour les Années Folles?",
+					"en": "Ready for the Roaring Twenties?"
+				},
+				"subtitle": {
+					"nl": "Kleed je als een Gatsby. Boek nu uw afspraak.",
+					"fr": "Habillez-vous comme un Gatsby. Réservez votre rendez-vous.",
+					"en": "Dress like a Gatsby. Book your appointment now."
+				},
+				"button": {
+					"text": {
+						"nl": "Afspraak maken",
+						"fr": "Prendre rendez-vous",
+						"en": "Book appointment"
+					},
+					"style": "solid"
+				}
+			}
+		}
+	],
+	"collections": ["peaky-blinders-historische-outfits"],
+	"store": {
+		"locations": ["brasschaat", "genk"],
+		"showMap": true,
+		"showHours": true,
+		"showWhatsApp": true
+	},
+	"campaign": "jaren-20-pak"
+}

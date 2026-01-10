@@ -1,0 +1,287 @@
+{
+	"slug": "driedelig-pak",
+	"template": "style",
+	"channels": ["belgium-channel", "netherlands-channel", "nl", "fr", "en"],
+	"theme": {
+		"mode": "dark",
+		"primary": "#c0a062",
+		"secondary": "#d4af37",
+		"background": "#0a0a0a"
+	},
+	"seo": {
+		"title": {
+			"nl": "Driedelig Pak - Premium Herenkostuum met Vest | Pomandi",
+			"fr": "Costume Trois Pièces - Costume Homme Premium avec Gilet | Pomandi",
+			"en": "Three-Piece Suit - Premium Men's Suit with Waistcoat | Pomandi"
+		},
+		"description": {
+			"nl": "Premium driedelige pakken met vest. De ultieme gentleman look. Klassiek, modern of vintage stijl. Vanaf €420 inclusief vest.",
+			"fr": "Costumes trois pièces premium avec gilet. Le look ultime du gentleman. Style classique, moderne ou vintage.",
+			"en": "Premium three-piece suits with waistcoat. The ultimate gentleman look. Classic, modern or vintage style. From €420 including waistcoat."
+		},
+		"keywords": ["driedelig pak", "pak met vest", "three piece suit", "gentleman pak", "kostuum met vest"],
+		"canonical": "https://www.pomandi.com/nl/driedelig-pak",
+		"ogImage": "/1.png"
+	},
+	"hero": {
+		"type": "split",
+		"title": {
+			"nl": "Driedelig",
+			"fr": "Trois Pièces",
+			"en": "Three-Piece"
+		},
+		"titleHighlight": {
+			"nl": "De Complete Gentleman",
+			"fr": "Le Gentleman Complet",
+			"en": "The Complete Gentleman"
+		},
+		"subtitle": {
+			"nl": "Jasje, vest en broek - de ultieme combinatie voor de moderne gentleman. Een driedelig pak straalt klasse en verfijning uit.",
+			"fr": "Veste, gilet et pantalon - la combinaison ultime pour le gentleman moderne. Un costume trois pièces dégage classe et raffinement.",
+			"en": "Jacket, waistcoat and trousers - the ultimate combination for the modern gentleman. A three-piece suit exudes class and refinement."
+		},
+		"tagline": {
+			"nl": "Jasje + Vest + Broek",
+			"fr": "Veste + Gilet + Pantalon",
+			"en": "Jacket + Waistcoat + Trousers"
+		},
+		"images": ["/1.png", "/2.png", "/3.png", "/4.png"],
+		"overlay": "grain",
+		"animation": "fade-in-up",
+		"cta": {
+			"primary": {
+				"text": {
+					"nl": "Afspraak maken",
+					"fr": "Prendre rendez-vous",
+					"en": "Book appointment"
+				},
+				"style": "solid"
+			},
+			"secondary": {
+				"text": {
+					"nl": "Bekijk collectie",
+					"fr": "Voir la collection",
+					"en": "View collection"
+				},
+				"style": "outline"
+			}
+		}
+	},
+	"sections": [
+		{
+			"type": "quote",
+			"id": "quote-three-piece",
+			"animation": "fade-in",
+			"background": "dark",
+			"config": {
+				"text": {
+					"nl": "Een driedelig pak is niet overdressed - het is perfect gekleed.",
+					"fr": "Un costume trois pièces n'est pas trop habillé - c'est parfaitement habillé.",
+					"en": "A three-piece suit isn't overdressed - it's perfectly dressed."
+				},
+				"author": {
+					"nl": "The Gentleman's Handbook",
+					"fr": "Le Manuel du Gentleman",
+					"en": "The Gentleman's Handbook"
+				},
+				"style": "centered"
+			}
+		},
+		{
+			"type": "features",
+			"id": "features-three-piece",
+			"title": {
+				"nl": "Waarom Driedelig?",
+				"fr": "Pourquoi Trois Pièces?",
+				"en": "Why Three-Piece?"
+			},
+			"background": "dark",
+			"animation": "stagger",
+			"config": {
+				"columns": 4,
+				"style": "cards",
+				"items": [
+					{
+						"icon": "checkmark",
+						"title": {
+							"nl": "Veelzijdig",
+							"fr": "Polyvalent",
+							"en": "Versatile"
+						},
+						"description": {
+							"nl": "Draag alle drie, of combineer vest of jasje apart.",
+							"fr": "Portez les trois, ou combinez gilet ou veste séparément.",
+							"en": "Wear all three, or combine waistcoat or jacket separately."
+						}
+					},
+					{
+						"icon": "ruler",
+						"title": {
+							"nl": "Slank Silhouet",
+							"fr": "Silhouette Élancée",
+							"en": "Slim Silhouette"
+						},
+						"description": {
+							"nl": "Het vest creëert een gestroomlijnd silhouet.",
+							"fr": "Le gilet crée une silhouette élancée.",
+							"en": "The waistcoat creates a streamlined silhouette."
+						}
+					},
+					{
+						"icon": "users",
+						"title": {
+							"nl": "Formeel & Casual",
+							"fr": "Formel & Décontracté",
+							"en": "Formal & Casual"
+						},
+						"description": {
+							"nl": "Perfect voor zakelijk en speciale gelegenheden.",
+							"fr": "Parfait pour les affaires et les occasions spéciales.",
+							"en": "Perfect for business and special occasions."
+						}
+					},
+					{
+						"icon": "money",
+						"title": {
+							"nl": "Vanaf €420",
+							"fr": "À partir de €420",
+							"en": "From €420"
+						},
+						"description": {
+							"nl": "Premium driedelig pak inclusief vest.",
+							"fr": "Costume trois pièces premium avec gilet inclus.",
+							"en": "Premium three-piece suit including waistcoat."
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "products",
+			"id": "products-three-piece",
+			"title": {
+				"nl": "Driedelige Collectie",
+				"fr": "Collection Trois Pièces",
+				"en": "Three-Piece Collection"
+			},
+			"subtitle": {
+				"nl": "Collectie",
+				"fr": "Collection",
+				"en": "Collection"
+			},
+			"background": "secondary",
+			"config": {
+				"collection": "All-Suits",
+				"limit": 8,
+				"style": "grid",
+				"columns": 4,
+				"showPrice": true
+			}
+		},
+		{
+			"type": "pricing",
+			"id": "pricing-three-piece",
+			"title": {
+				"nl": "Transparante Prijzen",
+				"fr": "Prix Transparents",
+				"en": "Transparent Pricing"
+			},
+			"subtitle": {
+				"nl": "Geen verrassingen, geen verborgen kosten",
+				"fr": "Pas de surprises, pas de frais cachés",
+				"en": "No surprises, no hidden costs"
+			},
+			"background": "dark",
+			"config": {
+				"items": [
+					{
+						"name": {
+							"nl": "Driedelig Pak (Jasje + Vest + Broek)",
+							"fr": "Costume Trois Pièces (Veste + Gilet + Pantalon)",
+							"en": "Three-Piece Suit (Jacket + Waistcoat + Trousers)"
+						},
+						"price": "vanaf €420",
+						"description": {
+							"nl": "Premium stoffen, perfecte pasvorm",
+							"fr": "Tissus premium, coupe parfaite",
+							"en": "Premium fabrics, perfect fit"
+						}
+					},
+					{
+						"name": {
+							"nl": "Tweedelig Pak (Jasje + Broek)",
+							"fr": "Costume Deux Pièces (Veste + Pantalon)",
+							"en": "Two-Piece Suit (Jacket + Trousers)"
+						},
+						"price": "vanaf €320",
+						"description": {
+							"nl": "Klassiek tweedelig alternatief",
+							"fr": "Alternative classique deux pièces",
+							"en": "Classic two-piece alternative"
+						}
+					}
+				],
+				"note": {
+					"nl": "Alle prijzen inclusief basis aanpassingen",
+					"fr": "Tous les prix incluent les ajustements de base",
+					"en": "All prices include basic alterations"
+				}
+			}
+		},
+		{
+			"type": "stores",
+			"id": "stores-all",
+			"title": {
+				"nl": "Bezoek onze Winkels",
+				"fr": "Visitez nos Magasins",
+				"en": "Visit our Stores"
+			},
+			"subtitle": {
+				"nl": "Ontdek de complete driedelige collectie",
+				"fr": "Découvrez la collection trois pièces complète",
+				"en": "Discover the complete three-piece collection"
+			},
+			"background": "secondary",
+			"config": {
+				"locations": ["brasschaat", "genk"],
+				"style": "cards",
+				"showMap": false,
+				"showHours": true,
+				"showWhatsApp": true
+			}
+		},
+		{
+			"type": "cta",
+			"id": "cta-final",
+			"background": "dark",
+			"config": {
+				"title": {
+					"nl": "Klaar voor de Complete Look?",
+					"fr": "Prêt pour le Look Complet?",
+					"en": "Ready for the Complete Look?"
+				},
+				"subtitle": {
+					"nl": "Word een gentleman. Boek nu uw afspraak.",
+					"fr": "Devenez un gentleman. Réservez votre rendez-vous.",
+					"en": "Become a gentleman. Book your appointment now."
+				},
+				"button": {
+					"text": {
+						"nl": "Afspraak maken",
+						"fr": "Prendre rendez-vous",
+						"en": "Book appointment"
+					},
+					"style": "solid"
+				}
+			}
+		}
+	],
+	"collections": ["All-Suits", "peaky-blinders-historische-outfits"],
+	"store": {
+		"locations": ["brasschaat", "genk"],
+		"showMap": true,
+		"showHours": true,
+		"showWhatsApp": true
+	},
+	"campaign": "driedelig-pak"
+}

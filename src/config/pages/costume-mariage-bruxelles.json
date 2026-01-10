@@ -1,0 +1,244 @@
+{
+	"slug": "costume-mariage-bruxelles",
+	"template": "location",
+	"channels": ["belgium-channel", "netherlands-channel", "nl", "fr", "en"],
+	"theme": {
+		"mode": "light",
+		"primary": "#1a1a1a",
+		"secondary": "#444444",
+		"background": "#f8f7f5"
+	},
+	"seo": {
+		"title": {
+			"fr": "Costume de Mariage Bruxelles - Costumes de Mariage Premium à partir de €320 | Pomandi",
+			"nl": "Trouwpak Brussel - Premium Trouwkostuums vanaf €320 | Pomandi",
+			"en": "Wedding Suit Brussels - Premium Wedding Suits from €320 | Pomandi"
+		},
+		"description": {
+			"fr": "Vous cherchez un costume de mariage à Bruxelles? Pomandi propose des costumes de mariage premium de style italien à partir de €320. Réductions groupe disponibles.",
+			"nl": "Op zoek naar een trouwpak in Brussel? Pomandi biedt premium trouwkostuums vanaf €320.",
+			"en": "Looking for a wedding suit in Brussels? Pomandi offers premium Italian-style wedding suits from €320."
+		},
+		"keywords": ["costume mariage bruxelles", "costume marié bruxelles", "tenue mariage homme bruxelles"],
+		"canonical": "https://www.pomandi.com/fr/costume-mariage-bruxelles",
+		"ogImage": "/1.png"
+	},
+	"hero": {
+		"type": "split",
+		"title": {
+			"fr": "Votre parfait",
+			"nl": "Uw perfecte",
+			"en": "Your perfect"
+		},
+		"titleHighlight": {
+			"fr": "costume de mariage.",
+			"nl": "trouwpak.",
+			"en": "wedding suit."
+		},
+		"subtitle": {
+			"fr": "Faites de votre jour de mariage une expérience inoubliable avec un costume qui vous va parfaitement. Costumes de mariage premium à partir de €320.",
+			"nl": "Maak van uw trouwdag een onvergetelijke ervaring met een pak dat perfect bij u past.",
+			"en": "Make your wedding day an unforgettable experience with a suit that fits you perfectly."
+		},
+		"tagline": {
+			"fr": "Pomandi - Proche de Bruxelles",
+			"nl": "Pomandi - Dichtbij Brussel",
+			"en": "Pomandi - Near Brussels"
+		},
+		"images": ["/1.png", "/2.png", "/3.png", "/4.png"],
+		"animation": "fade-in-up",
+		"cta": {
+			"primary": {
+				"text": {
+					"fr": "Prendre rendez-vous",
+					"nl": "Afspraak maken",
+					"en": "Book appointment"
+				},
+				"style": "solid"
+			},
+			"secondary": {
+				"text": {
+					"fr": "Voir la collection mariage",
+					"nl": "Bekijk trouwcollectie",
+					"en": "View wedding collection"
+				},
+				"style": "outline"
+			}
+		}
+	},
+	"sections": [
+		{
+			"type": "stats",
+			"id": "stats-wedding",
+			"config": {
+				"items": [
+					{
+						"value": "€320",
+						"label": {
+							"fr": "À partir de",
+							"nl": "Vanaf prijs",
+							"en": "Starting price"
+						}
+					},
+					{
+						"value": "15%",
+						"label": {
+							"fr": "Réduction groupe",
+							"nl": "Groepskorting",
+							"en": "Group discount"
+						}
+					},
+					{
+						"value": "200+",
+						"label": {
+							"fr": "Mariés",
+							"nl": "Bruidegoms",
+							"en": "Grooms"
+						}
+					},
+					{
+						"value": "4.9/5",
+						"label": {
+							"fr": "Avis Google",
+							"nl": "Google reviews",
+							"en": "Google reviews"
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "products",
+			"id": "products-wedding",
+			"title": {
+				"fr": "Collection Mariage",
+				"nl": "Trouwcollectie",
+				"en": "Wedding Collection"
+			},
+			"subtitle": {
+				"fr": "Costumes de mariage premium",
+				"nl": "Premium trouwpakken",
+				"en": "Premium wedding suits"
+			},
+			"background": "primary",
+			"config": {
+				"collection": "Wedding-Suits",
+				"limit": 8,
+				"style": "grid",
+				"columns": 4,
+				"showPrice": true
+			}
+		},
+		{
+			"type": "features",
+			"id": "features-wedding",
+			"title": {
+				"fr": "Pourquoi Pomandi pour votre mariage?",
+				"nl": "Waarom Pomandi voor uw trouwdag?",
+				"en": "Why Pomandi for your wedding?"
+			},
+			"background": "dark",
+			"animation": "stagger",
+			"config": {
+				"columns": 3,
+				"style": "cards",
+				"items": [
+					{
+						"icon": "users",
+						"title": {
+							"fr": "Réductions Groupe",
+							"nl": "Groepskortingen",
+							"en": "Group Discounts"
+						},
+						"description": {
+							"fr": "15% de réduction pour 3+ costumes. Idéal pour le marié, témoins et famille.",
+							"nl": "15% korting bij 3+ pakken.",
+							"en": "15% discount for 3+ suits."
+						}
+					},
+					{
+						"icon": "checkmark",
+						"title": {
+							"fr": "Conseils Personnalisés",
+							"nl": "Persoonlijk Advies",
+							"en": "Personal Advice"
+						},
+						"description": {
+							"fr": "Nos experts vous aident à trouver le look parfait qui correspond à votre thème.",
+							"nl": "Onze experts helpen u de perfecte look te vinden.",
+							"en": "Our experts help you find the perfect look."
+						}
+					},
+					{
+						"icon": "money",
+						"title": {
+							"fr": "Qualité Premium",
+							"nl": "Premium Kwaliteit",
+							"en": "Premium Quality"
+						},
+						"description": {
+							"fr": "Style italien et artisanat. Des photos qui durent toute une vie.",
+							"nl": "Italiaanse stijl en vakmanschap.",
+							"en": "Italian style and craftsmanship."
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "stores",
+			"id": "stores-all",
+			"title": {
+				"fr": "Visitez-nous",
+				"nl": "Bezoek ons",
+				"en": "Visit us"
+			},
+			"subtitle": {
+				"fr": "Venez avec votre partenaire, témoins ou famille pour une expérience d'essayage exclusive.",
+				"nl": "Kom samen met uw partner, getuigen of familie.",
+				"en": "Come with your partner, groomsmen or family."
+			},
+			"background": "primary",
+			"config": {
+				"locations": ["brasschaat", "genk"],
+				"style": "cards",
+				"showMap": true,
+				"showHours": true,
+				"showWhatsApp": true
+			}
+		},
+		{
+			"type": "cta",
+			"id": "cta-final",
+			"background": "dark",
+			"config": {
+				"title": {
+					"fr": "Prêt pour votre costume de mariage parfait?",
+					"nl": "Klaar voor uw perfecte trouwpak?",
+					"en": "Ready for your perfect wedding suit?"
+				},
+				"subtitle": {
+					"fr": "Prenez rendez-vous et découvrez notre collection de mariage exclusive.",
+					"nl": "Boek een afspraak en ontdek onze exclusieve trouwcollectie.",
+					"en": "Book an appointment and discover our exclusive wedding collection."
+				},
+				"button": {
+					"text": {
+						"fr": "Prendre rendez-vous",
+						"nl": "Afspraak maken",
+						"en": "Book appointment"
+					},
+					"style": "solid"
+				}
+			}
+		}
+	],
+	"collections": ["Wedding-Suits", "All-Suits"],
+	"store": {
+		"locations": ["brasschaat", "genk"],
+		"showMap": true,
+		"showHours": true,
+		"showWhatsApp": true
+	},
+	"campaign": "costume-mariage-bruxelles"
+}

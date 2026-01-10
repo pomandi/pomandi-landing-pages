@@ -1,0 +1,244 @@
+{
+	"slug": "maatpak-kortrijk",
+	"template": "location",
+	"channels": ["belgium-channel", "netherlands-channel", "nl", "fr", "en"],
+	"theme": {
+		"mode": "light",
+		"primary": "#1a1a1a",
+		"secondary": "#444444",
+		"background": "#f8f7f5"
+	},
+	"seo": {
+		"title": {
+			"nl": "Maatpak Kortrijk - Premium Herenkostuums vanaf €320 | Pomandi",
+			"fr": "Costume sur Mesure Courtrai - Costumes Homme Premium à partir de €320 | Pomandi",
+			"en": "Custom Suit Kortrijk - Premium Men's Suits from €320 | Pomandi"
+		},
+		"description": {
+			"nl": "Op zoek naar een maatpak in Kortrijk? Pomandi biedt premium herenkostuums in Italiaanse stijl vanaf €320. Trouwpakken, zakelijke pakken, perfecte pasvorm.",
+			"fr": "Vous cherchez un costume sur mesure à Courtrai? Pomandi propose des costumes homme premium de style italien à partir de €320.",
+			"en": "Looking for a custom suit in Kortrijk? Pomandi offers premium Italian-style men's suits from €320."
+		},
+		"keywords": ["maatpak kortrijk", "herenpak kortrijk", "kostuum kortrijk", "trouwpak kortrijk"],
+		"canonical": "https://www.pomandi.com/nl/maatpak-kortrijk",
+		"ogImage": "/1.png"
+	},
+	"hero": {
+		"type": "split",
+		"title": {
+			"nl": "Gekleed voor het moment,",
+			"fr": "Habillé pour l'instant,",
+			"en": "Dressed for the moment,"
+		},
+		"titleHighlight": {
+			"nl": "herinnerd voor altijd.",
+			"fr": "mémorable pour toujours.",
+			"en": "remembered forever."
+		},
+		"subtitle": {
+			"nl": "Ontdek onze collectie premium herenkostuums in Italiaanse stijl. Van trouwpakken tot zakelijke pakken - wij helpen u de perfecte look te vinden.",
+			"fr": "Découvrez notre collection de costumes homme premium de style italien.",
+			"en": "Discover our collection of premium Italian-style men's suits."
+		},
+		"tagline": {
+			"nl": "Pomandi - Dichtbij Kortrijk",
+			"fr": "Pomandi - Proche de Courtrai",
+			"en": "Pomandi - Near Kortrijk"
+		},
+		"images": ["/1.png", "/2.png", "/3.png", "/4.png"],
+		"animation": "fade-in-up",
+		"cta": {
+			"primary": {
+				"text": {
+					"nl": "Afspraak maken",
+					"fr": "Prendre rendez-vous",
+					"en": "Book appointment"
+				},
+				"style": "solid"
+			},
+			"secondary": {
+				"text": {
+					"nl": "Bekijk collectie",
+					"fr": "Voir la collection",
+					"en": "View collection"
+				},
+				"style": "outline"
+			}
+		}
+	},
+	"sections": [
+		{
+			"type": "stats",
+			"id": "stats-usp",
+			"config": {
+				"items": [
+					{
+						"value": "€320",
+						"label": {
+							"nl": "Vanaf prijs",
+							"fr": "À partir de",
+							"en": "Starting price"
+						}
+					},
+					{
+						"value": "15 dagen",
+						"label": {
+							"nl": "Levertijd",
+							"fr": "Délai",
+							"en": "Delivery"
+						}
+					},
+					{
+						"value": "500+",
+						"label": {
+							"nl": "Tevreden klanten",
+							"fr": "Clients satisfaits",
+							"en": "Happy customers"
+						}
+					},
+					{
+						"value": "4.9/5",
+						"label": {
+							"nl": "Google reviews",
+							"fr": "Avis Google",
+							"en": "Google reviews"
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "products",
+			"id": "products-all",
+			"title": {
+				"nl": "Alle Pakken",
+				"fr": "Tous les Costumes",
+				"en": "All Suits"
+			},
+			"subtitle": {
+				"nl": "Collectie",
+				"fr": "Collection",
+				"en": "Collection"
+			},
+			"background": "primary",
+			"config": {
+				"collection": "All-Suits",
+				"limit": 8,
+				"style": "grid",
+				"columns": 4,
+				"showPrice": true
+			}
+		},
+		{
+			"type": "features",
+			"id": "features-why",
+			"title": {
+				"nl": "Waarom Pomandi?",
+				"fr": "Pourquoi Pomandi?",
+				"en": "Why Pomandi?"
+			},
+			"background": "dark",
+			"animation": "stagger",
+			"config": {
+				"columns": 3,
+				"style": "cards",
+				"items": [
+					{
+						"icon": "checkmark",
+						"title": {
+							"nl": "Premium Kwaliteit",
+							"fr": "Qualité Premium",
+							"en": "Premium Quality"
+						},
+						"description": {
+							"nl": "Kostuums in Italiaanse stijl, vervaardigd met oog voor detail.",
+							"fr": "Costumes de style italien, fabriqués avec souci du détail.",
+							"en": "Italian-style suits, crafted with attention to detail."
+						}
+					},
+					{
+						"icon": "users",
+						"title": {
+							"nl": "Persoonlijke Service",
+							"fr": "Service Personnalisé",
+							"en": "Personal Service"
+						},
+						"description": {
+							"nl": "Onze stijlexperts nemen de tijd om het perfecte pak te vinden.",
+							"fr": "Nos experts prennent le temps de trouver le costume parfait.",
+							"en": "Our experts take the time to find the perfect suit."
+						}
+					},
+					{
+						"icon": "money",
+						"title": {
+							"nl": "Eerlijke Prijzen",
+							"fr": "Prix Honnêtes",
+							"en": "Fair Prices"
+						},
+						"description": {
+							"nl": "Premium kwaliteit vanaf €320. Geen verborgen kosten.",
+							"fr": "Qualité premium à partir de €320. Pas de frais cachés.",
+							"en": "Premium quality from €320. No hidden costs."
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "stores",
+			"id": "stores-all",
+			"title": {
+				"nl": "Bezoek ons",
+				"fr": "Visitez-nous",
+				"en": "Visit us"
+			},
+			"subtitle": {
+				"nl": "Onze winkels zijn goed bereikbaar vanuit Kortrijk.",
+				"fr": "Nos magasins sont facilement accessibles depuis Courtrai.",
+				"en": "Our stores are easily accessible from Kortrijk."
+			},
+			"background": "primary",
+			"config": {
+				"locations": ["brasschaat", "genk"],
+				"style": "cards",
+				"showMap": true,
+				"showHours": true,
+				"showWhatsApp": true
+			}
+		},
+		{
+			"type": "cta",
+			"id": "cta-final",
+			"background": "dark",
+			"config": {
+				"title": {
+					"nl": "Klaar voor uw perfecte pak?",
+					"fr": "Prêt pour votre costume parfait?",
+					"en": "Ready for your perfect suit?"
+				},
+				"subtitle": {
+					"nl": "Boek een afspraak en ontdek onze collectie.",
+					"fr": "Prenez rendez-vous et découvrez notre collection.",
+					"en": "Book an appointment and discover our collection."
+				},
+				"button": {
+					"text": {
+						"nl": "Afspraak maken",
+						"fr": "Prendre rendez-vous",
+						"en": "Book appointment"
+					},
+					"style": "solid"
+				}
+			}
+		}
+	],
+	"collections": ["All-Suits", "Wedding-Suits"],
+	"store": {
+		"locations": ["brasschaat", "genk"],
+		"showMap": true,
+		"showHours": true,
+		"showWhatsApp": true
+	},
+	"campaign": "maatpak-kortrijk"
+}

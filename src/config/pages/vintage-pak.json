@@ -1,0 +1,237 @@
+{
+	"slug": "vintage-pak",
+	"template": "style",
+	"channels": ["belgium-channel", "netherlands-channel", "nl", "fr", "en"],
+	"theme": {
+		"mode": "dark",
+		"primary": "#c0a062",
+		"secondary": "#d4af37",
+		"background": "#0a0a0a"
+	},
+	"seo": {
+		"title": {
+			"nl": "Vintage Pak - Tijdloze Klassieke Stijl | Pomandi",
+			"fr": "Costume Vintage - Style Classique Intemporel | Pomandi",
+			"en": "Vintage Suit - Timeless Classic Style | Pomandi"
+		},
+		"description": {
+			"nl": "Ontdek onze collectie vintage pakken. Tijdloze klassiekers met authentieke details. Driedelig, tweed, jaren 20 stijl. Vanaf €320.",
+			"fr": "Découvrez notre collection de costumes vintage. Classiques intemporels avec détails authentiques. Trois pièces, tweed.",
+			"en": "Discover our vintage suit collection. Timeless classics with authentic details. Three-piece, tweed, 1920s style. From €320."
+		},
+		"keywords": ["vintage pak", "klassiek pak", "retro pak", "tijdloos pak", "driedelig pak"],
+		"canonical": "https://www.pomandi.com/nl/vintage-pak",
+		"ogImage": "/1.png"
+	},
+	"hero": {
+		"type": "split",
+		"title": {
+			"nl": "Vintage",
+			"fr": "Vintage",
+			"en": "Vintage"
+		},
+		"titleHighlight": {
+			"nl": "Tijdloze Elegantie",
+			"fr": "Élégance Intemporelle",
+			"en": "Timeless Elegance"
+		},
+		"subtitle": {
+			"nl": "Klassieke stijl die nooit uit de mode raakt. Ontdek onze collectie vintage pakken met authentieke details uit vervlogen tijden.",
+			"fr": "Un style classique qui ne se démode jamais. Découvrez notre collection de costumes vintage avec des détails authentiques.",
+			"en": "Classic style that never goes out of fashion. Discover our vintage suit collection with authentic details from bygone eras."
+		},
+		"tagline": {
+			"nl": "Tijdloos Klassiek",
+			"fr": "Classique Intemporel",
+			"en": "Timeless Classic"
+		},
+		"images": ["/1.png", "/2.png", "/3.png", "/4.png"],
+		"overlay": "grain",
+		"animation": "fade-in-up",
+		"cta": {
+			"primary": {
+				"text": {
+					"nl": "Afspraak maken",
+					"fr": "Prendre rendez-vous",
+					"en": "Book appointment"
+				},
+				"style": "solid"
+			},
+			"secondary": {
+				"text": {
+					"nl": "Bekijk collectie",
+					"fr": "Voir la collection",
+					"en": "View collection"
+				},
+				"style": "outline"
+			}
+		}
+	},
+	"sections": [
+		{
+			"type": "quote",
+			"id": "quote-vintage",
+			"animation": "fade-in",
+			"background": "dark",
+			"config": {
+				"text": {
+					"nl": "Mode verandert, maar stijl blijft.",
+					"fr": "La mode change, mais le style reste.",
+					"en": "Fashion changes, but style endures."
+				},
+				"author": {
+					"nl": "Coco Chanel",
+					"fr": "Coco Chanel",
+					"en": "Coco Chanel"
+				},
+				"style": "centered"
+			}
+		},
+		{
+			"type": "features",
+			"id": "features-vintage",
+			"title": {
+				"nl": "De Vintage Collectie",
+				"fr": "La Collection Vintage",
+				"en": "The Vintage Collection"
+			},
+			"background": "dark",
+			"animation": "stagger",
+			"config": {
+				"columns": 4,
+				"style": "cards",
+				"items": [
+					{
+						"icon": "checkmark",
+						"title": {
+							"nl": "Driedelig",
+							"fr": "Trois Pièces",
+							"en": "Three-Piece"
+						},
+						"description": {
+							"nl": "Klassieke driedelige pakken met vest.",
+							"fr": "Costumes classiques trois pièces avec gilet.",
+							"en": "Classic three-piece suits with waistcoat."
+						}
+					},
+					{
+						"icon": "ruler",
+						"title": {
+							"nl": "Tweed & Wol",
+							"fr": "Tweed & Laine",
+							"en": "Tweed & Wool"
+						},
+						"description": {
+							"nl": "Authentieke stoffen van hoge kwaliteit.",
+							"fr": "Tissus authentiques de haute qualité.",
+							"en": "Authentic high-quality fabrics."
+						}
+					},
+					{
+						"icon": "users",
+						"title": {
+							"nl": "Klassieke Details",
+							"fr": "Détails Classiques",
+							"en": "Classic Details"
+						},
+						"description": {
+							"nl": "Zakhorlogevestje, contrast stiksels.",
+							"fr": "Poche gousset, coutures contrastées.",
+							"en": "Watch vest pocket, contrast stitching."
+						}
+					},
+					{
+						"icon": "money",
+						"title": {
+							"nl": "Eerlijke Prijs",
+							"fr": "Prix Honnête",
+							"en": "Fair Price"
+						},
+						"description": {
+							"nl": "Vintage stijl vanaf €320.",
+							"fr": "Style vintage à partir de €320.",
+							"en": "Vintage style from €320."
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "products",
+			"id": "products-vintage",
+			"title": {
+				"nl": "Vintage Collectie",
+				"fr": "Collection Vintage",
+				"en": "Vintage Collection"
+			},
+			"subtitle": {
+				"nl": "Collectie",
+				"fr": "Collection",
+				"en": "Collection"
+			},
+			"background": "secondary",
+			"config": {
+				"collection": "peaky-blinders-historische-outfits",
+				"limit": 8,
+				"style": "grid",
+				"columns": 4,
+				"showPrice": true
+			}
+		},
+		{
+			"type": "stores",
+			"id": "stores-all",
+			"title": {
+				"nl": "Bezoek onze Winkels",
+				"fr": "Visitez nos Magasins",
+				"en": "Visit our Stores"
+			},
+			"subtitle": {
+				"nl": "Ontdek de complete vintage collectie in onze winkels",
+				"fr": "Découvrez la collection vintage complète dans nos magasins",
+				"en": "Discover the complete vintage collection in our stores"
+			},
+			"background": "secondary",
+			"config": {
+				"locations": ["brasschaat", "genk"],
+				"style": "cards",
+				"showMap": false,
+				"showHours": true,
+				"showWhatsApp": true
+			}
+		},
+		{
+			"type": "cta",
+			"id": "cta-final",
+			"background": "dark",
+			"config": {
+				"title": {
+					"nl": "Klaar voor Tijdloze Stijl?",
+					"fr": "Prêt pour un Style Intemporel?",
+					"en": "Ready for Timeless Style?"
+				},
+				"subtitle": {
+					"nl": "Ontdek de kracht van vintage. Boek nu uw afspraak.",
+					"fr": "Découvrez la puissance du vintage. Réservez votre rendez-vous.",
+					"en": "Discover the power of vintage. Book your appointment now."
+				},
+				"button": {
+					"text": {
+						"nl": "Afspraak maken",
+						"fr": "Prendre rendez-vous",
+						"en": "Book appointment"
+					},
+					"style": "solid"
+				}
+			}
+		}
+	],
+	"collections": ["peaky-blinders-historische-outfits"],
+	"store": {
+		"locations": ["brasschaat", "genk"],
+		"showMap": true,
+		"showHours": true,
+		"showWhatsApp": true
+	},
+	"campaign": "vintage-pak"
+}
