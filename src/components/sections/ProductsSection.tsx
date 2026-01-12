@@ -86,7 +86,7 @@ export function ProductsSection({
 							)}
 						</div>
 						<a
-							href={`https://www.pomandi.com/${channel}/collections/${config.collection}?locale=${locale}`}
+							href={`https://www.pomandi.com/default-channel/collections/All-Suits?locale=${locale}`}
 							className={`hidden items-center gap-2 text-sm font-medium uppercase tracking-wider transition-colors sm:inline-flex ${theme.mode === "dark" ? "text-white hover:text-stone-300" : "text-stone-900 hover:text-stone-600"}`}
 						>
 							{locale === "nl" ? "Bekijk alles" : locale === "fr" ? "Voir tout" : "View all"}
