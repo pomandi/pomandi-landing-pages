@@ -26,11 +26,24 @@ interface PageConfig {
 
 export async function GET() {
   try {
+    // In production (standalone), read from pre-generated index in public folder
+    const publicIndexPath = path.join(process.cwd(), "public/pages-index.json");
+
+    if (fs.existsSync(publicIndexPath)) {
+      const content = fs.readFileSync(publicIndexPath, "utf-8");
+      const data = JSON.parse(content);
+      return NextResponse.json(data);
+    }
+
+    // Fallback: Try to read from src/config/pages (development mode)
     const configDir = path.join(process.cwd(), "src/config/pages");
 
-    // Check if directory exists
     if (!fs.existsSync(configDir)) {
-      return NextResponse.json({ pages: [], error: "Config directory not found" });
+      return NextResponse.json({
+        pages: [],
+        error: "Config directory not found. Run 'pnpm prebuild' to generate index.",
+        lastUpdated: new Date().toISOString()
+      });
     }
 
     // Read all JSON files
