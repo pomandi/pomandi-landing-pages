@@ -1,148 +1,145 @@
 {
   "campaign": "seo-trouwkostuum-antwerpen-202601",
-  "channels": [
-    "belgium-channel",
-    "netherlands-channel",
-    "nl",
-    "fr",
-    "en"
-  ],
+  "channels": ["belgium-channel", "netherlands-channel", "nl", "fr", "en"],
   "generated_at": "2026-01-12T10:38:24.757378",
-  "generated_by": "llm",
+  "generated_by": "llm-fixed",
   "hero": {
-    "cta": {
-      "link": "/nl/afspraak",
-      "text": {
-        "en": "Book Your Appointment in Antwerp",
-        "fr": "Réservez Votre Rendez-vous à Anvers",
-        "nl": "Boek Je Afspraak in Antwerpen"
-      }
+    "type": "split",
+    "title": {
+      "en": "Your Perfect Wedding Suit in Antwerp",
+      "fr": "Votre Costume de Mariage Parfait à Anvers",
+      "nl": "Jouw Perfecte Trouwkostuum in Antwerpen"
     },
-    "image": "/hero.jpg",
     "subtitle": {
       "en": "Custom-tailored suits for the most beautiful day of your life, with personal advice and craftsmanship in the heart of Antwerp.",
       "fr": "Costumes sur mesure pour le plus beau jour de votre vie, avec des conseils personnalisés et un savoir-faire au cœur d'Anvers.",
       "nl": "Maatkostuums voor de mooiste dag van je leven, met persoonlijk advies en vakmanschap in het hart van Antwerpen."
     },
-    "title": {
-      "en": "Your Perfect Wedding Suit in Antwerp",
-      "fr": "Votre Costume de Mariage Parfait à Anvers",
-      "nl": "Jouw Perfecte Trouwkostuum in Antwerpen"
+    "images": [
+      "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/products/036ddd0e-b38a-4f20-b673-115a0acf6855_0dd113d3.jpg",
+      "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/products/10378673848370_ea47a01c.jpgv1612308130",
+      "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/products/10560320929842-min_90660cf3.jpgv1675929002",
+      "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/products/10586588905522-min_efee6876.jpgv1675929011"
+    ],
+    "cta": {
+      "primary": {
+        "text": {
+          "en": "Schedule your free consultation",
+          "fr": "Planifiez votre consultation gratuite",
+          "nl": "Plan je gratis consult"
+        },
+        "style": "solid"
+      },
+      "secondary": {
+        "text": {
+          "en": "View collection",
+          "fr": "Voir collection",
+          "nl": "Bekijk collectie"
+        },
+        "style": "outline"
+      }
     }
   },
   "sections": [
     {
-      "items": [
-        {
-          "description": {
-            "en": "Every wedding suit is completely custom-made for your special day. From first appointment to final fitting, we ensure you look your best when it truly matters.",
-            "fr": "Chaque costume de mariage est entièrement confectionné sur mesure pour votre grand jour. Du premier rendez-vous à l'essayage final, nous veillons à ce que vous soyez à votre meilleur quand cela compte vraiment.",
-            "nl": "Elk trouwkostuum wordt volledig op maat gemaakt voor jouw grote dag. Van eerste afspraak tot finale fitting, wij zorgen dat je er op je best uitziet wanneer het echt telt."
-          },
-          "icon": "heart",
-          "title": {
-            "en": "Special for Your Wedding",
-            "fr": "Spécial pour Votre Mariage",
-            "nl": "Speciaal voor Jouw Bruiloft"
-          }
-        },
-        {
-          "description": {
-            "en": "Over 10 years of experience in custom suits in Antwerp. Our tailors understand what makes a wedding suit unique and work with premium fabrics for an impeccable finish.",
-            "fr": "Plus de 10 ans d'expérience en costumes sur mesure à Anvers. Nos tailleurs comprennent ce qui rend un costume de mariage unique et travaillent avec des tissus premium pour une finition impeccable.",
-            "nl": "Meer dan 10 jaar ervaring in maatkostuums in Antwerpen. Onze kleermakers begrijpen wat een trouwkostuum uniek maakt en werken met premium stoffen voor een onberispelijke afwerking."
-          },
-          "icon": "scissors",
-          "title": {
-            "en": "Artisan Craftsmanship",
-            "fr": "Savoir-faire Artisanal",
-            "nl": "Ambachtelijk Vakmanschap"
-          }
-        },
-        {
-          "description": {
-            "en": "Schedule your appointment at our Antwerp showroom and we ensure your wedding suit is ready on time. Multiple fittings guarantee the perfect fit for your wedding day.",
-            "fr": "Planifiez votre rendez-vous dans notre showroom anversois et nous garantissons que votre costume sera prêt à temps. Plusieurs essayages garantissent la coupe parfaite pour votre jour de mariage.",
-            "nl": "Plan je afspraak in onze Antwerpse showroom en wij zorgen dat je trouwkostuum op tijd klaar is. Meerdere paspeurten garanderen de perfecte pasvorm voor je huwelijksdag."
-          },
-          "icon": "clock",
-          "title": {
-            "en": "Ready in Time for Your Wedding",
-            "fr": "Prêt à Temps pour Votre Mariage",
-            "nl": "Tijdig Klaar voor Je Bruiloft"
-          }
-        }
-      ],
+      "type": "features",
+      "id": "features-1",
       "title": {
         "en": "Why Pomandi?",
         "fr": "Pourquoi Pomandi?",
         "nl": "Waarom Pomandi?"
       },
-      "type": "features"
+      "config": {
+        "items": [
+          {
+            "icon": "heart",
+            "title": {"en": "Special for Your Wedding", "fr": "Spécial pour Votre Mariage", "nl": "Speciaal voor Jouw Bruiloft"},
+            "description": {"en": "Every wedding suit is completely custom-made for your special day.", "fr": "Chaque costume de mariage est entièrement confectionné sur mesure pour votre grand jour.", "nl": "Elk trouwkostuum wordt volledig op maat gemaakt voor jouw grote dag."}
+          },
+          {
+            "icon": "scissors",
+            "title": {"en": "Artisan Craftsmanship", "fr": "Savoir-faire Artisanal", "nl": "Ambachtelijk Vakmanschap"},
+            "description": {"en": "Over 10 years of experience in custom suits in Antwerp.", "fr": "Plus de 10 ans d'expérience en costumes sur mesure à Anvers.", "nl": "Meer dan 10 jaar ervaring in maatkostuums in Antwerpen."}
+          },
+          {
+            "icon": "clock",
+            "title": {"en": "Ready in Time", "fr": "Prêt à Temps", "nl": "Tijdig Klaar"},
+            "description": {"en": "Multiple fittings guarantee the perfect fit for your wedding day.", "fr": "Plusieurs essayages garantissent la coupe parfaite pour votre jour de mariage.", "nl": "Meerdere paspeurten garanderen de perfecte pasvorm voor je huwelijksdag."}
+          }
+        ]
+      }
     },
     {
-      "items": [
-        {
-          "answer": {
-            "en": "Our custom wedding suits start from €320. The exact price depends on your choice of fabrics, details and finishing. During your personal appointment in Antwerp, we discuss all options and create a suit that perfectly matches your budget and wishes.",
-            "fr": "Nos costumes de mariage sur mesure commencent à partir de €320. Le prix exact dépend de votre choix de tissus, détails et finitions. Lors de votre rendez-vous personnel à Anvers, nous discutons de toutes les options et créons un costume qui correspond parfaitement à votre budget et à vos souhaits.",
-            "nl": "Onze trouwkostuums op maat beginnen vanaf €320. De exacte prijs hangt af van je keuze in stoffen, details en afwerking. Tijdens je persoonlijke afspraak in Antwerpen bespreken we alle opties en maken we een kostuum dat perfect bij jouw budget en wensen past."
+      "type": "products",
+      "id": "products-1",
+      "title": {"en": "Wedding Suits Collection", "fr": "Collection Costumes de Mariage", "nl": "Trouwkostuums Collectie"},
+      "config": {
+        "collection": "Wedding-Suits",
+        "limit": 8,
+        "style": "grid",
+        "columns": 4,
+        "showPrice": true
+      }
+    },
+    {
+      "type": "stores",
+      "id": "stores-1",
+      "title": {"en": "Visit Our Showrooms", "fr": "Visitez Nos Showrooms", "nl": "Bezoek Onze Showrooms"},
+      "config": {
+        "locations": ["brasschaat", "genk"],
+        "style": "cards",
+        "showMap": true,
+        "showHours": true,
+        "showWhatsApp": true
+      }
+    },
+    {
+      "type": "faq",
+      "id": "faq-1",
+      "title": {"en": "FAQ", "fr": "Questions fréquentes", "nl": "Veelgestelde vragen"},
+      "config": {
+        "items": [
+          {
+            "question": {"en": "What does a custom wedding suit cost?", "fr": "Combien coûte un costume de mariage sur mesure?", "nl": "Wat kost een trouwkostuum op maat?"},
+            "answer": {"en": "Our custom wedding suits start from €320.", "fr": "Nos costumes de mariage sur mesure commencent à partir de €320.", "nl": "Onze trouwkostuums op maat beginnen vanaf €320."}
           },
-          "question": {
-            "en": "What does a custom wedding suit cost at Pomandi in Antwerp?",
-            "fr": "Combien coûte un costume de mariage sur mesure chez Pomandi à Anvers?",
-            "nl": "Wat kost een trouwkostuum op maat bij Pomandi in Antwerpen?"
+          {
+            "question": {"en": "How much time do I need?", "fr": "Combien de temps faut-il?", "nl": "Hoeveel tijd heb ik nodig?"},
+            "answer": {"en": "We recommend starting at least 6-8 weeks before your wedding.", "fr": "Nous recommandons de commencer au minimum 6-8 semaines avant votre mariage.", "nl": "We adviseren om minimaal 6-8 weken voor je bruiloft te starten."}
           }
-        },
-        {
-          "answer": {
-            "en": "We recommend starting at least 6-8 weeks before your wedding. This gives us sufficient time for multiple fittings and any adjustments. Less time available? Contact our Antwerp showroom to discuss the possibilities.",
-            "fr": "Nous recommandons de commencer au minimum 6 à 8 semaines avant votre mariage. Cela nous donne suffisamment de temps pour plusieurs essayages et d'éventuels ajustements. Vous avez moins de temps? Contactez notre showroom anversois pour discuter des possibilités.",
-            "nl": "We adviseren om minimaal 6-8 weken voor je bruiloft te starten met je maatkostuum. Dit geeft ons voldoende tijd voor meerdere paspeurten en eventuele aanpassingen. Heb je minder tijd? Neem contact op met onze Antwerpse showroom om de mogelijkheden te bespreken."
-          },
-          "question": {
-            "en": "How much time do I need for a custom wedding suit?",
-            "fr": "Combien de temps faut-il pour un costume de mariage sur mesure?",
-            "nl": "Hoeveel tijd heb ik nodig voor een trouwkostuum op maat?"
-          }
-        },
-        {
-          "answer": {
-            "en": "Absolutely! We regularly create wedding suits for complete wedding parties at our Antwerp showroom. This ensures you look stylish and coordinated as a group. For groups, we offer attractive packages. Schedule a group appointment and we'll arrange everything.",
-            "fr": "Absolument! Nous créons régulièrement des costumes de mariage pour des groupes entiers dans notre showroom anversois. Ainsi, nous garantissons que vous aurez un look élégant et coordonné en groupe. Pour les groupes, nous proposons des arrangements attractifs. Planifiez un rendez-vous commun et nous organisons tout.",
-            "nl": "Absoluut! We maken regelmatig trouwkostuums voor complete bruiloftspartijen in onze Antwerpse showroom. Zo zorgen we dat jullie er als groep stijlvol en gecoördineerd uitzien. Voor groepen bieden we aantrekkelijke arrangementen aan. Plan een gezamenlijke afspraak en we regelen alles."
-          },
-          "question": {
-            "en": "Can you also make suits for my groomsmen in Antwerp?",
-            "fr": "Pouvez-vous également faire des costumes pour mes témoins à Anvers?",
-            "nl": "Kunnen jullie ook kostuums maken voor mijn getuigen in Antwerpen?"
-          }
-        }
-      ],
-      "title": {
-        "en": "FAQ",
-        "fr": "Questions fréquentes",
-        "nl": "Veelgestelde vragen"
-      },
-      "type": "faq"
+        ]
+      }
+    },
+    {
+      "type": "cta",
+      "id": "cta-final",
+      "config": {
+        "title": {"en": "Ready for your perfect wedding suit?", "fr": "Prêt pour votre costume de mariage parfait?", "nl": "Klaar voor jouw perfecte trouwkostuum?"},
+        "subtitle": {"en": "Schedule your free consultation today.", "fr": "Planifiez votre consultation gratuite dès aujourd'hui.", "nl": "Plan vandaag nog je gratis consult."},
+        "button": {"text": {"en": "Book appointment", "fr": "Prenez rendez-vous", "nl": "Maak een afspraak"}, "style": "solid"}
+      }
     }
   ],
+  "collections": ["Wedding-Suits", "All-Suits"],
+  "store": {
+    "locations": ["brasschaat", "genk"],
+    "showMap": true,
+    "showHours": true,
+    "showWhatsApp": true
+  },
   "seo": {
     "canonical": "https://www.pomandi.com/nl/trouwkostuum-antwerpen",
     "description": {
-      "en": "Custom wedding suit in Antwerp at Pomandi. 10+ years experience, personal advice and perfect fit for your special day. Suits from €320. Book your appointment.",
-      "fr": "Costume de mariage sur mesure à Anvers chez Pomandi. 10+ ans d'expérience, conseils personnalisés et coupe parfaite pour votre grand jour. Dès €320. Prenez rendez-vous.",
-      "nl": "Trouwkostuum op maat in Antwerpen bij Pomandi. 10+ jaar ervaring, persoonlijk advies en perfecte pasvorm voor jouw grote dag. Kostuums vanaf €320. Boek je afspraak."
+      "en": "Custom wedding suit in Antwerp at Pomandi. 10+ years experience, personal advice and perfect fit. Suits from €320.",
+      "fr": "Costume de mariage sur mesure à Anvers chez Pomandi. 10+ ans d'expérience, conseils personnalisés. Dès €320.",
+      "nl": "Trouwkostuum op maat in Antwerpen bij Pomandi. 10+ jaar ervaring, persoonlijk advies en perfecte pasvorm. Vanaf €320."
     },
-    "keywords": [
-      "trouwkostuum antwerpen",
-      "pomandi"
-    ],
-    "ogImage": "/1.png",
+    "keywords": ["trouwkostuum antwerpen", "pomandi", "wedding suit antwerp"],
+    "ogImage": "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/products/036ddd0e-b38a-4f20-b673-115a0acf6855_0dd113d3.jpg",
     "title": {
-      "en": "Wedding Suit Antwerp | Custom Tailored from €320 | Pomandi",
-      "fr": "Costume de Mariage Anvers | Sur Mesure dès €320 | Pomandi",
-      "nl": "Trouwkostuum Antwerpen | Maatkostuum vanaf €320 | Pomandi"
+      "en": "Wedding Suit Antwerp | Custom Tailored from €320",
+      "fr": "Costume de Mariage Anvers | Sur Mesure dès €320",
+      "nl": "Trouwkostuum Antwerpen | Maatkostuum vanaf €320"
     }
   },
   "slug": "trouwkostuum-antwerpen",
