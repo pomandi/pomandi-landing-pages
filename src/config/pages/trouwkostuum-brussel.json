@@ -15,12 +15,7 @@
       "fr": "Rayonnez lors de votre grand jour dans un costume parfaitement ajusté, dès €320.",
       "nl": "Straal op jouw grote dag in een maatpak dat perfect bij jou past, vanaf €320."
     },
-    "images": [
-      "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/products/036ddd0e-b38a-4f20-b673-115a0acf6855_0dd113d3.jpg",
-      "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/products/10378673848370_ea47a01c.jpgv1612308130",
-      "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/products/10560320929842-min_90660cf3.jpgv1675929002",
-      "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/products/10586588905522-min_efee6876.jpgv1675929011"
-    ],
+    "images": ["/1.png", "/2.png", "/3.png", "/4.png"],
     "cta": {
       "primary": {
         "text": {
