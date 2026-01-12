@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Pages Admin</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f3f4f6; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .header { background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        h1 { color: #111827; margin-bottom: 8px; }
+        .stats { color: #6b7280; margin-bottom: 16px; }
+        input[type="text"] { width: 100%; padding: 10px 16px; border: 1px solid #d1d5db; border-radius: 8px; font-size: 14px; }
+        input[type="text"]:focus { outline: none; border-color: #3b82f6; box-shadow: 0 0 0 3px rgba(59,130,246,0.1); }
+        .table-container { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        table { width: 100%; border-collapse: collapse; }
+        th { background: #f9fafb; padding: 12px 16px; text-align: left; font-weight: 600; color: #111827; border-bottom: 1px solid #e5e7eb; }
+        td { padding: 12px 16px; border-bottom: 1px solid #e5e7eb; }
+        tr:hover { background: #f9fafb; }
+        .slug { font-weight: 500; color: #111827; }
+        .seo-title { font-size: 12px; color: #6b7280; margin-top: 4px; }
+        .badge { display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 12px; font-weight: 500; }
+        .badge-blue { background: #dbeafe; color: #1e40af; }
+        .badge-gray { background: #f3f4f6; color: #374151; margin-right: 4px; margin-bottom: 4px; }
+        .btn { display: inline-block; padding: 6px 12px; border-radius: 6px; font-size: 13px; font-weight: 500; text-decoration: none; color: white; margin-right: 4px; }
+        .btn-nl { background: #16a34a; }
+        .btn-nl:hover { background: #15803d; }
+        .btn-fr { background: #2563eb; }
+        .btn-fr:hover { background: #1d4ed8; }
+        .btn-en { background: #9333ea; }
+        .btn-en:hover { background: #7e22ce; }
+        .urls-section { background: white; padding: 20px; border-radius: 8px; margin-top: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .urls-section h2 { margin-bottom: 16px; color: #111827; }
+        .urls-list { background: #f9fafb; padding: 16px; border-radius: 8px; font-family: monospace; font-size: 13px; max-height: 400px; overflow-y: auto; }
+        .urls-list a { display: block; padding: 4px 0; color: #2563eb; text-decoration: none; }
+        .urls-list a:hover { text-decoration: underline; }
+        .loading { text-align: center; padding: 40px; color: #6b7280; }
+        .error { background: #fef2f2; color: #991b1b; padding: 16px; border-radius: 8px; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Landing Pages Admin</h1>
+            <p class="stats" id="stats">Loading...</p>
+            <input type="text" id="search" placeholder="Ara... (slug, title, template)" oninput="filterPages()">
+        </div>
+
+        <div id="error" class="error" style="display: none;"></div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Sayfa URL</th>
+                        <th>Template</th>
+                        <th>Channels</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <tr><td colspan="5" class="loading">Yükleniyor...</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="urls-section">
+            <h2>Tüm URL'ler (Kopyalanabilir)</h2>
+            <div class="urls-list" id="urlsList">
+                Yükleniyor...
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const BASE_URL = 'https://www.pomandi.com';
+        let allPages = [];
+
+        async function loadPages() {
+            try {
+                const response = await fetch('/pages-index.json');
+                if (!response.ok) throw new Error('Failed to load pages index');
+                const data = await response.json();
+                allPages = data.pages || [];
+                document.getElementById('stats').textContent = `Toplam ${allPages.length} landing page | Pomandi.com | Son güncelleme: ${new Date(data.generated).toLocaleString('tr-TR')}`;
+                renderPages(allPages);
+            } catch (err) {
+                console.error(err);
+                document.getElementById('error').style.display = 'block';
+                document.getElementById('error').textContent = 'Hata: ' + err.message;
+                document.getElementById('tableBody').innerHTML = '<tr><td colspan="5" class="loading">Yüklenemedi</td></tr>';
+                document.getElementById('urlsList').textContent = 'Yüklenemedi';
+            }
+        }
+
+        function filterPages() {
+            const search = document.getElementById('search').value.toLowerCase();
+            const filtered = allPages.filter(page =>
+                page.slug.toLowerCase().includes(search) ||
+                (page.title && page.title.toLowerCase().includes(search)) ||
+                (page.template && page.template.toLowerCase().includes(search))
+            );
+            renderPages(filtered);
+        }
+
+        function renderPages(pages) {
+            const tbody = document.getElementById('tableBody');
+            const urlsList = document.getElementById('urlsList');
+
+            if (pages.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="5" class="loading">Sonuç bulunamadı</td></tr>';
+                urlsList.innerHTML = 'Sonuç bulunamadı';
+                return;
+            }
+
+            tbody.innerHTML = pages.map((page, index) => `
+                <tr>
+                    <td>${index + 1}</td>
+                    <td>
+                        <div class="slug">${page.slug}</div>
+                        <div class="seo-title">${page.seoTitle || ''}</div>
+                    </td>
+                    <td><span class="badge badge-blue">${page.template || 'unknown'}</span></td>
+                    <td>${(page.channels || []).slice(0, 3).map(ch => `<span class="badge badge-gray">${ch}</span>`).join('')}</td>
+                    <td>
+                        <a href="${BASE_URL}/nl/${page.slug}" target="_blank" class="btn btn-nl">NL</a>
+                        <a href="${BASE_URL}/fr/${page.slug}" target="_blank" class="btn btn-fr">FR</a>
+                        <a href="${BASE_URL}/en/${page.slug}" target="_blank" class="btn btn-en">EN</a>
+                    </td>
+                </tr>
+            `).join('');
+
+            urlsList.innerHTML = pages.map(page =>
+                `<a href="${BASE_URL}/nl/${page.slug}" target="_blank">${BASE_URL}/nl/${page.slug}</a>`
+            ).join('');
+        }
+
+        loadPages();
+    </script>
+</body>
+</html>
