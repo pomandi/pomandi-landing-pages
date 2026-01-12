@@ -1,0 +1,249 @@
+{
+  "campaign": "seo-kostuum-kopen-antwerpen-202601",
+  "channels": [
+    "belgium-channel",
+    "netherlands-channel",
+    "nl",
+    "fr",
+    "en"
+  ],
+  "collections": [
+    "All-Suits"
+  ],
+  "generated_at": "2026-01-12T17:58:35.066294",
+  "generated_by": "llm",
+  "hero": {
+    "cta": {
+      "primary": {
+        "style": "solid",
+        "text": {
+          "en": "Book an appointment in Antwerp",
+          "fr": "Prendre rendez-vous à Anvers",
+          "nl": "Maak een afspraak in Antwerpen"
+        }
+      },
+      "secondary": {
+        "style": "outline",
+        "text": {
+          "en": "View collection",
+          "fr": "Voir collection",
+          "nl": "Bekijk collectie"
+        }
+      }
+    },
+    "images": [
+      "/1.png",
+      "/2.png",
+      "/3.png",
+      "/4.png"
+    ],
+    "subtitle": {
+      "en": "Discover the art of perfectly fitted custom suits in our Antwerp showroom, where craftsmanship meets style.",
+      "fr": "Découvrez l'art des costumes parfaitement ajustés dans notre showroom anversois, où savoir-faire et style se rencontrent.",
+      "nl": "Ontdek de kunst van perfect zittende maatpakken in onze Antwerpse showroom, waar vakmanschap en stijl samenkomen."
+    },
+    "title": {
+      "en": "Premium Suits in the Heart of Antwerp",
+      "fr": "Costumes Premium au Cœur d'Anvers",
+      "nl": "Premium Kostuums in het Hart van Antwerpen"
+    },
+    "type": "split"
+  },
+  "sections": [
+    {
+      "config": {
+        "items": [
+          {
+            "description": {
+              "en": "In the heart of the diamond city, we combine over 10 years of expertise with Belgian precision. Every suit is carefully crafted according to your exact wishes and measurements.",
+              "fr": "Au cœur de la ville du diamant, nous combinons plus de 10 ans d'expertise avec la précision belge. Chaque costume est confectionné avec soin selon vos souhaits et mesures exactes.",
+              "nl": "In het hart van de diamantstad combineren we meer dan 10 jaar expertise met Belgische precisie. Elk kostuum wordt met zorg vervaardigd volgens uw exacte wensen en maten."
+            },
+            "icon": "scissors",
+            "title": {
+              "en": "Antwerp Craftsmanship",
+              "fr": "Savoir-faire Anversois",
+              "nl": "Antwerpse Vakmanschap"
+            }
+          },
+          {
+            "description": {
+              "en": "Visit our Antwerp showroom for a comprehensive fitting session and style advice. Our experts help you choose fabric, cut and details that suit you perfectly.",
+              "fr": "Visitez notre showroom à Anvers pour une session de mesure complète et des conseils de style. Nos experts vous aident à choisir le tissu, la coupe et les détails qui vous correspondent parfaitement.",
+              "nl": "Bezoek onze showroom in Antwerpen voor een uitgebreide maatsessie en stijladvies. Onze experts helpen u bij het kiezen van stof, snit en details die perfect bij u passen."
+            },
+            "icon": "ruler",
+            "title": {
+              "en": "Personal Fitting Advice",
+              "fr": "Conseil sur Mesure Personnel",
+              "nl": "Persoonlijk Maatadvies"
+            }
+          },
+          {
+            "description": {
+              "en": "Accessible luxury without compromising on quality. For €320 you get a fully custom-made suit in high-quality fabrics with perfect fit guaranteed.",
+              "fr": "Luxe accessible sans compromis sur la qualité. Pour €320, vous obtenez un costume entièrement sur mesure en tissus de haute qualité avec un ajustement parfait garanti.",
+              "nl": "Toegankelijke luxe zonder concessies aan kwaliteit. Voor €320 krijgt u een volledig op maat gemaakt kostuum van hoogwaardige stoffen met perfecte pasvorm gegarandeerd."
+            },
+            "icon": "star",
+            "title": {
+              "en": "Premium Quality from €320",
+              "fr": "Qualité Premium dès €320",
+              "nl": "Premium Kwaliteit vanaf €320"
+            }
+          }
+        ]
+      },
+      "id": "features-1",
+      "title": {
+        "en": "Why Pomandi?",
+        "fr": "Pourquoi Pomandi?",
+        "nl": "Waarom Pomandi?"
+      },
+      "type": "features"
+    },
+    {
+      "config": {
+        "collection": "All-Suits",
+        "columns": 4,
+        "limit": 8,
+        "showPrice": true,
+        "style": "grid"
+      },
+      "id": "products-1",
+      "title": {
+        "en": "Our Collection",
+        "fr": "Notre Collection",
+        "nl": "Onze Collectie"
+      },
+      "type": "products"
+    },
+    {
+      "config": {
+        "locations": [
+          "brasschaat",
+          "genk"
+        ],
+        "showHours": true,
+        "showMap": true,
+        "showWhatsApp": true,
+        "style": "cards"
+      },
+      "id": "stores-1",
+      "title": {
+        "en": "Visit Our Showrooms",
+        "fr": "Visitez Nos Showrooms",
+        "nl": "Bezoek Onze Showrooms"
+      },
+      "type": "stores"
+    },
+    {
+      "config": {
+        "items": [
+          {
+            "answer": {
+              "en": "At Pomandi in Antwerp, you can get premium custom suits from €320. Visit our showroom for a personal fitting session where we take your exact measurements and advise you on fabric, style and details. With over 10 years of experience, we guarantee a perfect fit that suits you completely.",
+              "fr": "Chez Pomandi à Anvers, vous pouvez obtenir des costumes sur mesure premium à partir de €320. Visitez notre showroom pour une session de mesure personnelle où nous prenons vos mesures exactes et vous conseillons sur le tissu, le style et les détails. Avec plus de 10 ans d'expérience, nous garantissons un ajustement parfait qui vous correspond parfaitement.",
+              "nl": "Bij Pomandi in Antwerpen kunt u terecht voor premium maatpakken vanaf €320. Bezoek onze showroom voor een persoonlijke maatsessie waarbij we uw exacte maten opnemen en u adviseren over stof, stijl en details. Met meer dan 10 jaar ervaring garanderen we een perfecte pasvorm die volledig bij u past."
+            },
+            "question": {
+              "en": "Where can I have a custom suit made in Antwerp?",
+              "fr": "Où puis-je faire faire un costume sur mesure à Anvers?",
+              "nl": "Waar kan ik in Antwerpen een kostuum op maat laten maken?"
+            }
+          },
+          {
+            "answer": {
+              "en": "After your fitting session in our Antwerp showroom, it takes an average of 4 to 6 weeks for your custom suit to be ready. We take all the time needed to perfect every detail. For rush orders, we can discuss faster delivery times during your appointment.",
+              "fr": "Après votre session de mesure dans notre showroom anversois, il faut en moyenne 4 à 6 semaines pour que votre costume sur mesure soit prêt. Nous prenons tout le temps nécessaire pour perfectionner chaque détail. Pour les commandes urgentes, nous pouvons discuter de délais plus courts lors de votre rendez-vous.",
+              "nl": "Na uw maatsessie in onze Antwerpse showroom duurt het gemiddeld 4 tot 6 weken voordat uw kostuum op maat klaar is. We nemen alle tijd om elk detail perfect af te werken. Voor spoedopdrachten kunnen we in overleg snellere levertijden bespreken tijdens uw afspraak."
+            },
+            "question": {
+              "en": "How long does it take for my suit to be ready?",
+              "fr": "Combien de temps faut-il pour que mon costume soit prêt?",
+              "nl": "Hoelang duurt het voordat mijn kostuum klaar is?"
+            }
+          },
+          {
+            "answer": {
+              "en": "A Pomandi suit is fully tailored to your body with over 20 individual measurements. In our Antwerp showroom, you choose from high-quality fabrics and determine every detail - from collar shape to button style. The result is a suit that fits perfectly, lasts longer and reflects your personal style, something off-the-rack can never offer.",
+              "fr": "Un costume Pomandi est entièrement adapté à votre corps avec plus de 20 mesures individuelles. Dans notre showroom anversois, vous choisissez parmi des tissus de haute qualité et déterminez chaque détail - de la forme du col au style des boutons. Le résultat est un costume qui s'ajuste parfaitement, dure plus longtemps et reflète votre style personnel, quelque chose que le prêt-à-porter ne peut jamais offrir.",
+              "nl": "Een Pomandi kostuum wordt volledig op uw lichaam afgestemd met meer dan 20 individuele maten. In onze Antwerpse showroom kiest u uit hoogwaardige stoffen en bepaalt u elk detail - van kraagvorm tot knoopstijl. Het resultaat is een kostuum dat perfect zit, langer meegaat en uw persoonlijke stijl weerspiegelt, iets wat confectie nooit kan bieden."
+            },
+            "question": {
+              "en": "What makes Pomandi suits different from off-the-rack?",
+              "fr": "Qu'est-ce qui distingue les costumes Pomandi du prêt-à-porter?",
+              "nl": "Wat maakt Pomandi kostuums anders dan confectie?"
+            }
+          }
+        ]
+      },
+      "id": "faq-1",
+      "title": {
+        "en": "FAQ",
+        "fr": "Questions fréquentes",
+        "nl": "Veelgestelde vragen"
+      },
+      "type": "faq"
+    },
+    {
+      "config": {
+        "button": {
+          "style": "solid",
+          "text": {
+            "en": "Book appointment",
+            "fr": "Prenez rendez-vous",
+            "nl": "Maak een afspraak"
+          }
+        },
+        "subtitle": {
+          "en": "Schedule your free consultation today.",
+          "fr": "Planifiez votre consultation gratuite.",
+          "nl": "Plan vandaag nog uw gratis consult."
+        },
+        "title": {
+          "en": "Ready for your perfect suit?",
+          "fr": "Prêt pour votre costume parfait?",
+          "nl": "Klaar voor uw perfecte pak?"
+        }
+      },
+      "id": "cta-final",
+      "type": "cta"
+    }
+  ],
+  "seo": {
+    "canonical": "https://www.pomandi.com/nl/kostuum-kopen-antwerpen",
+    "description": {
+      "en": "Buy a suit in Antwerp? Pomandi offers premium custom suits from €320. 10+ years experience, personal advice & perfect fit. Visit our showroom today.",
+      "fr": "Acheter un costume à Anvers? Pomandi propose des costumes sur mesure premium dès €320. Plus de 10 ans d'expérience, conseils personnels et ajustement parfait.",
+      "nl": "Kostuum kopen in Antwerpen? Pomandi biedt premium maatpakken vanaf €320. 10+ jaar ervaring, persoonlijk advies & perfecte pasvorm. Bezoek onze showroom."
+    },
+    "keywords": [
+      "pomandi",
+      "kostuum kopen antwerpen"
+    ],
+    "ogImage": "/1.png",
+    "title": {
+      "en": "Buy Suits Antwerp | Pomandi Custom Suits from €320",
+      "fr": "Acheter un Costume à Anvers | Pomandi Sur Mesure dès €320",
+      "nl": "Kostuum Kopen Antwerpen | Pomandi Maatpakken vanaf €320"
+    }
+  },
+  "slug": "kostuum-kopen-antwerpen",
+  "store": {
+    "locations": [
+      "brasschaat",
+      "genk"
+    ],
+    "showHours": true,
+    "showMap": true,
+    "showWhatsApp": true
+  },
+  "template": "location",
+  "theme": {
+    "background": "#f8f7f5",
+    "mode": "light",
+    "primary": "#1a1a1a",
+    "secondary": "#444444"
+  }
+}
