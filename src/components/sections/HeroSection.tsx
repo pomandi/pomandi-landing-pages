@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { HeroConfig, LocalizedString, ThemeConfig } from "@/types/page-config";
+import { legacyUrlToChannel } from "@/lib/channelMap";
 
 interface HeroSectionProps {
 	hero: HeroConfig;
@@ -25,7 +26,13 @@ export function HeroSection({ hero, theme, channel, locale, campaign, store }: H
 	const primaryCTA = getLocalizedText(hero.cta.primary.text, locale);
 	const secondaryCTA = hero.cta.secondary ? getLocalizedText(hero.cta.secondary.text, locale) : null;
 
+	// Map landing page channel to storefront channel
+	const mapping = legacyUrlToChannel[channel.toLowerCase()];
+	const storefrontChannel = mapping?.channel || "netherlands-channel";
+	const storefrontLocale = mapping?.locale || locale;
+
 	const appointmentUrl = `/${channel}/appointment?locale=${locale}${store ? `&shop=${store}` : ""}${campaign ? `&campaign=${campaign}` : ""}`;
+	const collectionUrl = `https://www.pomandi.com/${storefrontChannel}/collections/All-Suits?locale=${storefrontLocale}`;
 
 	// Animation classes based on hero.animation
 	const animationClass =
@@ -83,7 +90,7 @@ export function HeroSection({ hero, theme, channel, locale, campaign, store }: H
 								</Link>
 								{secondaryCTA && (
 									<a
-										href={`https://www.pomandi.com/default-channel/collections/All-Suits?locale=${locale}`}
+										href={collectionUrl}
 										className={`inline-flex items-center justify-center rounded-none border px-8 py-4 text-sm font-medium uppercase tracking-wider transition-colors ${
 											theme.mode === "dark"
 												? "border-white bg-transparent text-white hover:bg-white hover:text-black"
@@ -177,7 +184,7 @@ export function HeroSection({ hero, theme, channel, locale, campaign, store }: H
 						</Link>
 						{secondaryCTA && (
 							<a
-								href={`https://www.pomandi.com/default-channel/collections/All-Suits?locale=${locale}`}
+								href={collectionUrl}
 								className="inline-flex items-center justify-center rounded-none border border-white/30 px-10 py-4 text-sm font-medium uppercase tracking-wider text-white transition-colors hover:border-white hover:bg-white/10"
 							>
 								{secondaryCTA}

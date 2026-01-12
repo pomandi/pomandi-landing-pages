@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import Image from "next/image";
+import { getStorefrontCollectionUrl, getStorefrontUrl, legacyUrlToChannel } from "@/lib/channelMap";
 
 interface ChannelLayoutProps {
 	children: ReactNode;
@@ -8,6 +9,9 @@ interface ChannelLayoutProps {
 
 function Header({ channel }: { channel: string }) {
 	const baseUrl = "https://www.pomandi.com";
+	const mapping = legacyUrlToChannel[channel.toLowerCase()];
+	const storefrontChannel = mapping?.channel || "netherlands-channel";
+	const locale = mapping?.locale || channel;
 
 	return (
 		<header className="sticky top-0 z-50 border-b border-gray-100 bg-white/95 backdrop-blur-lg">
@@ -16,7 +20,7 @@ function Header({ channel }: { channel: string }) {
 				<span className="font-medium">Premium Maatpakken vanaf €320</span>
 				<span className="mx-2 text-amber-400">|</span>
 				<a
-					href={`${baseUrl}/${channel}/appointment`}
+					href={`${baseUrl}/${storefrontChannel}/appointment?locale=${locale}`}
 					className="font-semibold text-amber-400 hover:text-amber-300"
 				>
 					Boek Gratis Afspraak
@@ -27,7 +31,7 @@ function Header({ channel }: { channel: string }) {
 			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 				<div className="flex h-16 items-center justify-between gap-4 md:gap-8">
 					{/* Logo */}
-					<a href={`${baseUrl}/${channel}`} className="group flex items-center">
+					<a href={`${baseUrl}/${storefrontChannel}?locale=${locale}`} className="group flex items-center">
 						<div className="overflow-hidden rounded-xl bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-2 shadow-md ring-1 ring-amber-500/20 transition-all duration-300 group-hover:shadow-lg group-hover:shadow-amber-500/10 group-hover:ring-amber-500/40">
 							<Image
 								src="/logo.jpeg"
@@ -44,25 +48,25 @@ function Header({ channel }: { channel: string }) {
 					{/* Desktop Navigation */}
 					<nav className="hidden items-center gap-6 md:flex lg:gap-8">
 						<a
-							href={`${baseUrl}/${channel}/collections/All-Suits`}
+							href={`${baseUrl}/${storefrontChannel}/collections/All-Suits?locale=${locale}`}
 							className="text-sm font-medium text-slate-700 transition-colors hover:text-slate-900"
 						>
 							Collectie
 						</a>
 						<a
-							href={`${baseUrl}/${channel}/collections/Wedding-Suits`}
+							href={`${baseUrl}/${storefrontChannel}/collections/gray-wedding-suit?locale=${locale}`}
 							className="text-sm font-medium text-slate-700 transition-colors hover:text-slate-900"
 						>
 							Trouwpakken
 						</a>
 						<a
-							href={`${baseUrl}/${channel}/collections/peaky-blinders-historische-outfits`}
+							href={`${baseUrl}/${storefrontChannel}/collections/peaky-blinders-historische-outfits?locale=${locale}`}
 							className="text-sm font-medium text-slate-700 transition-colors hover:text-slate-900"
 						>
 							British Style
 						</a>
 						<a
-							href={`${baseUrl}/${channel}/appointment`}
+							href={`${baseUrl}/${storefrontChannel}/appointment?locale=${locale}`}
 							className="rounded-lg bg-gradient-to-r from-amber-500 to-amber-600 px-5 py-2.5 text-sm font-semibold text-white shadow-md shadow-amber-500/30 transition-all hover:shadow-lg hover:shadow-amber-500/40"
 						>
 							Afspraak Maken
@@ -72,7 +76,7 @@ function Header({ channel }: { channel: string }) {
 					{/* Mobile Menu Button */}
 					<div className="flex items-center gap-3 md:hidden">
 						<a
-							href={`${baseUrl}/${channel}/appointment`}
+							href={`${baseUrl}/${storefrontChannel}/appointment?locale=${locale}`}
 							className="rounded-lg bg-gradient-to-r from-amber-500 to-amber-600 px-4 py-2 text-sm font-semibold text-white"
 						>
 							Afspraak
@@ -87,6 +91,9 @@ function Header({ channel }: { channel: string }) {
 function Footer({ channel }: { channel: string }) {
 	const baseUrl = "https://www.pomandi.com";
 	const currentYear = new Date().getFullYear();
+	const mapping = legacyUrlToChannel[channel.toLowerCase()];
+	const storefrontChannel = mapping?.channel || "netherlands-channel";
+	const locale = mapping?.locale || channel;
 
 	return (
 		<footer className="bg-gradient-to-b from-slate-900 to-slate-950">
@@ -96,7 +103,7 @@ function Footer({ channel }: { channel: string }) {
 					{/* Company Info */}
 					<div className="lg:col-span-1">
 						<div className="mb-4">
-							<a href={`${baseUrl}/${channel}`} className="flex items-center gap-2">
+							<a href={`${baseUrl}/${storefrontChannel}?locale=${locale}`} className="flex items-center gap-2">
 								<div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-amber-400 to-amber-600 shadow-lg shadow-amber-500/30">
 									<span className="text-lg font-bold text-slate-900">P</span>
 								</div>
@@ -147,7 +154,7 @@ function Footer({ channel }: { channel: string }) {
 						<ul className="space-y-3">
 							<li>
 								<a
-									href={`${baseUrl}/${channel}/collections/All-Suits`}
+									href={`${baseUrl}/${storefrontChannel}/collections/All-Suits?locale=${locale}`}
 									className="text-sm text-gray-400 transition-colors hover:text-amber-400"
 								>
 									Alle Pakken
@@ -155,7 +162,7 @@ function Footer({ channel }: { channel: string }) {
 							</li>
 							<li>
 								<a
-									href={`${baseUrl}/${channel}/collections/Wedding-Suits`}
+									href={`${baseUrl}/${storefrontChannel}/collections/gray-wedding-suit?locale=${locale}`}
 									className="text-sm text-gray-400 transition-colors hover:text-amber-400"
 								>
 									Trouwpakken
@@ -163,7 +170,7 @@ function Footer({ channel }: { channel: string }) {
 							</li>
 							<li>
 								<a
-									href={`${baseUrl}/${channel}/collections/peaky-blinders-historische-outfits`}
+									href={`${baseUrl}/${storefrontChannel}/collections/peaky-blinders-historische-outfits?locale=${locale}`}
 									className="text-sm text-gray-400 transition-colors hover:text-amber-400"
 								>
 									British Style
@@ -171,7 +178,7 @@ function Footer({ channel }: { channel: string }) {
 							</li>
 							<li>
 								<a
-									href={`${baseUrl}/${channel}/collections/Blue-Suits`}
+									href={`${baseUrl}/${storefrontChannel}/collections/blue-suit?locale=${locale}`}
 									className="text-sm text-gray-400 transition-colors hover:text-amber-400"
 								>
 									Blauwe Pakken
@@ -179,7 +186,7 @@ function Footer({ channel }: { channel: string }) {
 							</li>
 							<li>
 								<a
-									href={`${baseUrl}/${channel}/collections/Black-Suits`}
+									href={`${baseUrl}/${storefrontChannel}/collections/black-suit?locale=${locale}`}
 									className="text-sm text-gray-400 transition-colors hover:text-amber-400"
 								>
 									Zwarte Pakken
@@ -196,7 +203,7 @@ function Footer({ channel }: { channel: string }) {
 						<ul className="space-y-3">
 							<li>
 								<a
-									href={`${baseUrl}/${channel}/appointment`}
+									href={`${baseUrl}/${storefrontChannel}/appointment?locale=${locale}`}
 									className="text-sm text-gray-400 transition-colors hover:text-amber-400"
 								>
 									Afspraak Maken
@@ -204,7 +211,7 @@ function Footer({ channel }: { channel: string }) {
 							</li>
 							<li>
 								<a
-									href={`${baseUrl}/${channel}/pages/hoe-werkt-het`}
+									href={`${baseUrl}/${storefrontChannel}/pages/hoe-werkt-het?locale=${locale}`}
 									className="text-sm text-gray-400 transition-colors hover:text-amber-400"
 								>
 									Hoe Werkt Het
@@ -212,7 +219,7 @@ function Footer({ channel }: { channel: string }) {
 							</li>
 							<li>
 								<a
-									href={`${baseUrl}/${channel}/pages/over-ons`}
+									href={`${baseUrl}/${storefrontChannel}/pages/over-ons?locale=${locale}`}
 									className="text-sm text-gray-400 transition-colors hover:text-amber-400"
 								>
 									Over Ons
@@ -220,7 +227,7 @@ function Footer({ channel }: { channel: string }) {
 							</li>
 							<li>
 								<a
-									href={`${baseUrl}/${channel}/pages/veelgestelde-vragen`}
+									href={`${baseUrl}/${storefrontChannel}/pages/veelgestelde-vragen?locale=${locale}`}
 									className="text-sm text-gray-400 transition-colors hover:text-amber-400"
 								>
 									FAQ

@@ -188,6 +188,37 @@ export function getLanguageCodeFromChannel(channelName: string): string {
 }
 
 /**
+ * Get the correct storefront URL for a collection
+ * Landing pages use locale-based channels (nl, fr, en) but storefront uses geographic channels
+ */
+export function getStorefrontCollectionUrl(
+	landingChannel: string,
+	collectionSlug: string,
+	baseUrl: string = "https://www.pomandi.com"
+): string {
+	const mapping = legacyUrlToChannel[landingChannel.toLowerCase()];
+	const storefrontChannel = mapping?.channel || "netherlands-channel";
+	const locale = mapping?.locale || landingChannel;
+	return `${baseUrl}/${storefrontChannel}/collections/${collectionSlug}?locale=${locale}`;
+}
+
+/**
+ * Get the correct storefront URL for any path
+ */
+export function getStorefrontUrl(
+	landingChannel: string,
+	path: string,
+	baseUrl: string = "https://www.pomandi.com"
+): string {
+	const mapping = legacyUrlToChannel[landingChannel.toLowerCase()];
+	const storefrontChannel = mapping?.channel || "netherlands-channel";
+	const locale = mapping?.locale || landingChannel;
+	// Remove leading slash if present
+	const cleanPath = path.startsWith("/") ? path.slice(1) : path;
+	return `${baseUrl}/${storefrontChannel}/${cleanPath}?locale=${locale}`;
+}
+
+/**
  * Generates hreflang alternates for SEO metadata
  * Now works with the new channel-locale separation
  */
