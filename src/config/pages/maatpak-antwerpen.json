@@ -144,7 +144,7 @@
 			},
 			"background": "secondary",
 			"config": {
-				"collection": "Wedding-Suits",
+				"collection": "All-Suits",
 				"limit": 4,
 				"style": "grid",
 				"columns": 4,
@@ -322,7 +322,7 @@
 			}
 		}
 	],
-	"collections": ["All-Suits", "Wedding-Suits", "Blue-Suits", "Black-Suits"],
+	"collections": ["All-Suits", "All-Suits", "Blue-Suits", "Black-Suits"],
 	"store": {
 		"locations": ["brasschaat"],
 		"showMap": true,

@@ -69,7 +69,7 @@
       "id": "products-1",
       "title": {"en": "Wedding Suits Collection", "fr": "Collection Costumes de Mariage", "nl": "Trouwkostuums Collectie"},
       "config": {
-        "collection": "Wedding-Suits",
+        "collection": "All-Suits",
         "limit": 8,
         "style": "grid",
         "columns": 4,
@@ -115,7 +115,7 @@
       }
     }
   ],
-  "collections": ["Wedding-Suits", "All-Suits"],
+  "collections": ["All-Suits"],
   "store": {
     "locations": ["brasschaat", "genk"],
     "showMap": true,

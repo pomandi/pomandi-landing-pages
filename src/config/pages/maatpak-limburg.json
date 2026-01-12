@@ -238,7 +238,7 @@
 			}
 		}
 	],
-	"collections": ["All-Suits", "Wedding-Suits"],
+	"collections": ["All-Suits"],
 	"store": {
 		"locations": ["genk"],
 		"showMap": true,
