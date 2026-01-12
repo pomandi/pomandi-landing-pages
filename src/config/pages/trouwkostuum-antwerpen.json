@@ -10,7 +10,7 @@
   "generated_at": "2026-01-12T08:52:19.831608",
   "generated_by": "llm",
   "hero": {
-    "type": "gradient",
+    "type": "split",
     "title": {
       "en": "Your Perfect Wedding Suit in Antwerp",
       "fr": "Votre Costume de Mariage Parfait à Anvers",
@@ -21,14 +21,28 @@
       "fr": "Rayonnez lors de votre grand jour dans un costume parfaitement ajusté, dès €320.",
       "nl": "Straal op jouw grote dag in een maatpak dat perfect bij jou past, vanaf €320."
     },
+    "images": [
+      "/1.png",
+      "/2.png",
+      "/3.png",
+      "/4.png"
+    ],
     "cta": {
       "primary": {
         "text": {
-          "en": "Schedule your free consultation in Antwerp",
-          "fr": "Planifiez votre consultation gratuite à Anvers",
-          "nl": "Plan je gratis consult in Antwerpen"
+          "en": "Schedule your free consultation",
+          "fr": "Planifiez votre consultation gratuite",
+          "nl": "Plan je gratis consult"
         },
         "style": "solid"
+      },
+      "secondary": {
+        "text": {
+          "en": "View collection",
+          "fr": "Voir collection",
+          "nl": "Bekijk collectie"
+        },
+        "style": "outline"
       }
     }
   },
@@ -86,6 +100,38 @@
       }
     },
     {
+      "type": "products",
+      "id": "products-1",
+      "title": {
+        "en": "Wedding Suits Collection",
+        "fr": "Collection Costumes de Mariage",
+        "nl": "Trouwkostuums Collectie"
+      },
+      "config": {
+        "collection": "Wedding-Suits",
+        "limit": 8,
+        "style": "grid",
+        "columns": 4,
+        "showPrice": true
+      }
+    },
+    {
+      "type": "stores",
+      "id": "stores-1",
+      "title": {
+        "en": "Visit Our Showrooms",
+        "fr": "Visitez Nos Showrooms",
+        "nl": "Bezoek Onze Showrooms"
+      },
+      "config": {
+        "locations": ["brasschaat", "genk"],
+        "style": "cards",
+        "showMap": true,
+        "showHours": true,
+        "showWhatsApp": true
+      }
+    },
+    {
       "type": "faq",
       "id": "faq-1",
       "title": {
@@ -133,8 +179,39 @@
           }
         ]
       }
+    },
+    {
+      "type": "cta",
+      "id": "cta-final",
+      "config": {
+        "title": {
+          "en": "Ready for your perfect wedding suit?",
+          "fr": "Prêt pour votre costume de mariage parfait?",
+          "nl": "Klaar voor jouw perfecte trouwkostuum?"
+        },
+        "subtitle": {
+          "en": "Schedule your free consultation at our Antwerp showroom today.",
+          "fr": "Planifiez dès aujourd'hui votre consultation gratuite dans notre showroom d'Anvers.",
+          "nl": "Plan vandaag nog je gratis consult in onze Antwerpse showroom."
+        },
+        "button": {
+          "text": {
+            "en": "Book appointment",
+            "fr": "Prenez rendez-vous",
+            "nl": "Maak een afspraak"
+          },
+          "style": "solid"
+        }
+      }
     }
   ],
+  "collections": ["Wedding-Suits", "All-Suits"],
+  "store": {
+    "locations": ["brasschaat", "genk"],
+    "showMap": true,
+    "showHours": true,
+    "showWhatsApp": true
+  },
   "seo": {
     "canonical": "https://www.pomandi.com/nl/trouwkostuum-antwerpen",
     "description": {
@@ -144,9 +221,11 @@
     },
     "keywords": [
       "trouwkostuum antwerpen",
-      "pomandi"
+      "pomandi",
+      "trouwpak antwerpen",
+      "maatpak bruiloft"
     ],
-    "ogImage": "https://www.pomandi.com/og-image.jpg",
+    "ogImage": "/1.png",
     "title": {
       "en": "Wedding Suit Antwerp | Custom Tailored from €320",
       "fr": "Costume de Mariage Anvers | Sur Mesure dès €320",

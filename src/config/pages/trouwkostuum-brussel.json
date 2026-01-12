@@ -1,0 +1,153 @@
+{
+  "campaign": "seo-trouwkostuum-brussel-202601",
+  "channels": ["belgium-channel", "netherlands-channel", "nl", "fr", "en"],
+  "generated_at": "2026-01-12T10:20:00.000000",
+  "generated_by": "manual-test",
+  "hero": {
+    "type": "split",
+    "title": {
+      "en": "Your Perfect Wedding Suit in Brussels",
+      "fr": "Votre Costume de Mariage Parfait à Bruxelles",
+      "nl": "Jouw Perfecte Trouwkostuum in Brussel"
+    },
+    "subtitle": {
+      "en": "Shine on your big day in a perfectly fitted suit, from €320.",
+      "fr": "Rayonnez lors de votre grand jour dans un costume parfaitement ajusté, dès €320.",
+      "nl": "Straal op jouw grote dag in een maatpak dat perfect bij jou past, vanaf €320."
+    },
+    "images": [
+      "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/products/036ddd0e-b38a-4f20-b673-115a0acf6855_0dd113d3.jpg",
+      "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/products/10378673848370_ea47a01c.jpgv1612308130",
+      "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/products/10560320929842-min_90660cf3.jpgv1675929002",
+      "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/products/10586588905522-min_efee6876.jpgv1675929011"
+    ],
+    "cta": {
+      "primary": {
+        "text": {
+          "en": "Schedule your free consultation",
+          "fr": "Planifiez votre consultation gratuite",
+          "nl": "Plan je gratis consult"
+        },
+        "style": "solid"
+      },
+      "secondary": {
+        "text": {
+          "en": "View collection",
+          "fr": "Voir collection",
+          "nl": "Bekijk collectie"
+        },
+        "style": "outline"
+      }
+    }
+  },
+  "sections": [
+    {
+      "type": "features",
+      "id": "features-1",
+      "title": {
+        "en": "Why Pomandi?",
+        "fr": "Pourquoi Pomandi?",
+        "nl": "Waarom Pomandi?"
+      },
+      "config": {
+        "items": [
+          {
+            "icon": "heart",
+            "title": {"en": "Special for Your Wedding", "fr": "Spécial pour Votre Mariage", "nl": "Speciaal voor Jouw Trouwdag"},
+            "description": {"en": "Every wedding suit is carefully tailored in Brussels.", "fr": "Chaque costume de mariage est confectionné avec soin à Bruxelles.", "nl": "Elk trouwkostuum wordt in Brussel met zorg op maat gemaakt."}
+          },
+          {
+            "icon": "scissors",
+            "title": {"en": "Belgian Craftsmanship", "fr": "Savoir-faire Belge", "nl": "Belgisch Vakmanschap"},
+            "description": {"en": "With 10+ years of bespoke experience, we combine Belgian precision with modern elegance.", "fr": "Avec plus de 10 ans d'expérience sur mesure, nous combinons la précision belge avec l'élégance moderne.", "nl": "Met 10+ jaar ervaring in maatwerk combineren wij Belgische precisie met moderne elegantie."}
+          },
+          {
+            "icon": "clock",
+            "title": {"en": "Personal Advice & Timely Delivery", "fr": "Conseil Personnel & Livraison Ponctuelle", "nl": "Persoonlijk Advies & Tijdige Levering"},
+            "description": {"en": "From first consultation to final fitting: we guide you personally.", "fr": "De la première consultation à l'ajustement final: nous vous accompagnons personnellement.", "nl": "Van eerste consult tot de laatste pasvorm: wij begeleiden je persoonlijk."}
+          }
+        ]
+      }
+    },
+    {
+      "type": "products",
+      "id": "products-1",
+      "title": {"en": "Wedding Suits Collection", "fr": "Collection Costumes de Mariage", "nl": "Trouwkostuums Collectie"},
+      "config": {
+        "collection": "Wedding-Suits",
+        "limit": 8,
+        "style": "grid",
+        "columns": 4,
+        "showPrice": true
+      }
+    },
+    {
+      "type": "stores",
+      "id": "stores-1",
+      "title": {"en": "Visit Our Showrooms", "fr": "Visitez Nos Showrooms", "nl": "Bezoek Onze Showrooms"},
+      "config": {
+        "locations": ["brasschaat", "genk"],
+        "style": "cards",
+        "showMap": true,
+        "showHours": true,
+        "showWhatsApp": true
+      }
+    },
+    {
+      "type": "faq",
+      "id": "faq-1",
+      "title": {"en": "FAQ", "fr": "Questions fréquentes", "nl": "Veelgestelde vragen"},
+      "config": {
+        "items": [
+          {
+            "question": {"en": "How much does a custom wedding suit cost?", "fr": "Combien coûte un costume de mariage sur mesure?", "nl": "Hoeveel kost een trouwkostuum op maat?"},
+            "answer": {"en": "At Pomandi, our custom wedding suits start from €320.", "fr": "Chez Pomandi, nos costumes de mariage sur mesure commencent à partir de €320.", "nl": "Bij Pomandi beginnen onze trouwkostuums op maat vanaf €320."}
+          },
+          {
+            "question": {"en": "How much time do I need?", "fr": "Combien de temps faut-il?", "nl": "Hoeveel tijd heb ik nodig?"},
+            "answer": {"en": "We recommend starting at least 6-8 weeks before your wedding.", "fr": "Nous conseillons de commencer au moins 6-8 semaines avant votre mariage.", "nl": "We adviseren om minimaal 6-8 weken voor je trouwdag te starten."}
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta",
+      "id": "cta-final",
+      "config": {
+        "title": {"en": "Ready for your perfect wedding suit?", "fr": "Prêt pour votre costume de mariage parfait?", "nl": "Klaar voor jouw perfecte trouwkostuum?"},
+        "subtitle": {"en": "Schedule your free consultation today.", "fr": "Planifiez dès aujourd'hui votre consultation gratuite.", "nl": "Plan vandaag nog je gratis consult."},
+        "button": {"text": {"en": "Book appointment", "fr": "Prenez rendez-vous", "nl": "Maak een afspraak"}, "style": "solid"}
+      }
+    }
+  ],
+  "collections": ["Wedding-Suits", "All-Suits"],
+  "store": {
+    "locations": ["brasschaat", "genk"],
+    "showMap": true,
+    "showHours": true,
+    "showWhatsApp": true
+  },
+  "seo": {
+    "canonical": "https://www.pomandi.com/nl/trouwkostuum-brussel",
+    "description": {
+      "en": "Perfect wedding suit in Brussels at Pomandi. Personal advice, 10+ years experience and custom tailoring from €320.",
+      "fr": "Costume de mariage parfait à Bruxelles chez Pomandi. Conseil personnel, 10+ ans d'expérience et sur mesure dès €320.",
+      "nl": "Perfect trouwkostuum in Brussel bij Pomandi. Persoonlijk advies, 10+ jaar ervaring en maatwerk vanaf €320."
+    },
+    "keywords": ["trouwkostuum brussel", "pomandi", "wedding suit brussels"],
+    "ogImage": "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/products/036ddd0e-b38a-4f20-b673-115a0acf6855_0dd113d3.jpg",
+    "title": {
+      "en": "Wedding Suit Brussels | Custom Tailored from €320",
+      "fr": "Costume de Mariage Bruxelles | Sur Mesure dès €320",
+      "nl": "Trouwkostuum Brussel | Maatpak op Maat vanaf €320"
+    }
+  },
+  "slug": "trouwkostuum-brussel",
+  "template": "location",
+  "theme": {
+    "background": "#f8f7f5",
+    "mode": "light",
+    "primary": "#1a1a1a",
+    "secondary": "#444444"
+  }
+}
