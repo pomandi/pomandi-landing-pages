@@ -2,7 +2,10 @@
   "campaign": "seo-trouwkostuum-antwerpen-202601",
   "channels": [
     "belgium-channel",
-    "netherlands-channel"
+    "netherlands-channel",
+    "nl",
+    "fr",
+    "en"
   ],
   "generated_at": "2026-01-12T08:52:19.831608",
   "generated_by": "llm",

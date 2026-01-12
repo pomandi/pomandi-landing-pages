@@ -1,0 +1,105 @@
+{
+  "audit_date": "2026-01-11",
+  "audit_result": "ALL_OK",
+  "summary": {
+    "total_landing_pages_in_app": 28,
+    "total_google_ads_landing_urls": 23,
+    "all_urls_working": true,
+    "issues_fixed": 1
+  },
+
+  "existing_landing_pages": [
+    { "slug": "british-style", "file": "british-style.json", "template": "style", "url_nl": "/nl/british-style", "google_ads_active": false },
+    { "slug": "costume-charleroi", "file": "costume-charleroi.json", "template": "location", "url_fr": "/fr/costume-charleroi", "google_ads_active": false },
+    { "slug": "costume-mariage-bruxelles", "file": "costume-mariage-bruxelles.json", "template": "location", "url_fr": "/fr/costume-mariage-bruxelles", "google_ads_active": true, "status": "OK" },
+    { "slug": "costume-mariage-liege", "file": "costume-mariage-liege.json", "template": "location", "url_fr": "/fr/costume-mariage-liege", "google_ads_active": true, "status": "OK" },
+    { "slug": "costume-sur-mesure-bruxelles", "file": "costume-sur-mesure-bruxelles.json", "template": "location", "url_fr": "/fr/costume-sur-mesure-bruxelles", "google_ads_active": true, "status": "OK" },
+    { "slug": "costume-sur-mesure-liege", "file": "costume-sur-mesure-liege.json", "template": "location", "url_fr": "/fr/costume-sur-mesure-liege", "google_ads_active": true, "status": "OK" },
+    { "slug": "driedelig-pak", "file": "driedelig-pak.json", "template": "style", "url_nl": "/nl/driedelig-pak", "google_ads_active": true, "status": "OK" },
+    { "slug": "gangster-pak", "file": "gangster-pak.json", "template": "style", "url_nl": "/nl/gangster-pak", "google_ads_active": true, "status": "OK" },
+    { "slug": "jaren-20-pak", "file": "jaren-20-pak.json", "template": "style", "url_nl": "/nl/jaren-20-pak", "google_ads_active": false },
+    { "slug": "maatpak-amsterdam", "file": "maatpak-amsterdam.json", "template": "location", "url_nl": "/nl/maatpak-amsterdam", "google_ads_active": true, "status": "OK" },
+    { "slug": "maatpak-antwerpen", "file": "maatpak-antwerpen.json", "template": "location", "url_nl": "/nl/maatpak-antwerpen", "google_ads_active": true, "status": "OK" },
+    { "slug": "maatpak-gent", "file": "maatpak-gent.json", "template": "location", "url_nl": "/nl/maatpak-gent", "google_ads_active": true, "status": "OK" },
+    { "slug": "maatpak-kortrijk", "file": "maatpak-kortrijk.json", "template": "location", "url_nl": "/nl/maatpak-kortrijk", "google_ads_active": true, "status": "OK" },
+    { "slug": "maatpak-limburg", "file": "maatpak-limburg.json", "template": "location", "url_nl": "/nl/maatpak-limburg", "google_ads_active": true, "status": "OK" },
+    { "slug": "maatpak-roeselare", "file": "maatpak-roeselare.json", "template": "location", "url_nl": "/nl/maatpak-roeselare", "google_ads_active": true, "status": "OK" },
+    { "slug": "maatpak-rotterdam", "file": "maatpak-rotterdam.json", "template": "location", "url_nl": "/nl/maatpak-rotterdam", "google_ads_active": true, "status": "OK" },
+    { "slug": "maatpak-west-vlaanderen", "file": "maatpak-west-vlaanderen.json", "template": "location", "url_nl": "/nl/maatpak-west-vlaanderen", "google_ads_active": true, "status": "OK" },
+    { "slug": "peaky-blinders-pak", "file": "peaky-blinders-pak.json", "template": "style", "url_nl": "/nl/peaky-blinders-pak", "google_ads_active": true, "status": "OK" },
+    { "slug": "super-100s", "file": "super-100s.json", "template": "style", "url_nl": "/nl/super-100s", "google_ads_active": false },
+    { "slug": "trouwpak-actie", "file": "trouwpak-actie.json", "template": "promo", "url_nl": "/nl/trouwpak-actie", "google_ads_active": false },
+    { "slug": "trouwpak-antwerpen", "file": "trouwpak-antwerpen.json", "template": "location", "url_nl": "/nl/trouwpak-antwerpen", "google_ads_active": true, "status": "OK" },
+    { "slug": "trouwpak-gent", "file": "trouwpak-gent.json", "template": "location", "url_nl": "/nl/trouwpak-gent", "google_ads_active": true, "status": "OK" },
+    { "slug": "trouwpak-limburg", "file": "trouwpak-limburg.json", "template": "location", "url_nl": "/nl/trouwpak-limburg", "google_ads_active": true, "status": "OK" },
+    { "slug": "trouwpak-rotterdam", "file": "trouwpak-rotterdam.json", "template": "location", "url_nl": "/nl/trouwpak-rotterdam", "google_ads_active": true, "status": "OK" },
+    { "slug": "tweed-pak", "file": "tweed-pak.json", "template": "style", "url_nl": "/nl/tweed-pak", "google_ads_active": true, "status": "OK" },
+    { "slug": "vintage-pak", "file": "vintage-pak.json", "template": "style", "url_nl": "/nl/vintage-pak", "google_ads_active": true, "status": "OK", "note": "vintage-pak-heren redirects here (301)" },
+    { "slug": "zakenpak-antwerpen", "file": "zakenpak-antwerpen.json", "template": "location", "url_nl": "/nl/zakenpak-antwerpen", "google_ads_active": true, "status": "OK" },
+    { "slug": "zakenpak-limburg", "file": "zakenpak-limburg.json", "template": "location", "url_nl": "/nl/zakenpak-limburg", "google_ads_active": false }
+  ],
+
+  "storefront_hardcoded_pages": [
+    {
+      "slug": "peaky-blinders-trouwpak",
+      "location": "pomandi-storefront-v2/src/app/[channel]/(main)/peaky-blinders-trouwpak/",
+      "type": "hardcoded_page",
+      "url_nl": "/nl/peaky-blinders-trouwpak",
+      "google_ads_active": true,
+      "status": "OK"
+    }
+  ],
+
+  "google_ads_urls_test_results": {
+    "test_date": "2026-01-11T08:10:00Z",
+    "all_tests_passed": true,
+    "location_pages": [
+      { "slug": "maatpak-amsterdam", "http_status": 200, "status": "OK" },
+      { "slug": "maatpak-antwerpen", "http_status": 200, "status": "OK" },
+      { "slug": "maatpak-gent", "http_status": 200, "status": "OK" },
+      { "slug": "maatpak-kortrijk", "http_status": 200, "status": "OK" },
+      { "slug": "maatpak-limburg", "http_status": 200, "status": "OK" },
+      { "slug": "maatpak-roeselare", "http_status": 200, "status": "OK" },
+      { "slug": "maatpak-rotterdam", "http_status": 200, "status": "OK" },
+      { "slug": "maatpak-west-vlaanderen", "http_status": 200, "status": "OK" },
+      { "slug": "trouwpak-antwerpen", "http_status": 200, "status": "OK" },
+      { "slug": "trouwpak-gent", "http_status": 200, "status": "OK" },
+      { "slug": "trouwpak-limburg", "http_status": 200, "status": "OK" },
+      { "slug": "trouwpak-rotterdam", "http_status": 200, "status": "OK" },
+      { "slug": "zakenpak-antwerpen", "http_status": 200, "status": "OK" },
+      { "slug": "costume-mariage-bruxelles", "http_status": 200, "status": "OK" },
+      { "slug": "costume-mariage-liege", "http_status": 200, "status": "OK" },
+      { "slug": "costume-sur-mesure-bruxelles", "http_status": 200, "status": "OK" },
+      { "slug": "costume-sur-mesure-liege", "http_status": 200, "status": "OK" }
+    ],
+    "style_pages": [
+      { "slug": "driedelig-pak", "http_status": 200, "status": "OK" },
+      { "slug": "gangster-pak", "http_status": 200, "status": "OK" },
+      { "slug": "peaky-blinders-pak", "http_status": 200, "status": "OK" },
+      { "slug": "peaky-blinders-trouwpak", "http_status": 200, "status": "OK", "served_by": "storefront" },
+      { "slug": "tweed-pak", "http_status": 200, "status": "OK" },
+      { "slug": "vintage-pak", "http_status": 200, "status": "OK" },
+      { "slug": "vintage-pak-heren", "http_status": 308, "status": "REDIRECT_OK", "redirects_to": "/nl/vintage-pak" }
+    ]
+  },
+
+  "issues_fixed": [
+    {
+      "id": 1,
+      "type": "URL_MISMATCH",
+      "description": "Google Ads URL /nl/vintage-pak-heren was returning 404",
+      "solution": "Added 301 redirect in next.config.js: /nl/vintage-pak-heren -> /nl/vintage-pak",
+      "commit": "05b3aa9",
+      "status": "FIXED"
+    }
+  ],
+
+  "pages_not_in_google_ads": [
+    "british-style",
+    "costume-charleroi",
+    "jaren-20-pak",
+    "super-100s",
+    "trouwpak-actie",
+    "zakenpak-limburg"
+  ]
+}
