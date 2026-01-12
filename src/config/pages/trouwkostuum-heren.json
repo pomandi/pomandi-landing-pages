@@ -1,0 +1,153 @@
+{
+  "campaign": "seo-trouwkostuum-heren-202601",
+  "channels": [
+    "belgium-channel",
+    "netherlands-channel"
+  ],
+  "generated_at": "2026-01-12T08:37:47.070922",
+  "generated_by": "llm",
+  "hero": {
+    "cta": {
+      "link": "/nl/afspraak",
+      "text": {
+        "en": "Book appointment for your wedding suit",
+        "fr": "Prendre rendez-vous pour votre costume de mariage",
+        "nl": "Maak afspraak voor jouw trouwkostuum"
+      }
+    },
+    "image": "/hero.jpg",
+    "subtitle": {
+      "en": "Tailored for the most important day of your life, with personal advice and a fit that truly fits.",
+      "fr": "Fait sur mesure pour le jour le plus important de votre vie, avec des conseils personnels et une coupe qui va vraiment bien.",
+      "nl": "Op maat gemaakt voor de belangrijkste dag van je leven, met persoonlijk advies en een pasvorm die écht past."
+    },
+    "title": {
+      "en": "Your Perfect Wedding Suit",
+      "fr": "Votre Costume de Mariage Parfait",
+      "nl": "Jouw Perfecte Trouwkostuum voor Heren"
+    }
+  },
+  "sections": [
+    {
+      "items": [
+        {
+          "description": {
+            "en": "Every wedding suit is carefully tailored to your style and wedding theme. From classic to modern, we ensure you shine on your big day.",
+            "fr": "Chaque costume de mariage est confectionné avec soin sur mesure, adapté à votre style et au thème de votre mariage. Du classique au moderne, nous veillons à ce que vous brilliez lors de votre grand jour.",
+            "nl": "Elk trouwkostuum voor heren wordt met zorg op maat gemaakt, afgestemd op jouw stijl en het thema van jullie bruiloft. Van klassiek tot modern, wij zorgen dat je straalt op je grote dag."
+          },
+          "icon": "heart",
+          "title": {
+            "en": "Special for Your Wedding",
+            "fr": "Spécial pour Votre Mariage",
+            "nl": "Speciaal voor Jouw Bruiloft"
+          }
+        },
+        {
+          "description": {
+            "en": "Your suit is perfectly fitted to your body by our experienced tailors. No standard sizes, but true tailoring that's comfortable from ceremony to reception.",
+            "fr": "Votre costume est parfaitement ajusté à votre corps par nos tailleurs expérimentés. Pas de tailles standard, mais du vrai sur-mesure confortable de la cérémonie à la réception.",
+            "nl": "Jouw kostuum wordt exact op jouw lichaam afgestemd door onze ervaren kleermakers. Geen standaard maten, maar écht maatwerk dat comfortabel zit van ceremonie tot receptie."
+          },
+          "icon": "ruler",
+          "title": {
+            "en": "Perfect Fit Guaranteed",
+            "fr": "Coupe Parfaite Garantie",
+            "nl": "Perfecte Pasvorm Gegarandeerd"
+          }
+        },
+        {
+          "description": {
+            "en": "With over 10 years of wedding suit experience, we know exactly what works. Personal style advice, fabric selection and styling so you stand confidently at the altar.",
+            "fr": "Avec plus de 10 ans d'expérience dans les costumes de mariage, nous savons exactement ce qui fonctionne. Conseils de style personnels, sélection de tissus et styling pour que vous soyez confiant devant l'autel.",
+            "nl": "Met meer dan 10 jaar ervaring in trouwkostuums weten we precies wat werkt. Persoonlijk stijladvies, stofselectie en styling zodat je zelfverzekerd voor het altaar staat."
+          },
+          "icon": "star",
+          "title": {
+            "en": "10+ Years Groom Expertise",
+            "fr": "10+ Ans d'Expertise Mariés",
+            "nl": "10+ Jaar Bruidegom Expertise"
+          }
+        }
+      ],
+      "title": {
+        "en": "Why Pomandi?",
+        "fr": "Pourquoi Pomandi?",
+        "nl": "Waarom Pomandi?"
+      },
+      "type": "features"
+    },
+    {
+      "items": [
+        {
+          "answer": {
+            "en": "For a perfect wedding suit, we recommend starting at least 6-8 weeks before your wedding. This gives us enough time for measurements, production and fitting sessions. For rush orders, please contact us to discuss options.",
+            "fr": "Pour un costume de mariage parfait, nous conseillons de commencer au minimum 6 à 8 semaines avant votre mariage. Ainsi, nous avons suffisamment de temps pour la prise de mesures, la production et les essayages éventuels. Pour les urgences, contactez-nous pour discuter des possibilités.",
+            "nl": "Voor een perfect trouwkostuum heren adviseren wij om minimaal 6-8 weken voor je bruiloft te starten. Zo hebben we voldoende tijd voor maatname, productie en eventuele pasrondes. Voor spoedopdrachten neem je best contact met ons op om de mogelijkheden te bespreken."
+          },
+          "question": {
+            "en": "How much time do I need for a tailored wedding suit?",
+            "fr": "Combien de temps faut-il pour un costume de mariage sur mesure?",
+            "nl": "Hoeveel tijd heb ik nodig voor een trouwkostuum op maat?"
+          }
+        },
+        {
+          "answer": {
+            "en": "At Pomandi, for €320 you get a complete tailored wedding suit: personal style advice, professional measurements, a jacket and trousers in your chosen fabric, and all necessary adjustments for the perfect fit. Shirt, tie and accessories can be added separately.",
+            "fr": "Chez Pomandi, pour €320 vous obtenez un costume de mariage complet sur mesure: conseils de style personnels, prise de mesures professionnelle, une veste et un pantalon dans le tissu de votre choix, et tous les ajustements nécessaires pour une coupe parfaite. Chemise, cravate et accessoires peuvent être ajoutés séparément.",
+            "nl": "Bij Pomandi krijg je voor €320 een compleet trouwkostuum heren op maat: persoonlijk stijladvies, professionele maatname, een jasje en broek in jouw gekozen stof, en alle nodige aanpassingen voor de perfecte pasvorm. Overhemd, stropdas en accessoires kunnen apart worden toegevoegd."
+          },
+          "question": {
+            "en": "What's included in the €320 price for my wedding suit?",
+            "fr": "Qu'est-ce qui est inclus dans le prix de €320 pour mon costume de mariage?",
+            "nl": "Wat is inbegrepen in de prijs van €320 voor mijn trouwkostuum?"
+          }
+        },
+        {
+          "answer": {
+            "en": "Absolutely! We regularly help with complete wedding attire. Your groomsmen can also have suits tailored at Pomandi, coordinated with your wedding suit. We ensure a cohesive look where everyone fits perfectly. Ask about our group options for groom and groomsmen.",
+            "fr": "Absolument! Nous aidons régulièrement avec la tenue de mariage complète. Vos témoins peuvent également faire confectionner un costume sur mesure chez Pomandi, coordonné avec votre costume de mariage. Nous assurons un look cohérent où tout le monde est parfaitement habillé. Renseignez-vous sur nos options de groupe pour marié et témoins.",
+            "nl": "Absoluut! We helpen regelmatig met de volledige bruiloftsuitrusting. Jouw getuigen kunnen ook een kostuum op maat laten maken bij Pomandi, afgestemd op jouw trouwkostuum. We zorgen voor een coherente look waarbij iedereen perfect past. Vraag naar onze groepsopties voor bruidegom en getuigen."
+          },
+          "question": {
+            "en": "Can my groomsmen also have suits tailored?",
+            "fr": "Mes témoins peuvent-ils aussi faire faire un costume sur mesure?",
+            "nl": "Kunnen mijn getuigen ook een kostuum op maat laten maken?"
+          }
+        }
+      ],
+      "title": {
+        "en": "FAQ",
+        "fr": "Questions fréquentes",
+        "nl": "Veelgestelde vragen"
+      },
+      "type": "faq"
+    }
+  ],
+  "seo": {
+    "canonical": "https://www.pomandi.com/nl/trouwkostuum-heren",
+    "description": {
+      "en": "Perfect fit for your men's wedding suit. Tailored by experts with 10+ years experience. Showrooms in Antwerp. From €320. Personal advice included.",
+      "fr": "Coupe parfaite pour votre costume de mariage homme. Fait sur mesure par des experts avec 10+ ans d'expérience. Showrooms à Anvers. Dès €320. Conseil personnel inclus.",
+      "nl": "Perfecte pasvorm voor jouw trouwkostuum heren. Op maat gemaakt door experts met 10+ jaar ervaring. Showrooms in Antwerpen. Vanaf €320. Persoonlijk advies inbegrepen."
+    },
+    "keywords": [
+      "pomandi",
+      "trouwkostuum heren"
+    ],
+    "ogImage": "/1.png",
+    "title": {
+      "en": "Men's Wedding Suit Tailored | Pomandi from €320",
+      "fr": "Costume Mariage Homme sur Mesure | Pomandi dès €320",
+      "nl": "Trouwkostuum Heren op Maat | Pomandi vanaf €320"
+    }
+  },
+  "slug": "trouwkostuum-heren",
+  "template": "location",
+  "theme": {
+    "background": "#f8f7f5",
+    "mode": "light",
+    "primary": "#1a1a1a",
+    "secondary": "#444444"
+  }
+}
