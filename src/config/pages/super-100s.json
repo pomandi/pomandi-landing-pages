@@ -1,7 +1,7 @@
 {
 	"slug": "super-100s",
 	"template": "promo",
-	"channels": ["belgium-channel", "netherlands-channel", "nl", "fr", "en"],
+	"channels": ["belgium-channel", "netherlands-channel", "default-channel", "nl", "fr", "en"],
 	"theme": {
 		"mode": "light",
 		"primary": "#1a1a1a",
