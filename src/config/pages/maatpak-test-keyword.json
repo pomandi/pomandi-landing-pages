@@ -1,0 +1,252 @@
+{
+  "campaign": "seo-maatpak-test-keyword-202601",
+  "channels": [
+    "belgium-channel",
+    "netherlands-channel",
+    "nl",
+    "fr",
+    "en"
+  ],
+  "collections": [
+    "All-Suits"
+  ],
+  "generated_at": "2026-01-12T13:08:37.388871",
+  "generated_by": "llm",
+  "hero": {
+    "cta": {
+      "primary": {
+        "style": "solid",
+        "text": {
+          "en": "Book Your Consultation Now",
+          "fr": "Réservez Votre Consultation",
+          "nl": "Boek Nu Uw Maatgesprek"
+        }
+      },
+      "secondary": {
+        "style": "outline",
+        "text": {
+          "en": "View collection",
+          "fr": "Voir collection",
+          "nl": "Bekijk collectie"
+        }
+      }
+    },
+    "images": [
+      "/1.png",
+      "/2.png",
+      "/3.png",
+      "/4.png"
+    ],
+    "subtitle": {
+      "en": "Premium tailored suits from €320 with personal advice and over 10 years of craftsmanship.",
+      "fr": "Costumes sur mesure premium à partir de €320 avec conseils personnalisés et plus de 10 ans de savoir-faire.",
+      "nl": "Premium maatpakken op maat vanaf €320 met persoonlijk advies en meer dan 10 jaar vakmanschap."
+    },
+    "title": {
+      "en": "Your Perfect Maatpak Test Keyword Starts Here",
+      "fr": "Votre Maatpak Test Keyword Parfait Commence Ici",
+      "nl": "Uw Perfecte Maatpak Test Keyword Begint Hier"
+    },
+    "type": "split"
+  },
+  "sections": [
+    {
+      "config": {
+        "items": [
+          {
+            "description": {
+              "en": "Every suit is crafted with precision by our experienced tailors. Over 10 years of expertise guarantees top quality for every maatpak test keyword.",
+              "fr": "Chaque costume est confectionné avec précision par nos tailleurs expérimentés. Plus de 10 ans d'expertise garantissent une qualité supérieure pour chaque maatpak test keyword.",
+              "nl": "Elk maatpak wordt met precisie vervaardigd door onze ervaren kleermakers. Meer dan 10 jaar expertise garandeert topkwaliteit bij elke maatpak test keyword."
+            },
+            "icon": "scissors",
+            "title": {
+              "en": "Expert Craftsmanship",
+              "fr": "Artisanat Expert",
+              "nl": "Vakkundig Handwerk"
+            }
+          },
+          {
+            "description": {
+              "en": "Your maatpak test keyword is completely tailored to your body during a personal consultation. We ensure every suit fits like a glove.",
+              "fr": "Votre maatpak test keyword est entièrement adapté à votre morphologie lors d'une consultation personnalisée. Nous veillons à ce que chaque costume soit parfaitement ajusté.",
+              "nl": "Uw maatpak test keyword wordt volledig op uw lichaam afgestemd tijdens een persoonlijk maatgesprek. Wij zorgen ervoor dat elk pak als gegoten zit."
+            },
+            "icon": "ruler",
+            "title": {
+              "en": "Perfect Fit Guaranteed",
+              "fr": "Ajustement Parfait Garanti",
+              "nl": "Perfecte Pasvorm Gegarandeerd"
+            }
+          },
+          {
+            "description": {
+              "en": "Luxury suits don't have to be unaffordable. From €320, you get a premium maatpak test keyword at Pomandi with excellent quality and service.",
+              "fr": "Les costumes de luxe ne doivent pas être inabordables. À partir de €320, vous obtenez chez Pomandi un maatpak test keyword premium avec une qualité et un service excellents.",
+              "nl": "Luxe maatpakken hoeven niet onbetaalbaar te zijn. Vanaf €320 krijgt u bij Pomandi een premium maatpak test keyword met uitstekende kwaliteit en service."
+            },
+            "icon": "star",
+            "title": {
+              "en": "Premium Quality, Fair Price",
+              "fr": "Qualité Premium, Prix Équitable",
+              "nl": "Premium Kwaliteit, Faire Prijs"
+            }
+          }
+        ]
+      },
+      "id": "features-1",
+      "title": {
+        "en": "Why Pomandi?",
+        "fr": "Pourquoi Pomandi?",
+        "nl": "Waarom Pomandi?"
+      },
+      "type": "features"
+    },
+    {
+      "config": {
+        "collection": "All-Suits",
+        "columns": 4,
+        "limit": 8,
+        "showPrice": true,
+        "style": "grid"
+      },
+      "id": "products-1",
+      "title": {
+        "en": "Our Collection",
+        "fr": "Notre Collection",
+        "nl": "Onze Collectie"
+      },
+      "type": "products"
+    },
+    {
+      "config": {
+        "locations": [
+          "brasschaat",
+          "genk"
+        ],
+        "showHours": true,
+        "showMap": true,
+        "showWhatsApp": true,
+        "style": "cards"
+      },
+      "id": "stores-1",
+      "title": {
+        "en": "Visit Our Showrooms",
+        "fr": "Visitez Nos Showrooms",
+        "nl": "Bezoek Onze Showrooms"
+      },
+      "type": "stores"
+    },
+    {
+      "config": {
+        "items": [
+          {
+            "answer": {
+              "en": "At Pomandi, you combine over 10 years of craftsmanship with personal advice and a perfect fit. Every maatpak test keyword is individually tailored with premium fabrics and attention to detail. You don't just get a suit, but a complete experience with professional fitting advice in our showrooms in Belgium and the Netherlands.",
+              "fr": "Chez Pomandi, vous combinez plus de 10 ans de savoir-faire avec des conseils personnalisés et un ajustement parfait. Chaque maatpak test keyword est confectionné individuellement sur mesure avec des tissus premium et une attention aux détails. Vous ne recevez pas seulement un costume, mais une expérience complète avec des conseils professionnels dans nos showrooms en Belgique et aux Pays-Bas.",
+              "nl": "Bij Pomandi combineert u meer dan 10 jaar vakmanschap met persoonlijk advies en een perfecte pasvorm. Elk maatpak test keyword wordt individueel op maat gemaakt met premium stoffen en aandacht voor detail. U krijgt niet alleen een pak, maar een complete ervaring met professioneel maatadvies in onze showrooms in België en Nederland."
+            },
+            "question": {
+              "en": "What makes a maatpak test keyword at Pomandi unique?",
+              "fr": "Qu'est-ce qui rend un maatpak test keyword chez Pomandi unique?",
+              "nl": "Wat maakt een maatpak test keyword bij Pomandi uniek?"
+            }
+          },
+          {
+            "answer": {
+              "en": "A maatpak test keyword at Pomandi starts from €320. This includes a personal consultation, professional fabric advice from our premium collection, complete measurements, expert tailoring, and at least one fitting session to guarantee the perfect fit. Depending on your choices in fabric and finishing, the price may vary.",
+              "fr": "Un maatpak test keyword chez Pomandi commence à partir de €320. Cela comprend une consultation personnalisée, des conseils professionnels sur les tissus de notre collection premium, une prise de mesures complète, une confection experte et au moins une séance d'essayage pour garantir un ajustement parfait. Selon vos choix de tissu et de finition, le prix peut varier.",
+              "nl": "Een maatpak test keyword bij Pomandi start vanaf €320. Dit omvat een persoonlijk maatgesprek, professioneel stofadvies uit onze premium collectie, volledige maatvoering, vakkundige verwerking en minimaal één pasprocedure om de perfecte pasvorm te garanderen. Afhankelijk van uw keuzes in stof en afwerking kan de prijs variëren."
+            },
+            "question": {
+              "en": "How much does a maatpak test keyword cost and what's included?",
+              "fr": "Combien coûte un maatpak test keyword et qu'est-ce qui est inclus?",
+              "nl": "Hoeveel kost een maatpak test keyword en wat is inbegrepen?"
+            }
+          },
+          {
+            "answer": {
+              "en": "The average turnaround time for a maatpak test keyword at Pomandi is 4 to 6 weeks. This includes the initial consultation, production by our expert tailors, and the finishing phase. For urgent orders, we can often provide a faster solution in consultation. However, quality always comes first to guarantee your perfect suit.",
+              "fr": "Le délai moyen pour un maatpak test keyword chez Pomandi est de 4 à 6 semaines. Cela comprend la consultation initiale, la production par nos tailleurs experts et la phase de finition. Pour les commandes urgentes, nous pouvons souvent proposer une solution plus rapide en consultation. La qualité reste cependant toujours prioritaire pour garantir votre costume parfait.",
+              "nl": "De gemiddelde doorlooptijd voor een maatpak test keyword bij Pomandi is 4 tot 6 weken. Dit omvat het initiële maatgesprek, de productie door onze vakkundige kleermakers, en de afwerkingsfase. Voor spoedeisende opdrachten kunnen we in overleg vaak een snellere oplossing bieden. Kwaliteit staat echter altijd voorop om uw perfecte pak te garanderen."
+            },
+            "question": {
+              "en": "How long does it take to make a maatpak test keyword?",
+              "fr": "Combien de temps faut-il pour confectionner un maatpak test keyword?",
+              "nl": "Hoe lang duurt het maken van een maatpak test keyword?"
+            }
+          }
+        ]
+      },
+      "id": "faq-1",
+      "title": {
+        "en": "FAQ",
+        "fr": "Questions fréquentes",
+        "nl": "Veelgestelde vragen"
+      },
+      "type": "faq"
+    },
+    {
+      "config": {
+        "button": {
+          "style": "solid",
+          "text": {
+            "en": "Book appointment",
+            "fr": "Prenez rendez-vous",
+            "nl": "Maak een afspraak"
+          }
+        },
+        "subtitle": {
+          "en": "Schedule your free consultation today.",
+          "fr": "Planifiez votre consultation gratuite.",
+          "nl": "Plan vandaag nog uw gratis consult."
+        },
+        "title": {
+          "en": "Ready for your perfect suit?",
+          "fr": "Prêt pour votre costume parfait?",
+          "nl": "Klaar voor uw perfecte pak?"
+        }
+      },
+      "id": "cta-final",
+      "type": "cta"
+    }
+  ],
+  "seo": {
+    "canonical": "https://www.pomandi.com/nl/maatpak-test-keyword",
+    "description": {
+      "en": "Discover maatpak test keyword at Pomandi. Premium suits from €320 with perfect fit. 10+ years experience in Belgium & Netherlands. Book your consultation now.",
+      "fr": "Découvrez maatpak test keyword chez Pomandi. Costumes premium dès €320 avec ajustement parfait. Plus de 10 ans d'expérience en Belgique & Pays-Bas.",
+      "nl": "Ontdek maatpak test keyword bij Pomandi. Premium maatpakken vanaf €320 met perfecte pasvorm. 10+ jaar ervaring in België & Nederland. Boek nu uw adviesgesprek."
+    },
+    "keywords": [
+      "pomandi",
+      "kostuum",
+      "maatpak",
+      "maatpak-test-keyword",
+      "herenpak"
+    ],
+    "ogImage": "/1.png",
+    "title": {
+      "en": "Maatpak Test Keyword | Pomandi Premium Tailored Suits",
+      "fr": "Maatpak Test Keyword | Costumes Sur Mesure Pomandi",
+      "nl": "Maatpak Test Keyword | Pomandi Premium Maatpakken"
+    }
+  },
+  "slug": "maatpak-test-keyword",
+  "store": {
+    "locations": [
+      "brasschaat",
+      "genk"
+    ],
+    "showHours": true,
+    "showMap": true,
+    "showWhatsApp": true
+  },
+  "template": "location",
+  "theme": {
+    "background": "#f8f7f5",
+    "mode": "light",
+    "primary": "#1a1a1a",
+    "secondary": "#444444"
+  }
+}
