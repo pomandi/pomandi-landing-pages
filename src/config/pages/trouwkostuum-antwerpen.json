@@ -10,24 +10,26 @@
   "generated_at": "2026-01-12T08:52:19.831608",
   "generated_by": "llm",
   "hero": {
-    "cta": {
-      "link": "/nl/afspraak",
-      "text": {
-        "en": "Schedule your free consultation in Antwerp",
-        "fr": "Planifiez votre consultation gratuite à Anvers",
-        "nl": "Plan je gratis consult in Antwerpen"
-      }
+    "type": "gradient",
+    "title": {
+      "en": "Your Perfect Wedding Suit in Antwerp",
+      "fr": "Votre Costume de Mariage Parfait à Anvers",
+      "nl": "Jouw Perfecte Trouwkostuum in Antwerpen"
     },
-    "image": "/hero.jpg",
     "subtitle": {
       "en": "Shine on your big day in a perfectly fitted suit, from €320.",
       "fr": "Rayonnez lors de votre grand jour dans un costume parfaitement ajusté, dès €320.",
       "nl": "Straal op jouw grote dag in een maatpak dat perfect bij jou past, vanaf €320."
     },
-    "title": {
-      "en": "Your Perfect Wedding Suit in Antwerp",
-      "fr": "Votre Costume de Mariage Parfait à Anvers",
-      "nl": "Jouw Perfecte Trouwkostuum in Antwerpen"
+    "cta": {
+      "primary": {
+        "text": {
+          "en": "Schedule your free consultation in Antwerp",
+          "fr": "Planifiez votre consultation gratuite à Anvers",
+          "nl": "Plan je gratis consult in Antwerpen"
+        },
+        "style": "solid"
+      }
     }
   },
   "sections": [
