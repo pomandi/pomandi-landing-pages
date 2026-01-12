@@ -10,16 +10,16 @@
   "collections": [
     "All-Suits"
   ],
-  "generated_at": "2026-01-12T14:08:42.970544",
+  "generated_at": "2026-01-12T17:28:19.156426",
   "generated_by": "llm",
   "hero": {
     "cta": {
       "primary": {
         "style": "solid",
         "text": {
-          "en": "Book your appointment for your wedding suit",
-          "fr": "Prenez rendez-vous pour votre costume de mariage",
-          "nl": "Maak je afspraak voor jouw trouwkostuum"
+          "en": "Schedule Your Wedding Suit Appointment",
+          "fr": "Planifiez Votre Rendez-vous Costume",
+          "nl": "Plan Uw Trouwkostuum Afspraak"
         }
       },
       "secondary": {
@@ -38,14 +38,14 @@
       "/4.png"
     ],
     "subtitle": {
-      "en": "Shine on your big day in a wedding suit crafted entirely to your wishes by our experienced tailors.",
-      "fr": "Brillez le jour de votre mariage dans un costume entièrement créé selon vos souhaits par nos tailleurs expérimentés.",
-      "nl": "Straal op jouw grote dag in een trouwkostuum dat volledig naar jouw wensen wordt gemaakt door onze ervaren kleermakers."
+      "en": "Shine on your big day in a wedding suit fully tailored to you, with personal guidance from our experienced stylists.",
+      "fr": "Rayonnez le jour de votre mariage dans un costume entièrement fait sur mesure, avec les conseils personnalisés de nos stylistes expérimentés.",
+      "nl": "Straal op uw grote dag in een trouwkostuum dat volledig op maat is gemaakt, met persoonlijk advies van onze ervaren stylisten."
     },
     "title": {
-      "en": "Your Wedding Suit, Perfectly Tailored",
-      "fr": "Votre Costume de Mariage, Parfaitement sur Mesure",
-      "nl": "Jouw Trouwkostuum Heren, Perfect op Maat"
+      "en": "Your Perfect Tailored Wedding Suit",
+      "fr": "Votre Costume de Mariage Parfait sur Mesure",
+      "nl": "Uw Perfecte Trouwkostuum Heren op Maat"
     },
     "type": "split"
   },
@@ -55,41 +55,41 @@
         "items": [
           {
             "description": {
-              "en": "Every wedding suit is carefully designed for your unique day. We understand this suit must not only fit perfectly, but also reflect your personality.",
-              "fr": "Chaque costume de mariage est conçu avec soin pour votre jour unique. Nous comprenons que ce costume doit non seulement être parfait, mais aussi refléter votre personnalité.",
-              "nl": "Elk trouwkostuum heren wordt met zorg ontworpen voor jouw unieke dag. Wij begrijpen dat dit kostuum niet alleen perfect moet passen, maar ook jouw persoonlijkheid moet weerspiegelen."
+              "en": "Every wedding suit is carefully designed for your unique day. From classic elegance to modern style - we ensure you shine beside your partner.",
+              "fr": "Chaque costume de mariage est conçu avec soin pour votre jour unique. Du classique élégant au moderne stylé - nous veillons à ce que vous brilliez aux côtés de votre partenaire.",
+              "nl": "Elk trouwkostuum wordt met zorg ontworpen voor uw unieke dag. Van klassiek elegant tot modern stijlvol - wij zorgen dat u straalt naast uw partner."
             },
             "icon": "heart",
             "title": {
-              "en": "Special for Your Wedding",
-              "fr": "Spécial pour Votre Mariage",
-              "nl": "Speciaal voor Jouw Bruiloft"
+              "en": "Specially for Your Wedding Day",
+              "fr": "Spécialement pour Votre Mariage",
+              "nl": "Speciaal voor Uw Trouwdag"
             }
           },
           {
             "description": {
-              "en": "With over 10 years of experience, our tailors create your ideal wedding suit. From classic to modern, every detail is carefully finished for an impeccable result.",
-              "fr": "Avec plus de 10 ans d'expérience, nos tailleurs créent votre costume de mariage idéal. Du classique au moderne, chaque détail est soigneusement fini pour un résultat impeccable.",
-              "nl": "Met meer dan 10 jaar ervaring creëren onze kleermakers jouw ideale trouwkostuum. Van klassiek tot modern, elk detail wordt zorgvuldig afgewerkt voor een onberispelijk resultaat."
+              "en": "Your wedding suit is fully custom-made with precise measurements. Not standard off-the-rack, but a suit that follows your body perfectly and offers comfort throughout the day.",
+              "fr": "Votre costume de mariage est entièrement fait sur mesure avec des mensurations précises. Pas de confection standard, mais un costume qui épouse parfaitement votre corps et offre du confort toute la journée.",
+              "nl": "Uw trouwkostuum heren wordt volledig op maat gemaakt met nauwkeurige metingen. Geen standaard confectie, maar een kostuum dat uw lichaam perfect volgt en comfort biedt tijdens de hele dag."
             },
-            "icon": "scissors",
+            "icon": "ruler",
             "title": {
-              "en": "Artisan Craftsmanship",
-              "fr": "Savoir-Faire Artisanal",
-              "nl": "Ambachtelijk Vakmanschap"
+              "en": "Perfect Fit Guaranteed",
+              "fr": "Ajustement Parfait Garanti",
+              "nl": "Perfecte Pasvorm Gegarandeerd"
             }
           },
           {
             "description": {
-              "en": "We plan the creation process together so your wedding suit is ready on time. Multiple fittings guarantee everything fits perfectly when you walk down the aisle.",
-              "fr": "Nous planifions ensemble le processus de création pour que votre costume soit prêt à temps. Plusieurs essayages garantissent que tout est parfait lorsque vous marchez vers l'autel.",
-              "nl": "Wij plannen samen het maakproces zodat jouw trouwkostuum heren op tijd klaar is. Meerdere paspeurten garanderen dat alles perfect zit wanneer je het gangpad afloopt."
+              "en": "With over a decade of wedding suit experience, we understand what you need. Personal advice on fabric, style and details for an unforgettable look.",
+              "fr": "Avec plus d'une décennie d'expérience dans les costumes de mariage, nous comprenons vos besoins. Conseils personnalisés sur le tissu, le style et les détails pour un look inoubliable.",
+              "nl": "Met meer dan een decennium ervaring in trouwkostuums begrijpen wij wat u nodig heeft. Persoonlijk advies over stof, stijl en details voor een onvergetelijke look."
             },
-            "icon": "clock",
+            "icon": "star",
             "title": {
-              "en": "Ready in Time for the Big Day",
-              "fr": "Prêt à Temps pour le Grand Jour",
-              "nl": "Tijdig Klaar voor de Grote Dag"
+              "en": "10+ Years Wedding Experience",
+              "fr": "10+ Ans d'Expérience Mariage",
+              "nl": "10+ Jaar Trouwervaring"
             }
           }
         ]
@@ -142,38 +142,38 @@
         "items": [
           {
             "answer": {
-              "en": "Our custom wedding suits start from €320. The exact price depends on your choice of fabric, finishing and extra details. During the personal consultation, we discuss all options and create a tailored quote that perfectly matches your budget and wishes.",
-              "fr": "Nos costumes de mariage sur mesure commencent à partir de €320. Le prix exact dépend de votre choix de tissu, de finition et de détails supplémentaires. Lors de la consultation personnalisée, nous discutons de toutes les options et établissons un devis sur mesure qui correspond parfaitement à votre budget et à vos souhaits.",
-              "nl": "Onze trouwkostuums heren op maat beginnen vanaf €320. De exacte prijs hangt af van je keuze voor stof, afwerking en extra details. Tijdens het persoonlijke adviesgesprek bespreken we alle opties en maken we een prijsofferte op maat die perfect bij jouw budget en wensen past."
+              "en": "For your wedding suit, we advise starting at least 8-10 weeks before your wedding date. This gives us enough time for measurements, production and any adjustments. For rush orders, we can often provide a faster solution - contact us for options.",
+              "fr": "Pour votre costume de mariage, nous vous conseillons de commencer au minimum 8 à 10 semaines avant votre date de mariage. Ainsi, nous avons suffisamment de temps pour les mesures, la production et les ajustements éventuels. Pour les commandes urgentes, nous pouvons souvent proposer une solution plus rapide - contactez-nous pour les possibilités.",
+              "nl": "Voor uw trouwkostuum heren adviseren wij om minimaal 8-10 weken voor uw trouwdatum te starten. Zo hebben we voldoende tijd voor maatname, productie en eventuele aanpassingen. Voor spoedorders kunnen we vaak een snellere oplossing bieden - neem contact op voor de mogelijkheden."
             },
             "question": {
-              "en": "How much does a custom wedding suit cost at Pomandi?",
-              "fr": "Combien coûte un costume de mariage sur mesure chez Pomandi?",
-              "nl": "Hoeveel kost een trouwkostuum heren op maat bij Pomandi?"
+              "en": "How much time do I need for my tailored wedding suit?",
+              "fr": "Combien de temps faut-il pour mon costume de mariage sur mesure?",
+              "nl": "Hoeveel tijd heb ik nodig voor mijn trouwkostuum op maat?"
             }
           },
           {
             "answer": {
-              "en": "For a custom wedding suit, we recommend starting at least 8 to 12 weeks before the wedding. This gives us enough time for multiple fittings and perfect finishing. In a hurry? Discuss this during your appointment and we'll explore options for faster delivery together.",
-              "fr": "Pour un costume de mariage sur mesure, nous recommandons de commencer au moins 8 à 12 semaines avant le mariage. Cela nous donne suffisamment de temps pour plusieurs essayages et une finition parfaite. Vous êtes pressé? Discutez-en lors de votre rendez-vous et nous examinerons ensemble les possibilités de livraison plus rapide.",
-              "nl": "Voor een trouwkostuum heren op maat raden we aan om minimaal 8 tot 12 weken voor de bruiloft te starten. Dit geeft ons voldoende tijd voor meerdere paspeurten en perfecte afwerking. Heb je haast? Bespreek dit tijdens je afspraak, dan kijken we samen naar de mogelijkheden voor een snellere levering."
+              "en": "Our tailored wedding suits start from €320. The exact price depends on your choice of fabrics, details and finishing. During your personal appointment, we discuss all options and provide transparent pricing that perfectly fits your budget and wishes.",
+              "fr": "Nos costumes de mariage sur mesure démarrent à partir de €320. Le prix exact dépend de votre choix de tissus, détails et finitions. Lors de votre rendez-vous personnel, nous discutons de toutes les options et donnons une indication de prix transparente qui correspond parfaitement à votre budget et vos souhaits.",
+              "nl": "Onze trouwkostuums op maat starten vanaf €320. De exacte prijs hangt af van uw keuze in stoffen, details en afwerking. Tijdens uw persoonlijke afspraak bespreken we alle opties en geven we een transparante prijsindicatie die perfect past bij uw budget en wensen."
             },
             "question": {
-              "en": "How long does it take to have my wedding suit made?",
-              "fr": "Combien de temps faut-il pour faire confectionner mon costume de mariage?",
-              "nl": "Hoe lang duurt het om mijn trouwkostuum te laten maken?"
+              "en": "What does a tailored wedding suit cost at Pomandi?",
+              "fr": "Quel est le prix d'un costume de mariage sur mesure chez Pomandi?",
+              "nl": "Wat kost een trouwkostuum op maat bij Pomandi?"
             }
           },
           {
             "answer": {
-              "en": "At Pomandi, you can choose from countless styles for your wedding suit: from classic three-piece with vest to modern slim-fit, from timeless navy blue to trendy sand-colored. During your appointment in Antwerp, we review fabric samples, discuss details like lapels, buttons and pockets, and design together the suit that perfectly matches your wedding.",
-              "fr": "Chez Pomandi, vous pouvez choisir parmi de nombreux styles pour votre costume de mariage: du trois-pièces classique avec gilet au slim-fit moderne, du bleu marine intemporel au beige sable tendance. Lors de votre rendez-vous à Anvers, nous examinons des échantillons de tissus, discutons des détails comme les revers, les boutons et les poches, et concevons ensemble le costume qui correspond parfaitement à votre mariage.",
-              "nl": "Bij Pomandi kun je kiezen uit talloze stijlen voor je trouwkostuum: van klassiek driedelig met vest tot modern slim-fit, van tijdloos marineblauw tot trendy zandkleurig. Tijdens je afspraak in Antwerpen bekijken we stofstalen, bespreken we details zoals revers, knopen en zakken, en ontwerpen we samen het kostuum dat perfect bij jouw bruiloft past."
+              "en": "Absolutely! We design your wedding suit to be perfectly wearable after your wedding too. By choosing timeless styles and high-quality fabrics, you have a suit that will last for years for business occasions, parties or other special moments.",
+              "fr": "Absolument! Nous concevons votre costume de mariage pour qu'il puisse être porté parfaitement même après votre mariage. En choisissant des styles intemporels et des tissus de haute qualité, vous disposez d'un costume qui durera des années pour des occasions professionnelles, des fêtes ou d'autres moments spéciaux.",
+              "nl": "Absoluut! Wij ontwerpen uw trouwkostuum heren zo dat het ook na uw bruiloft perfect te dragen is. Door tijdloze stijlen en hoogwaardige stoffen te kiezen, heeft u een kostuum dat jarenlang meegaat voor zakelijke gelegenheden, feesten of andere speciale momenten."
             },
             "question": {
-              "en": "What wedding suit styles are possible?",
-              "fr": "Quels styles de costume de mariage sont possibles?",
-              "nl": "Welke stijlen trouwkostuum heren zijn mogelijk?"
+              "en": "Can I wear my wedding suit afterwards?",
+              "fr": "Puis-je porter mon costume de mariage plus tard?",
+              "nl": "Kan ik mijn trouwkostuum later nog dragen?"
             }
           }
         ]
@@ -214,9 +214,9 @@
   "seo": {
     "canonical": "https://www.pomandi.com/nl/trouwkostuum-heren",
     "description": {
-      "en": "Your perfect custom wedding suit at Pomandi. 10+ years experience, personal advice and perfect fit. From €320 in Belgium and the Netherlands.",
-      "fr": "Votre costume de mariage sur mesure parfait chez Pomandi. Plus de 10 ans d'expérience, conseils personnalisés et coupe parfaite. Dès €320 en Belgique et aux Pays-Bas.",
-      "nl": "Jouw perfecte trouwkostuum heren op maat bij Pomandi. 10+ jaar ervaring, persoonlijk advies en perfecte pasvorm. Vanaf €320 in België en Nederland."
+      "en": "Your perfect wedding suit at Pomandi. Premium tailored craftsmanship with personal advice and 10+ years experience. Visit our showroom in Antwerp or Netherlands.",
+      "fr": "Votre costume de mariage parfait chez Pomandi. Confection sur mesure premium avec conseils personnalisés et 10+ ans d'expérience. Visitez notre showroom.",
+      "nl": "Uw perfecte trouwkostuum heren bij Pomandi. Premium maatwerk met persoonlijk advies en 10+ jaar ervaring. Bezoek onze showroom in Antwerpen of Nederland."
     },
     "keywords": [
       "pomandi",
@@ -224,7 +224,7 @@
     ],
     "ogImage": "/1.png",
     "title": {
-      "en": "Custom Wedding Suits for Men | Pomandi from €320",
+      "en": "Men's Wedding Suit Tailored | Pomandi from €320",
       "fr": "Costume de Mariage sur Mesure Homme | Pomandi dès €320",
       "nl": "Trouwkostuum Heren op Maat | Pomandi vanaf €320"
     }
