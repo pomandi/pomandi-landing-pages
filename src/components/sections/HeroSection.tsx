@@ -117,6 +117,7 @@ export function HeroSection({ hero, theme, channel, locale, campaign, store }: H
 											fill
 											className="object-cover object-top transition-transform duration-700 hover:scale-105"
 											priority={i < 2}
+											unoptimized
 										/>
 									</div>
 								))}
@@ -140,6 +141,7 @@ export function HeroSection({ hero, theme, channel, locale, campaign, store }: H
 							fill
 							className="object-cover"
 							priority
+							unoptimized
 						/>
 					</div>
 				)}

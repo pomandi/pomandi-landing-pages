@@ -61,6 +61,7 @@ export function StyleGuideSection({
 											alt={`Style ${i + 1}`}
 											fill
 											className="object-cover object-top grayscale transition-all duration-700 hover:grayscale-0"
+											unoptimized
 										/>
 										<div
 											className={`absolute inset-0 bg-gradient-to-t from-[${theme.background}] via-transparent to-transparent`}
