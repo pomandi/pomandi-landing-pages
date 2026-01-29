@@ -32,10 +32,10 @@
       }
     },
     "images": [
-      "/1.png",
-      "/2.png",
-      "/3.png",
-      "/4.png"
+      "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/1.png",
+      "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/2.png",
+      "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/3.png",
+      "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/4.png"
     ],
     "subtitle": {
       "en": "Premium tailored suits from €320 with personal advice and over 10 years of craftsmanship.",
@@ -225,7 +225,7 @@
       "maatpak-test-keyword",
       "herenpak"
     ],
-    "ogImage": "/1.png",
+    "ogImage": "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/1.png",
     "title": {
       "en": "Maatpak Test Keyword | Pomandi Premium Tailored Suits",
       "fr": "Maatpak Test Keyword | Costumes Sur Mesure Pomandi",

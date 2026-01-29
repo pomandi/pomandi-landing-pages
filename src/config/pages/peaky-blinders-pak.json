@@ -21,7 +21,7 @@
 		},
 		"keywords": ["peaky blinders pak", "tommy shelby pak", "tweed pak", "gangster pak", "jaren 20 pak"],
 		"canonical": "https://www.pomandi.com/nl/peaky-blinders-pak",
-		"ogImage": "/1.png"
+		"ogImage": "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/1.png"
 	},
 	"hero": {
 		"type": "split",
@@ -45,7 +45,7 @@
 			"fr": "Birmingham, 1920",
 			"en": "Birmingham, 1920"
 		},
-		"images": ["/1.png", "/2.png", "/3.png", "/4.png"],
+		"images": ["https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/1.png", "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/2.png", "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/3.png", "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/4.png"],
 		"overlay": "grain",
 		"animation": "fade-in-up",
 		"cta": {

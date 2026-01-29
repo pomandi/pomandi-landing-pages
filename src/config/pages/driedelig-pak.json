@@ -21,7 +21,7 @@
 		},
 		"keywords": ["driedelig pak", "pak met vest", "three piece suit", "gentleman pak", "kostuum met vest"],
 		"canonical": "https://www.pomandi.com/nl/driedelig-pak",
-		"ogImage": "/1.png"
+		"ogImage": "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/1.png"
 	},
 	"hero": {
 		"type": "split",
@@ -45,7 +45,7 @@
 			"fr": "Veste + Gilet + Pantalon",
 			"en": "Jacket + Waistcoat + Trousers"
 		},
-		"images": ["/1.png", "/2.png", "/3.png", "/4.png"],
+		"images": ["https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/1.png", "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/2.png", "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/3.png", "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/4.png"],
 		"overlay": "grain",
 		"animation": "fade-in-up",
 		"cta": {

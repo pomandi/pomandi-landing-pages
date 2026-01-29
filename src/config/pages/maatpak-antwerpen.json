@@ -21,7 +21,7 @@
 		},
 		"keywords": ["maatpak antwerpen", "maatpak brasschaat", "herenpak antwerpen", "kostuum antwerpen", "trouwpak antwerpen", "zakenpak antwerpen"],
 		"canonical": "https://www.pomandi.com/nl/maatpak-antwerpen",
-		"ogImage": "/1.png"
+		"ogImage": "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/1.png"
 	},
 	"hero": {
 		"type": "split",
@@ -45,7 +45,7 @@
 			"fr": "Pomandi Brasschaat",
 			"en": "Pomandi Brasschaat"
 		},
-		"images": ["/1.png", "/2.png", "/3.png", "/4.png"],
+		"images": ["https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/1.png", "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/2.png", "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/3.png", "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/4.png"],
 		"animation": "fade-in-up",
 		"cta": {
 			"primary": {

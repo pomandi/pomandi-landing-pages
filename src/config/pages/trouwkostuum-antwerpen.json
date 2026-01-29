@@ -32,10 +32,10 @@
       }
     },
     "images": [
-      "/1.png",
-      "/2.png",
-      "/3.png",
-      "/4.png"
+      "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/1.png",
+      "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/2.png",
+      "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/3.png",
+      "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/4.png"
     ],
     "subtitle": {
       "en": "Shine on your big day with a tailored wedding suit, expertly crafted in the heart of Antwerp.",
@@ -222,7 +222,7 @@
       "trouwkostuum antwerpen",
       "pomandi"
     ],
-    "ogImage": "/1.png",
+    "ogImage": "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/1.png",
     "title": {
       "en": "Wedding Suit Antwerp Tailored | Pomandi from €320",
       "fr": "Costume de Mariage sur Mesure Anvers | Pomandi dès €320",
