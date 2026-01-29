@@ -1,0 +1,152 @@
+{
+  "campaign": "seo-trouwkostuum-brasschaat-202601",
+  "channels": ["belgium-channel", "netherlands-channel", "nl", "fr", "en"],
+  "generated_at": "2026-01-29T12:30:00.000000",
+  "generated_by": "manual",
+  "hero": {
+    "type": "split",
+    "title": {
+      "en": "Your Perfect Wedding Suit in Brasschaat",
+      "fr": "Votre Costume de Mariage Parfait à Brasschaat",
+      "nl": "Jouw Perfecte Trouwkostuum in Brasschaat"
+    },
+    "subtitle": {
+      "en": "Shine on your big day in a perfectly fitted suit, from €320.",
+      "fr": "Rayonnez lors de votre grand jour dans un costume parfaitement ajusté, dès €320.",
+      "nl": "Straal op jouw grote dag in een maatpak dat perfect bij jou past, vanaf €320."
+    },
+    "images": ["https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/1.png", "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/2.png", "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/3.png", "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/landing-pages/4.png"],
+    "cta": {
+      "primary": {
+        "text": {
+          "en": "Schedule your free consultation",
+          "fr": "Planifiez votre consultation gratuite",
+          "nl": "Plan je gratis consult"
+        },
+        "style": "solid"
+      },
+      "secondary": {
+        "text": {
+          "en": "View collection",
+          "fr": "Voir collection",
+          "nl": "Bekijk collectie"
+        },
+        "style": "outline"
+      }
+    }
+  },
+  "sections": [
+    {
+      "type": "features",
+      "id": "features-1",
+      "title": {
+        "en": "Why Pomandi Brasschaat?",
+        "fr": "Pourquoi Pomandi Brasschaat?",
+        "nl": "Waarom Pomandi Brasschaat?"
+      },
+      "config": {
+        "items": [
+          {
+            "icon": "heart",
+            "title": {"en": "Special for Your Wedding", "fr": "Spécial pour Votre Mariage", "nl": "Speciaal voor Jouw Trouwdag"},
+            "description": {"en": "Every wedding suit is carefully tailored in our Brasschaat showroom.", "fr": "Chaque costume de mariage est confectionné avec soin dans notre showroom de Brasschaat.", "nl": "Elk trouwkostuum wordt in onze showroom in Brasschaat met zorg op maat gemaakt."}
+          },
+          {
+            "icon": "scissors",
+            "title": {"en": "Antwerp Craftsmanship", "fr": "Savoir-faire Anversois", "nl": "Antwerps Vakmanschap"},
+            "description": {"en": "With 10+ years of bespoke experience, we combine Belgian precision with modern elegance.", "fr": "Avec plus de 10 ans d'expérience sur mesure, nous combinons la précision belge avec l'élégance moderne.", "nl": "Met 10+ jaar ervaring in maatwerk combineren wij Belgische precisie met moderne elegantie."}
+          },
+          {
+            "icon": "clock",
+            "title": {"en": "Personal Advice & Timely Delivery", "fr": "Conseil Personnel & Livraison Ponctuelle", "nl": "Persoonlijk Advies & Tijdige Levering"},
+            "description": {"en": "From first consultation to final fitting: we guide you personally.", "fr": "De la première consultation à l'ajustement final: nous vous accompagnons personnellement.", "nl": "Van eerste consult tot de laatste pasvorm: wij begeleiden je persoonlijk."}
+          }
+        ]
+      }
+    },
+    {
+      "type": "products",
+      "id": "products-1",
+      "title": {"en": "Wedding Suits Collection", "fr": "Collection Costumes de Mariage", "nl": "Trouwkostuums Collectie"},
+      "config": {
+        "collection": "All-Suits",
+        "limit": 8,
+        "style": "grid",
+        "columns": 4,
+        "showPrice": true
+      }
+    },
+    {
+      "type": "stores",
+      "id": "stores-1",
+      "title": {"en": "Visit Our Brasschaat Showroom", "fr": "Visitez Notre Showroom à Brasschaat", "nl": "Bezoek Onze Showroom in Brasschaat"},
+      "config": {
+        "locations": ["brasschaat"],
+        "style": "cards",
+        "showMap": true,
+        "showHours": true,
+        "showWhatsApp": true
+      }
+    },
+    {
+      "type": "faq",
+      "id": "faq-1",
+      "title": {"en": "FAQ", "fr": "Questions fréquentes", "nl": "Veelgestelde vragen"},
+      "config": {
+        "items": [
+          {
+            "question": {"en": "How much does a custom wedding suit cost in Brasschaat?", "fr": "Combien coûte un costume de mariage sur mesure à Brasschaat?", "nl": "Hoeveel kost een trouwkostuum op maat in Brasschaat?"},
+            "answer": {"en": "At Pomandi Brasschaat, our custom wedding suits start from €320.", "fr": "Chez Pomandi Brasschaat, nos costumes de mariage sur mesure commencent à partir de €320.", "nl": "Bij Pomandi Brasschaat beginnen onze trouwkostuums op maat vanaf €320."}
+          },
+          {
+            "question": {"en": "How much time do I need?", "fr": "Combien de temps faut-il?", "nl": "Hoeveel tijd heb ik nodig?"},
+            "answer": {"en": "We recommend starting at least 6-8 weeks before your wedding.", "fr": "Nous conseillons de commencer au moins 6-8 semaines avant votre mariage.", "nl": "We adviseren om minimaal 6-8 weken voor je trouwdag te starten."}
+          },
+          {
+            "question": {"en": "Where is the Brasschaat showroom located?", "fr": "Où se trouve le showroom de Brasschaat?", "nl": "Waar is de showroom in Brasschaat?"},
+            "answer": {"en": "Our Brasschaat showroom is located in the Antwerp region, easily accessible from Antwerp, Kapellen, Schoten and surrounding areas.", "fr": "Notre showroom de Brasschaat est situé dans la région d'Anvers, facilement accessible depuis Anvers, Kapellen, Schoten et les environs.", "nl": "Onze showroom in Brasschaat ligt in de regio Antwerpen, makkelijk bereikbaar vanuit Antwerpen, Kapellen, Schoten en omgeving."}
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta",
+      "id": "cta-final",
+      "config": {
+        "title": {"en": "Ready for your perfect wedding suit?", "fr": "Prêt pour votre costume de mariage parfait?", "nl": "Klaar voor jouw perfecte trouwkostuum?"},
+        "subtitle": {"en": "Visit our Brasschaat showroom for a free consultation.", "fr": "Visitez notre showroom de Brasschaat pour une consultation gratuite.", "nl": "Bezoek onze showroom in Brasschaat voor een gratis consult."},
+        "button": {"text": {"en": "Book appointment", "fr": "Prenez rendez-vous", "nl": "Maak een afspraak"}, "style": "solid"}
+      }
+    }
+  ],
+  "collections": ["All-Suits"],
+  "store": {
+    "locations": ["brasschaat"],
+    "showMap": true,
+    "showHours": true,
+    "showWhatsApp": true
+  },
+  "seo": {
+    "canonical": "https://www.pomandi.com/nl/trouwkostuum-brasschaat",
+    "description": {
+      "en": "Perfect wedding suit in Brasschaat at Pomandi. Personal advice, 10+ years experience and custom tailoring from €320. Visit our Antwerp region showroom.",
+      "fr": "Costume de mariage parfait à Brasschaat chez Pomandi. Conseil personnel, 10+ ans d'expérience et sur mesure dès €320. Visitez notre showroom dans la région d'Anvers.",
+      "nl": "Perfect trouwkostuum in Brasschaat bij Pomandi. Persoonlijk advies, 10+ jaar ervaring en maatwerk vanaf €320. Bezoek onze showroom in de regio Antwerpen."
+    },
+    "keywords": ["trouwkostuum brasschaat", "trouwpak brasschaat", "wedding suit brasschaat", "pomandi brasschaat", "maatpak antwerpen"],
+    "ogImage": "https://pub-1de25a6a3db9483aa103360222346a62.r2.dev/products/036ddd0e-b38a-4f20-b673-115a0acf6855_0dd113d3.jpg",
+    "title": {
+      "en": "Wedding Suit Brasschaat | Custom Tailored from €320 | Pomandi",
+      "fr": "Costume de Mariage Brasschaat | Sur Mesure dès €320 | Pomandi",
+      "nl": "Trouwkostuum Brasschaat | Maatpak op Maat vanaf €320 | Pomandi"
+    }
+  },
+  "slug": "trouwkostuum-brasschaat",
+  "template": "location",
+  "theme": {
+    "background": "#f8f7f5",
+    "mode": "light",
+    "primary": "#1a1a1a",
+    "secondary": "#444444"
+  }
+}
